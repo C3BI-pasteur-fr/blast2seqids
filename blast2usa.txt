@@ -1,0 +1,15 @@
+must specify a blast2 report fileName
+usage blast2usa <options> blastReport
+        parse the summary of a  blast2 report ( text format -m 0-6 )  and return a list of hits identifier in USA format
+        options
+               -f --from <integer> specify the first hit to parse  
+               -t --to <integer>  specify the last hit to parse 
+               -h --help : print this
+        examples:
+               blast2usa blastReport
+                   parse all hit from blastReport
+               blast2usa -t 10 blastReport
+                   parse the 10 first hits
+               blast2usa --from 5 --to 10 blastReport
+                   parse from the fifth (included) to the tenth hit (included).   
+               
