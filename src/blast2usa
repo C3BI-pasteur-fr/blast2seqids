@@ -35,6 +35,9 @@ def parseSummary( fh , From = 0 , To = 0):
     @rtype: a list of tuple [ (string bank , string sequence id) , ... ]
     """
     fh = _searchBegining( fh )
+    if fh is None:
+        #no hit in blast report
+        return []
     sequences = []
     hitNb = 0
     pattern = re.compile( '^(\w*)\|(\w*)\|(\w*) (.*)\.{3}')
