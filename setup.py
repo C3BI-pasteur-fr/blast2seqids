@@ -1,11 +1,19 @@
 #!/usr/bin/env python
 
 from distutils.core import setup
-from distutils.command.install_egg_info import install_egg_info as _install_egg_info
+from distutils.command.install_egg_info import install_egg_info 
 import time
 
+class nohup_egg_info(install_egg_info):
+  def run(self):
+    #there is nothing to install in sites-package
+    #so I don't put any eggs in it
+    pass
+
+
+
 setup(name        = 'blast2usa',
-      version     =  time.strftime("%Y%m%d"),
+      version     = time.strftime("%Y%m%d"),
       author      = "Neron B",
       author_email = "bneron@pasteur.fr" ,
       license      = "GPLv2" ,
@@ -17,10 +25,6 @@ setup(name        = 'blast2usa',
                      'Topic :: Bioinformatics' ,
                     ] ,
       scripts     = [ 'src/blast2usa' ] ,
+      cmdclass = { 'install_egg_info': nohup_egg_info }
       )
 
-class install_egg_info(_install_egg_info):
-  def run(self):
-    #there is nothing to install in sites-package
-    #so I don't put any eggs in it
-    pass
