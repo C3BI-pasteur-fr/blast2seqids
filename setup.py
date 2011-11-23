@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 
 from distutils.core import setup
-from distutils.command.install_egg_info import install_egg_info as _install_egg_info
+from distutils.command.install_egg_info import install_egg_info 
+import time
 
-class nohup_egg_info(_install_egg_info):
+class nohup_egg_info(install_egg_info):
   def run(self):
     #there is nothing to install in sites-package
     #so I don't put any eggs in it
@@ -12,7 +13,7 @@ class nohup_egg_info(_install_egg_info):
 
 
 setup(name        = 'blast2usa',
-      version     = '1.2',
+      version     = time.strftime("%Y%m%d"),
       author      = "Neron B",
       author_email = "bneron@pasteur.fr" ,
       license      = "GPLv2" ,
