@@ -172,7 +172,6 @@ class test(Command):
         link = os.path.join(self.build_scripts,  "blast2usa.py")
         os.symlink("blast2usa", link)
 
-        print "verbosity = ",  self.verbosity
         test_res = main.run(self.build_scripts, [], verbosity = self.verbosity)
         res_path = os.path.join("build", ".tests_results")
         os.unlink(link)
