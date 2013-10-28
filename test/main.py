@@ -71,5 +71,5 @@ if __name__ == '__main__':
     os.symlink( script_path , script_path + ".py" )
     res = run(src_path, args.tests, args.verbosity)
     os.unlink( script_path + ".py" )
-    sys.exit(res.wasSuccessful())
+    sys.exit( not res.wasSuccessful())
 
