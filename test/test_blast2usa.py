@@ -11,19 +11,15 @@ import unittest
 import os.path
 import sys
 
-src_path = os.path.abspath( os.path.join( os.path.dirname( __file__ ) , '..', 'src') )
-sys.path.append( src_path )
-script_path = os.path.join( src_path , 'blast2usa')
-os.symlink( script_path , script_path + ".py" )
+data_path = os.path.abspath( os.path.join( os.path.dirname( __file__ ) , 'data') )
 from blast2usa import _searchBegining , parseSummary , format2usa
-os.unlink( script_path + ".py" )
 
 
 class Test(unittest.TestCase):
 
 
     def setUp(self):
-        self.report_path = os.path.join( os.path.dirname( __file__ ) , 'blast2_report.txt' )
+        self.report_path = os.path.join(data_path, 'blast2_report.txt' )
         self.ids = [('sp', 'Q61285'), ('sp', 'Q9QY44'), ('sp', 'Q9UBJ2'), ('sp', 'P33897'), 
                     ('sp', 'P48410'), ('sp', 'P28288'), ('sp', 'P16970'), ('sp', 'P55096'), 
                     ('sp', 'Q8T8P3'), ('sp', 'P41909'), ('sp', 'P34230'), ('sp', 'Q94FB9'), 
@@ -34,6 +30,8 @@ class Test(unittest.TestCase):
     def tearDown(self):
         pass
 
+    def test_fail(self):
+        self.assertTrue( False)
 
     def testSearchBegining(self):
         report = open( self.report_path ,'r' )
@@ -67,18 +65,3 @@ class Test(unittest.TestCase):
         ids= [ ( "sp" , "P33311" ) , ( "gb", "Q5F364") , ( "embl" , "O89016" ) ]
         usa = "sp:P33311\ngb:Q5F364\nembl:O89016\n"
         self.assertEqual( usa , format2usa(ids) )
-    
-    
-if __name__ == "__main__":
-    from optparse import OptionParser    
-    parser = OptionParser()
-    parser.add_option("-v", "--verbose" , 
-                      dest= "verbosity" , 
-                      action="count" , 
-                      help= "set the verbosity level of output",
-                      default = 0
-                      )
-    opt , args = parser.parse_args()    
-
-    #import sys;sys.argv = ['', 'Test.testName']
-    unittest.main( verbosity= opt.verbosity )
