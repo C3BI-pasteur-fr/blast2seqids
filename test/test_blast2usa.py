@@ -30,8 +30,6 @@ class Test(unittest.TestCase):
     def tearDown(self):
         pass
 
-    def test_fail(self):
-        self.assertTrue( False)
 
     def testSearchBegining(self):
         report = open( self.report_path ,'r' )
