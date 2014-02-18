@@ -239,7 +239,7 @@ require_python = [ 'python (>=2.7, <3.0)' ]
 require_packages = []
 fix_prefix = []
 
-setup(name        = 'blast2seqid',
+setup(name        = 'blast2seqids',
       version     =  time.strftime("%Y%m%d"),
       author      = "Neron B",
       author_email = "bneron@pasteur.fr" ,
@@ -250,7 +250,7 @@ setup(name        = 'blast2seqid',
                      'Programming Language :: Python' ,
                      'Topic :: Bioinformatics' ,
                     ] ,
-      scripts     = [ 'src/blast2usa' ] ,
+      scripts     = [ 'src/blast2seqids' ] ,
       cmdclass= { 'build' : check_and_build ,
                   'test': test,
                   'install' : install_check_tests,

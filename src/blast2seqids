@@ -18,7 +18,7 @@ from collections import namedtuple
 Entry = namedtuple('Entry', 'bank, id')
 
 
-def _searchBegining( fh ):
+def _searchBegining(fh):
     """
     consume the file object fh until it find the beginning of the blast report
     """
@@ -29,7 +29,7 @@ def _searchBegining( fh ):
         
 
 
-def parseSummary( fh , From = 0 , To = 0):
+def parseSummary(fh, From = 0, To = 0):
     """
     parse the summary of a blast report in -m 0 format
     @param From: the rank of the first hsp to extract the sequence. to the first hsp is numbered 1
@@ -40,13 +40,13 @@ def parseSummary( fh , From = 0 , To = 0):
              each tuple data bank, sequence ID are unique.
     @rtype: a list of tuple [ (string bank , string sequence id) , ... ]
     """
-    fh = _searchBegining( fh )
+    fh = _searchBegining(fh)
     if fh is None:
         #no hit in blast report
         return []
     sequences = []
     hitNb = 0
-    pattern = re.compile( '^(\w*)\|')
+    pattern = re.compile('^(\w*)\|')
     for line in fh:
         if not line.strip():
             #it's the end of the summary
@@ -56,35 +56,35 @@ def parseSummary( fh , From = 0 , To = 0):
             break
         if hitNb < From:
             continue
-        match = re.match( pattern , line)
+        match = re.match(pattern, line)
         try:
-            bank= match.group(1)
+            bank = match.group(1)
         except:
             if bank is None:
-                print >> sys.stderr , "WARNING the hit %s have no data bank: skip this Hit" % line
+                print >> sys.stderr , "WARNING the hit {0} have no data bank: skip this Hit".format(line)
                 continue
         if bank == 'pdb':
             entry = parse_pdb(line)
         else:
             entry = parse_generic(line)
         if entry:
-            sequences.append( entry )
+            sequences.append(entry)
     return sequences
 
 
 def parse_pdb_gen():
-    pattern = re.compile( '^(\w*)\|\|(\w*)_')
+    pattern = re.compile('^(\w*)\|\|(\w*)_')
     def parse_pdb(line):
         match = re.match(pattern, line)
         try:
             bank = match.group(1)
         except:
-            print >> sys.stderr , "WARNING the hit %s have no data bank: skip this Hit" % line
+            print >> sys.stderr , "WARNING the hit {0} have no data bank: skip this Hit".format(line)
             return None
         try:
             id = match.group(2)
         except:
-            print >> sys.stderr , "WARNING the hit %s have no Accession neither Name: skip this Hit" % line
+            print >> sys.stderr , "WARNING the hit {0} have no Accession neither Name: skip this Hit".format(line)
             return None
         return Entry(bank, id)
     return parse_pdb
@@ -97,9 +97,9 @@ def parse_generic_gen():
     def parse_generic(line):
         match = re.match(pattern, line)
         try:
-            bank= match.group(1)
+            bank = match.group(1)
         except:
-            print >> sys.stderr , "WARNING the hit %s have no data bank: skip this Hit" % line
+            print >> sys.stderr, "WARNING the hit {0} have no data bank: skip this Hit".format(line)
             return None
         try:
             acc = match.group(2)
@@ -111,15 +111,13 @@ def parse_generic_gen():
             name = None
         if acc is None:
             if name is None:
-                print >> sys.stderr , "WARNING the hit %s have no Accession neither Name: skip this Hit" % line
+                print >> sys.stderr , "WARNING the hit {0} have no Accession neither Name: skip this Hit".format(line)
                 return None 
             else:
                 id = name
         else:
             id = acc
         return Entry(bank, id)
-
-    
     return parse_generic
 
 parse_generic = parse_generic_gen()
@@ -127,13 +125,13 @@ parse_generic = parse_generic_gen()
 
 def format2usa(sequenceID):
     """
-    format the a list of sequence Id with there banks to a usa list format
+    format a list of sequence Id with there banks to a usa list format
     @param sequenceID: list of sequences identifier and the bank
-    @type sequenceID: list of tuple [ ( string bank, string sequence ID) , ... ]
+    @type sequenceID: list of Entry namedtuple [ Entry , ... ]
     @return:  list of sequence ID in USA format.
     @rtype: string
     """
-    s= ''
+    s = ''
     for en in sequenceID:
         s = "{0}{1}:{2}\n".format(s, en.bank, en.id)
     return s
@@ -165,24 +163,21 @@ and return a list of hits identifier in USA format""")
                          help = "specify the last hit to parse")
     args = parser.parse_args()
 
-    From = args.From
-    To = args.To
-    
-    if From and From < 0:
+    if args.From and args.From < 0:
         print >> sys.stderr , "'From' (-f --from) value must be positive" 
         parser.print_help()
         sys.exit(1)
-    if To and To < 0:
+    if args.To and args.To < 0:
         print >> sys.stderr , "'To' (-t --to) value must be positive" 
         parser.print_help()
         sys.exit(1)
-    if To and (From > To):
+    if args.To and (args.From > args.To):
         print >> sys.stderr , "'From' (-f --from) value must be less or equal than 'To' (-t --to) value" 
         parser.print_help()
         sys.exit(1)
     reportFileName = args.reportFileName
     
     with open(reportFileName, 'r') as blastReport:
-        sequenceIDs = parseSummary(blastReport, From = From, To = To)
+        sequenceIDs = parseSummary(blastReport, From = args.From, To = args.To)
 
-    print format2usa( sequenceIDs )
+    print format2usa(sequenceIDs)

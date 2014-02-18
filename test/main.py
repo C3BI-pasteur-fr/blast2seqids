@@ -1,14 +1,15 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
 
-#===============================================================================
-# Created on Nov 30, 2012
-# 
-# @author: Bertrand Néron
-# @contact: bneron@pasteur.fr
-# @organization: Institut Pasteur
-# @license: license
-#===============================================================================
+
+########################################################################################
+#   Created on Nov 30, 2012                                                            #
+#   Author: Bertrand Neron,                                                            #
+#   Organization:'Projects and Developments in Bioinformatic' Group,                   #
+#                 Institut Pasteur, Paris.                                             #  
+#   Distributed under BSD3 Clause. Please refer to the COPYING document.               #
+#                                                                                      #
+########################################################################################
 
 import os
 import sys
@@ -67,7 +68,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
    
     src_path = os.path.abspath( os.path.join( os.path.dirname( __file__ ) , '..', 'src') )
-    script_path = os.path.join( src_path , 'blast2usa')
+    script_path = os.path.join( src_path , 'blast2seqids')
     os.symlink( script_path , script_path + ".py" )
     res = run(src_path, args.tests, args.verbosity)
     os.unlink( script_path + ".py" )

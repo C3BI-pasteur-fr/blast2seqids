@@ -18,6 +18,7 @@ INSTALLATION
 3. build and install
 
     python setup.py build
+    python setup.py test -vv
     python setup.py install
 
     to see all installation options "python setup.py --help"
