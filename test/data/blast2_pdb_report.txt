@@ -1,0 +1,2834 @@
+BLASTP 2.2.26 [Sep-21-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= ABCD2_MOUSE RecName: Full=ATP-binding cassette sub-family D
+member 2; AltName: Full=Adrenoleukodystrophy-related protein;
+         (741 letters)
+
+Database: pdb 
+           270,389 sequences; 65,588,230 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+pdb||4f4c_A mol:protein length:1321  Multidrug resistance protei...    74   2e-12
+pdb||4lsg_B mol:protein length:1284  Multidrug resistance protei...    66   4e-10
+pdb||4lsg_A mol:protein length:1284  Multidrug resistance protei...    66   4e-10
+pdb||4ksd_A mol:protein length:1284  Multidrug resistance protei...    66   4e-10
+pdb||4ksc_A mol:protein length:1284  Multidrug resistance protei...    66   4e-10
+pdb||4ksb_A mol:protein length:1284  Multidrug resistance protei...    66   4e-10
+pdb||3g5u_B mol:protein length:1284  Multidrug resistance protei...    66   4e-10
+pdb||3g5u_A mol:protein length:1284  Multidrug resistance protei...    66   4e-10
+pdb||3g61_B mol:protein length:1284  Multidrug resistance protei...    66   4e-10
+pdb||3g61_A mol:protein length:1284  Multidrug resistance protei...    66   4e-10
+pdb||3g60_B mol:protein length:1284  Multidrug resistance protei...    66   4e-10
+pdb||3g60_A mol:protein length:1284  Multidrug resistance protei...    66   4e-10
+pdb||4m1m_B mol:protein length:1282  Multidrug resistance protei...    66   4e-10
+pdb||4m1m_A mol:protein length:1282  Multidrug resistance protei...    66   4e-10
+pdb||4m2t_B mol:protein length:1282  Multidrug resistance protei...    66   4e-10
+pdb||4m2t_A mol:protein length:1282  Multidrug resistance protei...    66   4e-10
+pdb||4m2s_B mol:protein length:1282  Multidrug resistance protei...    66   4e-10
+pdb||4m2s_A mol:protein length:1282  Multidrug resistance protei...    66   4e-10
+pdb||3nhb_A mol:protein length:306  ATP-binding cassette sub-fam...    62   1e-09
+pdb||3nha_A mol:protein length:306  ATP-binding cassette sub-fam...    62   1e-09
+pdb||3nh9_A mol:protein length:306  ATP-binding cassette sub-fam...    62   1e-09
+pdb||3nh6_A mol:protein length:306  ATP-binding cassette sub-fam...    62   1e-09
+pdb||4ki0_B mol:protein length:381  ABC transporter related protein    63   1e-09
+pdb||4ki0_A mol:protein length:381  ABC transporter related protein    63   1e-09
+pdb||4khz_B mol:protein length:381  Binding-protein-dependent tr...    63   1e-09
+pdb||4khz_A mol:protein length:381  Binding-protein-dependent tr...    63   1e-09
+pdb||4jbw_D mol:protein length:381  Maltose/maltodextrin import ...    63   1e-09
+pdb||4jbw_C mol:protein length:381  Maltose/maltodextrin import ...    63   1e-09
+pdb||4jbw_B mol:protein length:381  Maltose/maltodextrin import ...    63   1e-09
+pdb||4jbw_A mol:protein length:381  Maltose/maltodextrin import ...    63   1e-09
+pdb||3rlf_B mol:protein length:381  Maltose/maltodextrin import ...    63   1e-09
+pdb||3rlf_A mol:protein length:381  Maltose/maltodextrin import ...    63   1e-09
+pdb||3pv0_B mol:protein length:381  Fused maltose transport subu...    63   1e-09
+pdb||3pv0_A mol:protein length:381  Fused maltose transport subu...    63   1e-09
+pdb||3puz_B mol:protein length:381  Fused maltose transport subu...    63   1e-09
+pdb||3puz_A mol:protein length:381  Fused maltose transport subu...    63   1e-09
+pdb||3puy_B mol:protein length:381  Fused maltose transport subu...    63   1e-09
+pdb||3puy_A mol:protein length:381  Fused maltose transport subu...    63   1e-09
+pdb||3pux_B mol:protein length:381  Maltose/maltodextrin import ...    63   1e-09
+pdb||3pux_A mol:protein length:381  Maltose/maltodextrin import ...    63   1e-09
+pdb||3puw_B mol:protein length:381  Maltose/maltodextrin import ...    63   1e-09
+pdb||3puw_A mol:protein length:381  Maltose/maltodextrin import ...    63   1e-09
+pdb||3puv_B mol:protein length:381  Maltose/maltodextrin import ...    63   1e-09
+pdb||3puv_A mol:protein length:381  Maltose/maltodextrin import ...    63   1e-09
+pdb||3fh6_D mol:protein length:381  Maltose/maltodextrin import ...    63   1e-09
+pdb||3fh6_C mol:protein length:381  Maltose/maltodextrin import ...    63   1e-09
+pdb||3fh6_B mol:protein length:381  Maltose/maltodextrin import ...    63   1e-09
+pdb||3fh6_A mol:protein length:381  Maltose/maltodextrin import ...    63   1e-09
+pdb||2awo_D mol:protein length:381  Maltose/maltodextrin import ...    63   1e-09
+pdb||2awo_C mol:protein length:381  Maltose/maltodextrin import ...    63   1e-09
+pdb||2awo_B mol:protein length:381  Maltose/maltodextrin import ...    63   1e-09
+pdb||2awo_A mol:protein length:381  Maltose/maltodextrin import ...    63   1e-09
+pdb||2awn_D mol:protein length:381  Maltose/maltodextrin import ...    63   1e-09
+pdb||2awn_C mol:protein length:381  Maltose/maltodextrin import ...    63   1e-09
+pdb||2awn_B mol:protein length:381  Maltose/maltodextrin import ...    63   1e-09
+pdb||2awn_A mol:protein length:381  Maltose/maltodextrin import ...    63   1e-09
+pdb||1q1e_B mol:protein length:381  Maltose/maltodextrin transpo...    63   1e-09
+pdb||1q1e_A mol:protein length:381  Maltose/maltodextrin transpo...    63   1e-09
+pdb||1q12_D mol:protein length:381  Maltose/maltodextrin transpo...    63   1e-09
+pdb||1q12_C mol:protein length:381  Maltose/maltodextrin transpo...    63   1e-09
+pdb||1q12_B mol:protein length:381  Maltose/maltodextrin transpo...    63   1e-09
+pdb||1q12_A mol:protein length:381  Maltose/maltodextrin transpo...    63   1e-09
+pdb||1q1b_D mol:protein length:381  Maltose/maltodextrin transpo...    63   1e-09
+pdb||1q1b_C mol:protein length:381  Maltose/maltodextrin transpo...    63   1e-09
+pdb||1q1b_B mol:protein length:381  Maltose/maltodextrin transpo...    63   1e-09
+pdb||1q1b_A mol:protein length:381  Maltose/maltodextrin transpo...    63   1e-09
+pdb||2pze_B mol:protein length:229  Cystic fibrosis transmembran...    60   2e-09
+pdb||2pze_A mol:protein length:229  Cystic fibrosis transmembran...    60   2e-09
+pdb||2pzg_B mol:protein length:241  Cystic fibrosis transmembran...    60   2e-09
+pdb||2pzg_A mol:protein length:241  Cystic fibrosis transmembran...    60   2e-09
+pdb||1mv5_D mol:protein length:243  Multidrug resistance ABC tra...    60   3e-09
+pdb||1mv5_C mol:protein length:243  Multidrug resistance ABC tra...    60   3e-09
+pdb||1mv5_B mol:protein length:243  Multidrug resistance ABC tra...    60   3e-09
+pdb||1mv5_A mol:protein length:243  Multidrug resistance ABC tra...    60   3e-09
+pdb||2r6g_B mol:protein length:381  Maltose/maltodextrin import ...    62   3e-09
+pdb||2r6g_A mol:protein length:381  Maltose/maltodextrin import ...    62   3e-09
+pdb||3qf4_A mol:protein length:587  ABC transporter, ATP-binding...    62   5e-09
+pdb||4a82_D mol:protein length:578  CYSTIC FIBROSIS TRANSMEMBRAN...    60   1e-08
+pdb||4a82_C mol:protein length:578  CYSTIC FIBROSIS TRANSMEMBRAN...    60   1e-08
+pdb||4a82_B mol:protein length:578  CYSTIC FIBROSIS TRANSMEMBRAN...    60   1e-08
+pdb||4a82_A mol:protein length:578  CYSTIC FIBROSIS TRANSMEMBRAN...    60   1e-08
+pdb||2onj_B mol:protein length:578  Multidrug export ATP-binding...    60   1e-08
+pdb||2onj_A mol:protein length:578  Multidrug export ATP-binding...    60   1e-08
+pdb||2hyd_B mol:protein length:578  ABC transporter homolog            60   1e-08
+pdb||2hyd_A mol:protein length:578  ABC transporter homolog            60   1e-08
+pdb||1r10_B mol:protein length:286  Cystic fibrosis transmembran...    59   2e-08
+pdb||1r10_A mol:protein length:286  Cystic fibrosis transmembran...    59   2e-08
+pdb||1r0z_D mol:protein length:286  Cystic fibrosis transmembran...    59   2e-08
+pdb||1r0z_C mol:protein length:286  Cystic fibrosis transmembran...    59   2e-08
+pdb||1r0z_B mol:protein length:286  Cystic fibrosis transmembran...    59   2e-08
+pdb||1r0z_A mol:protein length:286  Cystic fibrosis transmembran...    59   2e-08
+pdb||1r0y_D mol:protein length:286  Cystic fibrosis transmembran...    59   2e-08
+pdb||1r0y_C mol:protein length:286  Cystic fibrosis transmembran...    59   2e-08
+pdb||1r0y_B mol:protein length:286  Cystic fibrosis transmembran...    59   2e-08
+pdb||1r0y_A mol:protein length:286  Cystic fibrosis transmembran...    59   2e-08
+pdb||1r0x_D mol:protein length:286  Cystic fibrosis transmembran...    59   2e-08
+pdb||1r0x_C mol:protein length:286  Cystic fibrosis transmembran...    59   2e-08
+pdb||1r0x_B mol:protein length:286  Cystic fibrosis transmembran...    59   2e-08
+pdb||1r0x_A mol:protein length:286  Cystic fibrosis transmembran...    59   2e-08
+pdb||1r0w_D mol:protein length:286  Cystic fibrosis transmembran...    59   2e-08
+pdb||1r0w_C mol:protein length:286  Cystic fibrosis transmembran...    59   2e-08
+pdb||1r0w_B mol:protein length:286  Cystic fibrosis transmembran...    59   2e-08
+pdb||1r0w_A mol:protein length:286  Cystic fibrosis transmembran...    59   2e-08
+pdb||1q3h_D mol:protein length:286  Cystic fibrosis transmembran...    59   2e-08
+pdb||1q3h_C mol:protein length:286  Cystic fibrosis transmembran...    59   2e-08
+pdb||1q3h_B mol:protein length:286  Cystic fibrosis transmembran...    59   2e-08
+pdb||1q3h_A mol:protein length:286  Cystic fibrosis transmembran...    59   2e-08
+pdb||2ixf_D mol:protein length:271  ANTIGEN PEPTIDE TRANSPORTER 1      58   2e-08
+pdb||2ixf_C mol:protein length:271  ANTIGEN PEPTIDE TRANSPORTER 1      58   2e-08
+pdb||2ixf_B mol:protein length:271  ANTIGEN PEPTIDE TRANSPORTER 1      58   2e-08
+pdb||2ixf_A mol:protein length:271  ANTIGEN PEPTIDE TRANSPORTER 1      58   2e-08
+pdb||4fin_B mol:protein length:555  EttA (YjjK) ABCF family protein    59   5e-08
+pdb||4fin_A mol:protein length:555  EttA (YjjK) ABCF family protein    59   5e-08
+pdb||3j5s_D mol:protein length:561  Energy-dependent translation...    59   5e-08
+pdb||2ff7_A mol:protein length:247  Alpha-hemolysin translocatio...    56   7e-08
+pdb||2pmk_A mol:protein length:243  Alpha-hemolysin translocatio...    56   9e-08
+
+>pdb||4f4c_A mol:protein length:1321  Multidrug resistance protein
+            pgp-1
+          Length = 1321
+
+ Score = 73.6 bits (179), Expect = 2e-12,   Method: Compositional matrix adjust.
+ Identities = 62/220 (28%), Positives = 102/220 (46%), Gaps = 24/220 (10%)
+
+Query: 464  DTLAIKGTVIDVDHGIICENVPIITPAG-EV-VASRLNFKVEEGMHLLITGPNGCGKSSL 521
+            D+L++ G    +   +I +NV    P   E+ +   L+F VE G  L + GP+GCGKS++
+Sbjct: 1062 DSLSLAGEKKKLYGKVIFKNVRFAYPERPEIEILKGLSFSVEPGQTLALVGPSGCGKSTV 1121
+
+Query: 522  FRILSGLWPVYEGVLY-------KPPPQH----MFYIPQRPYMSLGSLRDQVIYPDSADD 570
+              +L   +    G ++          P+H    +  + Q P +   S+ + +IY      
+Sbjct: 1122 VALLERFYDTLGGEIFIDGSEIKTLNPEHTRSQIAIVSQEPTLFDCSIAENIIY-----G 1176
+
+Query: 571  MREKGYTDQDLERILHSVHLYHIVQR--EGGWDAVMDWKDVLSGGEKQRMGMARMFYHKP 628
+            +     T   +E      ++++ +    EG    V D    LSGG+KQR+ +AR     P
+Sbjct: 1177 LDPSSVTMAQVEEAARLANIHNFIAELPEGFETRVGDRGTQLSGGQKQRIAIARALVRNP 1236
+
+Query: 629  KYALLDECTSAVSIDVEGKIFQAAIG---AGISLLSITHR 665
+            K  LLDE TSA+  + E K+ Q A+     G + + I HR
+Sbjct: 1237 KILLLDEATSALDTESE-KVVQEALDRAREGRTCIVIAHR 1275
+
+
+>pdb||4lsg_B mol:protein length:1284  Multidrug resistance protein
+           1A
+          Length = 1284
+
+ Score = 65.9 bits (159), Expect = 4e-10,   Method: Compositional matrix adjust.
+ Identities = 54/193 (27%), Positives = 98/193 (50%), Gaps = 12/193 (6%)
+
+Query: 498 LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLYKPPPQHMFYIPQRPYMSLGS 557
+           LN KV+ G  + + G +GCGKS+  +++  L+   +G++     Q +  I  R    +  
+Sbjct: 409 LNLKVKSGQTVALVGNSGCGKSTTVQLMQRLYDPLDGMV-SIDGQDIRTINVRYLREIIG 467
+
+Query: 558 LRDQ--VIYPDS-ADDMR--EKGYTDQDLERILHSVHLYHIVQR-EGGWDAVMDWKDV-L 610
+           +  Q  V++  + A+++R   +  T  ++E+ +   + Y  + +    +D ++  +   L
+Sbjct: 468 VVSQEPVLFATTIAENIRYGREDVTMDEIEKAVKEANAYDFIMKLPHQFDTLVGERGAQL 527
+
+Query: 611 SGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQAAIGA---GISLLSITHRPS 667
+           SGG+KQR+ +AR     PK  LLDE TSA+  + E  + QAA+     G + + I HR S
+Sbjct: 528 SGGQKQRIAIARALVRNPKILLLDEATSALDTESEA-VVQAALDKAREGRTTIVIAHRLS 586
+
+Query: 668 LWKYHTHLLQFDG 680
+             +    +  FDG
+Sbjct: 587 TVRNADVIAGFDG 599
+
+
+>pdb||4lsg_A mol:protein length:1284  Multidrug resistance protein
+           1A
+          Length = 1284
+
+ Score = 65.9 bits (159), Expect = 4e-10,   Method: Compositional matrix adjust.
+ Identities = 54/193 (27%), Positives = 98/193 (50%), Gaps = 12/193 (6%)
+
+Query: 498 LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLYKPPPQHMFYIPQRPYMSLGS 557
+           LN KV+ G  + + G +GCGKS+  +++  L+   +G++     Q +  I  R    +  
+Sbjct: 409 LNLKVKSGQTVALVGNSGCGKSTTVQLMQRLYDPLDGMV-SIDGQDIRTINVRYLREIIG 467
+
+Query: 558 LRDQ--VIYPDS-ADDMR--EKGYTDQDLERILHSVHLYHIVQR-EGGWDAVMDWKDV-L 610
+           +  Q  V++  + A+++R   +  T  ++E+ +   + Y  + +    +D ++  +   L
+Sbjct: 468 VVSQEPVLFATTIAENIRYGREDVTMDEIEKAVKEANAYDFIMKLPHQFDTLVGERGAQL 527
+
+Query: 611 SGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQAAIGA---GISLLSITHRPS 667
+           SGG+KQR+ +AR     PK  LLDE TSA+  + E  + QAA+     G + + I HR S
+Sbjct: 528 SGGQKQRIAIARALVRNPKILLLDEATSALDTESEA-VVQAALDKAREGRTTIVIAHRLS 586
+
+Query: 668 LWKYHTHLLQFDG 680
+             +    +  FDG
+Sbjct: 587 TVRNADVIAGFDG 599
+
+
+>pdb||4ksd_A mol:protein length:1284  Multidrug resistance protein
+           1A
+          Length = 1284
+
+ Score = 65.9 bits (159), Expect = 4e-10,   Method: Compositional matrix adjust.
+ Identities = 54/193 (27%), Positives = 98/193 (50%), Gaps = 12/193 (6%)
+
+Query: 498 LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLYKPPPQHMFYIPQRPYMSLGS 557
+           LN KV+ G  + + G +GCGKS+  +++  L+   +G++     Q +  I  R    +  
+Sbjct: 409 LNLKVKSGQTVALVGNSGCGKSTTVQLMQRLYDPLDGMV-SIDGQDIRTINVRYLREIIG 467
+
+Query: 558 LRDQ--VIYPDS-ADDMR--EKGYTDQDLERILHSVHLYHIVQR-EGGWDAVMDWKDV-L 610
+           +  Q  V++  + A+++R   +  T  ++E+ +   + Y  + +    +D ++  +   L
+Sbjct: 468 VVSQEPVLFATTIAENIRYGREDVTMDEIEKAVKEANAYDFIMKLPHQFDTLVGERGAQL 527
+
+Query: 611 SGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQAAIG---AGISLLSITHRPS 667
+           SGG+KQR+ +AR     PK  LLDE TSA+  + E  + QAA+     G + + I HR S
+Sbjct: 528 SGGQKQRIAIARALVRNPKILLLDEATSALDTESEA-VVQAALDKAREGRTTIVIAHRLS 586
+
+Query: 668 LWKYHTHLLQFDG 680
+             +    +  FDG
+Sbjct: 587 TVRNADVIAGFDG 599
+
+
+>pdb||4ksc_A mol:protein length:1284  Multidrug resistance protein
+           1A
+          Length = 1284
+
+ Score = 65.9 bits (159), Expect = 4e-10,   Method: Compositional matrix adjust.
+ Identities = 54/193 (27%), Positives = 98/193 (50%), Gaps = 12/193 (6%)
+
+Query: 498 LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLYKPPPQHMFYIPQRPYMSLGS 557
+           LN KV+ G  + + G +GCGKS+  +++  L+   +G++     Q +  I  R    +  
+Sbjct: 409 LNLKVKSGQTVALVGNSGCGKSTTVQLMQRLYDPLDGMV-SIDGQDIRTINVRYLREIIG 467
+
+Query: 558 LRDQ--VIYPDS-ADDMR--EKGYTDQDLERILHSVHLYHIVQR-EGGWDAVMDWKDV-L 610
+           +  Q  V++  + A+++R   +  T  ++E+ +   + Y  + +    +D ++  +   L
+Sbjct: 468 VVSQEPVLFATTIAENIRYGREDVTMDEIEKAVKEANAYDFIMKLPHQFDTLVGERGAQL 527
+
+Query: 611 SGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQAAIG---AGISLLSITHRPS 667
+           SGG+KQR+ +AR     PK  LLDE TSA+  + E  + QAA+     G + + I HR S
+Sbjct: 528 SGGQKQRIAIARALVRNPKILLLDEATSALDTESEA-VVQAALDKAREGRTTIVIAHRLS 586
+
+Query: 668 LWKYHTHLLQFDG 680
+             +    +  FDG
+Sbjct: 587 TVRNADVIAGFDG 599
+
+
+>pdb||4ksb_A mol:protein length:1284  Multidrug resistance protein
+           1A
+          Length = 1284
+
+ Score = 65.9 bits (159), Expect = 4e-10,   Method: Compositional matrix adjust.
+ Identities = 54/193 (27%), Positives = 98/193 (50%), Gaps = 12/193 (6%)
+
+Query: 498 LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLYKPPPQHMFYIPQRPYMSLGS 557
+           LN KV+ G  + + G +GCGKS+  +++  L+   +G++     Q +  I  R    +  
+Sbjct: 409 LNLKVKSGQTVALVGNSGCGKSTTVQLMQRLYDPLDGMV-SIDGQDIRTINVRYLREIIG 467
+
+Query: 558 LRDQ--VIYPDS-ADDMR--EKGYTDQDLERILHSVHLYHIVQR-EGGWDAVMDWKDV-L 610
+           +  Q  V++  + A+++R   +  T  ++E+ +   + Y  + +    +D ++  +   L
+Sbjct: 468 VVSQEPVLFATTIAENIRYGREDVTMDEIEKAVKEANAYDFIMKLPHQFDTLVGERGAQL 527
+
+Query: 611 SGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQAAIG---AGISLLSITHRPS 667
+           SGG+KQR+ +AR     PK  LLDE TSA+  + E  + QAA+     G + + I HR S
+Sbjct: 528 SGGQKQRIAIARALVRNPKILLLDEATSALDTESEA-VVQAALDKAREGRTTIVIAHRLS 586
+
+Query: 668 LWKYHTHLLQFDG 680
+             +    +  FDG
+Sbjct: 587 TVRNADVIAGFDG 599
+
+
+>pdb||3g5u_B mol:protein length:1284  Multidrug resistance protein
+           1a
+          Length = 1284
+
+ Score = 65.9 bits (159), Expect = 4e-10,   Method: Compositional matrix adjust.
+ Identities = 54/193 (27%), Positives = 98/193 (50%), Gaps = 12/193 (6%)
+
+Query: 498 LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLYKPPPQHMFYIPQRPYMSLGS 557
+           LN KV+ G  + + G +GCGKS+  +++  L+   +G++     Q +  I  R    +  
+Sbjct: 409 LNLKVKSGQTVALVGNSGCGKSTTVQLMQRLYDPLDGMV-SIDGQDIRTINVRYLREIIG 467
+
+Query: 558 LRDQ--VIYPDS-ADDMR--EKGYTDQDLERILHSVHLYHIVQR-EGGWDAVMDWKDV-L 610
+           +  Q  V++  + A+++R   +  T  ++E+ +   + Y  + +    +D ++  +   L
+Sbjct: 468 VVSQEPVLFATTIAENIRYGREDVTMDEIEKAVKEANAYDFIMKLPHQFDTLVGERGAQL 527
+
+Query: 611 SGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQAAIGA---GISLLSITHRPS 667
+           SGG+KQR+ +AR     PK  LLDE TSA+  + E  + QAA+     G + + I HR S
+Sbjct: 528 SGGQKQRIAIARALVRNPKILLLDEATSALDTESEA-VVQAALDKAREGRTTIVIAHRLS 586
+
+Query: 668 LWKYHTHLLQFDG 680
+             +    +  FDG
+Sbjct: 587 TVRNADVIAGFDG 599
+
+
+>pdb||3g5u_A mol:protein length:1284  Multidrug resistance protein
+           1a
+          Length = 1284
+
+ Score = 65.9 bits (159), Expect = 4e-10,   Method: Compositional matrix adjust.
+ Identities = 54/193 (27%), Positives = 98/193 (50%), Gaps = 12/193 (6%)
+
+Query: 498 LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLYKPPPQHMFYIPQRPYMSLGS 557
+           LN KV+ G  + + G +GCGKS+  +++  L+   +G++     Q +  I  R    +  
+Sbjct: 409 LNLKVKSGQTVALVGNSGCGKSTTVQLMQRLYDPLDGMV-SIDGQDIRTINVRYLREIIG 467
+
+Query: 558 LRDQ--VIYPDS-ADDMR--EKGYTDQDLERILHSVHLYHIVQR-EGGWDAVMDWKDV-L 610
+           +  Q  V++  + A+++R   +  T  ++E+ +   + Y  + +    +D ++  +   L
+Sbjct: 468 VVSQEPVLFATTIAENIRYGREDVTMDEIEKAVKEANAYDFIMKLPHQFDTLVGERGAQL 527
+
+Query: 611 SGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQAAIGA---GISLLSITHRPS 667
+           SGG+KQR+ +AR     PK  LLDE TSA+  + E  + QAA+     G + + I HR S
+Sbjct: 528 SGGQKQRIAIARALVRNPKILLLDEATSALDTESEA-VVQAALDKAREGRTTIVIAHRLS 586
+
+Query: 668 LWKYHTHLLQFDG 680
+             +    +  FDG
+Sbjct: 587 TVRNADVIAGFDG 599
+
+
+>pdb||3g61_B mol:protein length:1284  Multidrug resistance protein
+           1a
+          Length = 1284
+
+ Score = 65.9 bits (159), Expect = 4e-10,   Method: Compositional matrix adjust.
+ Identities = 54/193 (27%), Positives = 98/193 (50%), Gaps = 12/193 (6%)
+
+Query: 498 LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLYKPPPQHMFYIPQRPYMSLGS 557
+           LN KV+ G  + + G +GCGKS+  +++  L+   +G++     Q +  I  R    +  
+Sbjct: 409 LNLKVKSGQTVALVGNSGCGKSTTVQLMQRLYDPLDGMV-SIDGQDIRTINVRYLREIIG 467
+
+Query: 558 LRDQ--VIYPDS-ADDMR--EKGYTDQDLERILHSVHLYHIVQR-EGGWDAVMDWKDV-L 610
+           +  Q  V++  + A+++R   +  T  ++E+ +   + Y  + +    +D ++  +   L
+Sbjct: 468 VVSQEPVLFATTIAENIRYGREDVTMDEIEKAVKEANAYDFIMKLPHQFDTLVGERGAQL 527
+
+Query: 611 SGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQAAIGA---GISLLSITHRPS 667
+           SGG+KQR+ +AR     PK  LLDE TSA+  + E  + QAA+     G + + I HR S
+Sbjct: 528 SGGQKQRIAIARALVRNPKILLLDEATSALDTESEA-VVQAALDKAREGRTTIVIAHRLS 586
+
+Query: 668 LWKYHTHLLQFDG 680
+             +    +  FDG
+Sbjct: 587 TVRNADVIAGFDG 599
+
+
+>pdb||3g61_A mol:protein length:1284  Multidrug resistance protein
+           1a
+          Length = 1284
+
+ Score = 65.9 bits (159), Expect = 4e-10,   Method: Compositional matrix adjust.
+ Identities = 54/193 (27%), Positives = 98/193 (50%), Gaps = 12/193 (6%)
+
+Query: 498 LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLYKPPPQHMFYIPQRPYMSLGS 557
+           LN KV+ G  + + G +GCGKS+  +++  L+   +G++     Q +  I  R    +  
+Sbjct: 409 LNLKVKSGQTVALVGNSGCGKSTTVQLMQRLYDPLDGMV-SIDGQDIRTINVRYLREIIG 467
+
+Query: 558 LRDQ--VIYPDS-ADDMR--EKGYTDQDLERILHSVHLYHIVQR-EGGWDAVMDWKDV-L 610
+           +  Q  V++  + A+++R   +  T  ++E+ +   + Y  + +    +D ++  +   L
+Sbjct: 468 VVSQEPVLFATTIAENIRYGREDVTMDEIEKAVKEANAYDFIMKLPHQFDTLVGERGAQL 527
+
+Query: 611 SGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQAAIGA---GISLLSITHRPS 667
+           SGG+KQR+ +AR     PK  LLDE TSA+  + E  + QAA+     G + + I HR S
+Sbjct: 528 SGGQKQRIAIARALVRNPKILLLDEATSALDTESEA-VVQAALDKAREGRTTIVIAHRLS 586
+
+Query: 668 LWKYHTHLLQFDG 680
+             +    +  FDG
+Sbjct: 587 TVRNADVIAGFDG 599
+
+
+>pdb||3g60_B mol:protein length:1284  Multidrug resistance protein
+           1a
+          Length = 1284
+
+ Score = 65.9 bits (159), Expect = 4e-10,   Method: Compositional matrix adjust.
+ Identities = 54/193 (27%), Positives = 98/193 (50%), Gaps = 12/193 (6%)
+
+Query: 498 LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLYKPPPQHMFYIPQRPYMSLGS 557
+           LN KV+ G  + + G +GCGKS+  +++  L+   +G++     Q +  I  R    +  
+Sbjct: 409 LNLKVKSGQTVALVGNSGCGKSTTVQLMQRLYDPLDGMV-SIDGQDIRTINVRYLREIIG 467
+
+Query: 558 LRDQ--VIYPDS-ADDMR--EKGYTDQDLERILHSVHLYHIVQR-EGGWDAVMDWKDV-L 610
+           +  Q  V++  + A+++R   +  T  ++E+ +   + Y  + +    +D ++  +   L
+Sbjct: 468 VVSQEPVLFATTIAENIRYGREDVTMDEIEKAVKEANAYDFIMKLPHQFDTLVGERGAQL 527
+
+Query: 611 SGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQAAIGA---GISLLSITHRPS 667
+           SGG+KQR+ +AR     PK  LLDE TSA+  + E  + QAA+     G + + I HR S
+Sbjct: 528 SGGQKQRIAIARALVRNPKILLLDEATSALDTESEA-VVQAALDKAREGRTTIVIAHRLS 586
+
+Query: 668 LWKYHTHLLQFDG 680
+             +    +  FDG
+Sbjct: 587 TVRNADVIAGFDG 599
+
+
+>pdb||3g60_A mol:protein length:1284  Multidrug resistance protein
+           1a
+          Length = 1284
+
+ Score = 65.9 bits (159), Expect = 4e-10,   Method: Compositional matrix adjust.
+ Identities = 54/193 (27%), Positives = 98/193 (50%), Gaps = 12/193 (6%)
+
+Query: 498 LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLYKPPPQHMFYIPQRPYMSLGS 557
+           LN KV+ G  + + G +GCGKS+  +++  L+   +G++     Q +  I  R    +  
+Sbjct: 409 LNLKVKSGQTVALVGNSGCGKSTTVQLMQRLYDPLDGMV-SIDGQDIRTINVRYLREIIG 467
+
+Query: 558 LRDQ--VIYPDS-ADDMR--EKGYTDQDLERILHSVHLYHIVQR-EGGWDAVMDWKDV-L 610
+           +  Q  V++  + A+++R   +  T  ++E+ +   + Y  + +    +D ++  +   L
+Sbjct: 468 VVSQEPVLFATTIAENIRYGREDVTMDEIEKAVKEANAYDFIMKLPHQFDTLVGERGAQL 527
+
+Query: 611 SGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQAAIGA---GISLLSITHRPS 667
+           SGG+KQR+ +AR     PK  LLDE TSA+  + E  + QAA+     G + + I HR S
+Sbjct: 528 SGGQKQRIAIARALVRNPKILLLDEATSALDTESEA-VVQAALDKAREGRTTIVIAHRLS 586
+
+Query: 668 LWKYHTHLLQFDG 680
+             +    +  FDG
+Sbjct: 587 TVRNADVIAGFDG 599
+
+
+>pdb||4m1m_B mol:protein length:1282  Multidrug resistance protein
+           1A
+          Length = 1282
+
+ Score = 65.9 bits (159), Expect = 4e-10,   Method: Compositional matrix adjust.
+ Identities = 54/193 (27%), Positives = 98/193 (50%), Gaps = 12/193 (6%)
+
+Query: 498 LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLYKPPPQHMFYIPQRPYMSLGS 557
+           LN KV+ G  + + G +GCGKS+  +++  L+   +G++     Q +  I  R    +  
+Sbjct: 409 LNLKVKSGQTVALVGNSGCGKSTTVQLMQRLYDPLDGMV-SIDGQDIRTINVRYLREIIG 467
+
+Query: 558 LRDQ--VIYPDS-ADDMR--EKGYTDQDLERILHSVHLYHIVQR-EGGWDAVMDWKDV-L 610
+           +  Q  V++  + A+++R   +  T  ++E+ +   + Y  + +    +D ++  +   L
+Sbjct: 468 VVSQEPVLFATTIAENIRYGREDVTMDEIEKAVKEANAYDFIMKLPHQFDTLVGERGAQL 527
+
+Query: 611 SGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQAAIGA---GISLLSITHRPS 667
+           SGG+KQR+ +AR     PK  LLDE TSA+  + E  + QAA+     G + + I HR S
+Sbjct: 528 SGGQKQRIAIARALVRNPKILLLDEATSALDTESEA-VVQAALDKAREGRTTIVIAHRLS 586
+
+Query: 668 LWKYHTHLLQFDG 680
+             +    +  FDG
+Sbjct: 587 TVRNADVIAGFDG 599
+
+
+>pdb||4m1m_A mol:protein length:1282  Multidrug resistance protein
+           1A
+          Length = 1282
+
+ Score = 65.9 bits (159), Expect = 4e-10,   Method: Compositional matrix adjust.
+ Identities = 54/193 (27%), Positives = 98/193 (50%), Gaps = 12/193 (6%)
+
+Query: 498 LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLYKPPPQHMFYIPQRPYMSLGS 557
+           LN KV+ G  + + G +GCGKS+  +++  L+   +G++     Q +  I  R    +  
+Sbjct: 409 LNLKVKSGQTVALVGNSGCGKSTTVQLMQRLYDPLDGMV-SIDGQDIRTINVRYLREIIG 467
+
+Query: 558 LRDQ--VIYPDS-ADDMR--EKGYTDQDLERILHSVHLYHIVQR-EGGWDAVMDWKDV-L 610
+           +  Q  V++  + A+++R   +  T  ++E+ +   + Y  + +    +D ++  +   L
+Sbjct: 468 VVSQEPVLFATTIAENIRYGREDVTMDEIEKAVKEANAYDFIMKLPHQFDTLVGERGAQL 527
+
+Query: 611 SGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQAAIGA---GISLLSITHRPS 667
+           SGG+KQR+ +AR     PK  LLDE TSA+  + E  + QAA+     G + + I HR S
+Sbjct: 528 SGGQKQRIAIARALVRNPKILLLDEATSALDTESEA-VVQAALDKAREGRTTIVIAHRLS 586
+
+Query: 668 LWKYHTHLLQFDG 680
+             +    +  FDG
+Sbjct: 587 TVRNADVIAGFDG 599
+
+
+>pdb||4m2t_B mol:protein length:1282  Multidrug resistance protein
+           1A
+          Length = 1282
+
+ Score = 65.9 bits (159), Expect = 4e-10,   Method: Compositional matrix adjust.
+ Identities = 54/193 (27%), Positives = 98/193 (50%), Gaps = 12/193 (6%)
+
+Query: 498 LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLYKPPPQHMFYIPQRPYMSLGS 557
+           LN KV+ G  + + G +GCGKS+  +++  L+   +G++     Q +  I  R    +  
+Sbjct: 409 LNLKVKSGQTVALVGNSGCGKSTTVQLMQRLYDPLDGMV-SIDGQDIRTINVRYLREIIG 467
+
+Query: 558 LRDQ--VIYPDS-ADDMR--EKGYTDQDLERILHSVHLYHIVQR-EGGWDAVMDWKDV-L 610
+           +  Q  V++  + A+++R   +  T  ++E+ +   + Y  + +    +D ++  +   L
+Sbjct: 468 VVSQEPVLFATTIAENIRYGREDVTMDEIEKAVKEANAYDFIMKLPHQFDTLVGERGAQL 527
+
+Query: 611 SGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQAAIG---AGISLLSITHRPS 667
+           SGG+KQR+ +AR     PK  LLDE TSA+  + E  + QAA+     G + + I HR S
+Sbjct: 528 SGGQKQRIAIARALVRNPKILLLDEATSALDTESEA-VVQAALDKAREGRTTIVIAHRLS 586
+
+Query: 668 LWKYHTHLLQFDG 680
+             +    +  FDG
+Sbjct: 587 TVRNADVIAGFDG 599
+
+
+>pdb||4m2t_A mol:protein length:1282  Multidrug resistance protein
+           1A
+          Length = 1282
+
+ Score = 65.9 bits (159), Expect = 4e-10,   Method: Compositional matrix adjust.
+ Identities = 54/193 (27%), Positives = 98/193 (50%), Gaps = 12/193 (6%)
+
+Query: 498 LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLYKPPPQHMFYIPQRPYMSLGS 557
+           LN KV+ G  + + G +GCGKS+  +++  L+   +G++     Q +  I  R    +  
+Sbjct: 409 LNLKVKSGQTVALVGNSGCGKSTTVQLMQRLYDPLDGMV-SIDGQDIRTINVRYLREIIG 467
+
+Query: 558 LRDQ--VIYPDS-ADDMR--EKGYTDQDLERILHSVHLYHIVQR-EGGWDAVMDWKDV-L 610
+           +  Q  V++  + A+++R   +  T  ++E+ +   + Y  + +    +D ++  +   L
+Sbjct: 468 VVSQEPVLFATTIAENIRYGREDVTMDEIEKAVKEANAYDFIMKLPHQFDTLVGERGAQL 527
+
+Query: 611 SGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQAAIG---AGISLLSITHRPS 667
+           SGG+KQR+ +AR     PK  LLDE TSA+  + E  + QAA+     G + + I HR S
+Sbjct: 528 SGGQKQRIAIARALVRNPKILLLDEATSALDTESEA-VVQAALDKAREGRTTIVIAHRLS 586
+
+Query: 668 LWKYHTHLLQFDG 680
+             +    +  FDG
+Sbjct: 587 TVRNADVIAGFDG 599
+
+
+>pdb||4m2s_B mol:protein length:1282  Multidrug resistance protein
+           1A
+          Length = 1282
+
+ Score = 65.9 bits (159), Expect = 4e-10,   Method: Compositional matrix adjust.
+ Identities = 54/193 (27%), Positives = 98/193 (50%), Gaps = 12/193 (6%)
+
+Query: 498 LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLYKPPPQHMFYIPQRPYMSLGS 557
+           LN KV+ G  + + G +GCGKS+  +++  L+   +G++     Q +  I  R    +  
+Sbjct: 409 LNLKVKSGQTVALVGNSGCGKSTTVQLMQRLYDPLDGMV-SIDGQDIRTINVRYLREIIG 467
+
+Query: 558 LRDQ--VIYPDS-ADDMR--EKGYTDQDLERILHSVHLYHIVQR-EGGWDAVMDWKDV-L 610
+           +  Q  V++  + A+++R   +  T  ++E+ +   + Y  + +    +D ++  +   L
+Sbjct: 468 VVSQEPVLFATTIAENIRYGREDVTMDEIEKAVKEANAYDFIMKLPHQFDTLVGERGAQL 527
+
+Query: 611 SGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQAAIG---AGISLLSITHRPS 667
+           SGG+KQR+ +AR     PK  LLDE TSA+  + E  + QAA+     G + + I HR S
+Sbjct: 528 SGGQKQRIAIARALVRNPKILLLDEATSALDTESEA-VVQAALDKAREGRTTIVIAHRLS 586
+
+Query: 668 LWKYHTHLLQFDG 680
+             +    +  FDG
+Sbjct: 587 TVRNADVIAGFDG 599
+
+
+>pdb||4m2s_A mol:protein length:1282  Multidrug resistance protein
+           1A
+          Length = 1282
+
+ Score = 65.9 bits (159), Expect = 4e-10,   Method: Compositional matrix adjust.
+ Identities = 54/193 (27%), Positives = 98/193 (50%), Gaps = 12/193 (6%)
+
+Query: 498 LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLYKPPPQHMFYIPQRPYMSLGS 557
+           LN KV+ G  + + G +GCGKS+  +++  L+   +G++     Q +  I  R    +  
+Sbjct: 409 LNLKVKSGQTVALVGNSGCGKSTTVQLMQRLYDPLDGMV-SIDGQDIRTINVRYLREIIG 467
+
+Query: 558 LRDQ--VIYPDS-ADDMR--EKGYTDQDLERILHSVHLYHIVQR-EGGWDAVMDWKDV-L 610
+           +  Q  V++  + A+++R   +  T  ++E+ +   + Y  + +    +D ++  +   L
+Sbjct: 468 VVSQEPVLFATTIAENIRYGREDVTMDEIEKAVKEANAYDFIMKLPHQFDTLVGERGAQL 527
+
+Query: 611 SGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQAAIG---AGISLLSITHRPS 667
+           SGG+KQR+ +AR     PK  LLDE TSA+  + E  + QAA+     G + + I HR S
+Sbjct: 528 SGGQKQRIAIARALVRNPKILLLDEATSALDTESEA-VVQAALDKAREGRTTIVIAHRLS 586
+
+Query: 668 LWKYHTHLLQFDG 680
+             +    +  FDG
+Sbjct: 587 TVRNADVIAGFDG 599
+
+
+>pdb||3nhb_A mol:protein length:306  ATP-binding cassette sub-family
+           B member 6, m
+          Length = 306
+
+ Score = 62.4 bits (150), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 57/196 (29%), Positives = 95/196 (48%), Gaps = 12/196 (6%)
+
+Query: 482 ENVPIITPAGEVVASRLNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLYKPPP 541
+           ENV      G      ++F V  G  L + GP+G GKS++ R+L   + +  G + +   
+Sbjct: 57  ENVHFSYADGRETLQDVSFTVMPGQTLALVGPSGAGKSTILRLLFRFYDISSGCI-RIDG 115
+
+Query: 542 QHMFYIPQRPYMS-LGSL-RDQVIYPDS-ADDMREKGYT--DQDLERILHSVHLYHIVQR 596
+           Q +  + Q    S +G + +D V++ D+ AD++R    T  + ++E    +  ++  +  
+Sbjct: 116 QDISQVTQASLRSHIGVVPQDTVLFNDTIADNIRYGRVTAGNDEVEAAAQAAGIHDAIMA 175
+
+Query: 597 --EGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQAAIG 654
+             EG    V +    LSGGEKQR+ +AR     P   LLDE TSA+    E +  QA++ 
+Sbjct: 176 FPEGYRTQVGERGLKLSGGEKQRVAIARTILKAPGIILLDEATSALDTSNE-RAIQASLA 234
+
+Query: 655 ---AGISLLSITHRPS 667
+              A  + + + HR S
+Sbjct: 235 KVCANRTTIVVAHRLS 250
+
+
+>pdb||3nha_A mol:protein length:306  ATP-binding cassette sub-family
+           B member 6, m
+          Length = 306
+
+ Score = 62.4 bits (150), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 57/196 (29%), Positives = 95/196 (48%), Gaps = 12/196 (6%)
+
+Query: 482 ENVPIITPAGEVVASRLNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLYKPPP 541
+           ENV      G      ++F V  G  L + GP+G GKS++ R+L   + +  G + +   
+Sbjct: 57  ENVHFSYADGRETLQDVSFTVMPGQTLALVGPSGAGKSTILRLLFRFYDISSGCI-RIDG 115
+
+Query: 542 QHMFYIPQRPYMS-LGSL-RDQVIYPDS-ADDMREKGYT--DQDLERILHSVHLYHIVQR 596
+           Q +  + Q    S +G + +D V++ D+ AD++R    T  + ++E    +  ++  +  
+Sbjct: 116 QDISQVTQASLRSHIGVVPQDTVLFNDTIADNIRYGRVTAGNDEVEAAAQAAGIHDAIMA 175
+
+Query: 597 --EGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQAAIG 654
+             EG    V +    LSGGEKQR+ +AR     P   LLDE TSA+    E +  QA++ 
+Sbjct: 176 FPEGYRTQVGERGLKLSGGEKQRVAIARTILKAPGIILLDEATSALDTSNE-RAIQASLA 234
+
+Query: 655 ---AGISLLSITHRPS 667
+              A  + + + HR S
+Sbjct: 235 KVCANRTTIVVAHRLS 250
+
+
+>pdb||3nh9_A mol:protein length:306  ATP-binding cassette sub-family
+           B member 6, m
+          Length = 306
+
+ Score = 62.4 bits (150), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 57/196 (29%), Positives = 95/196 (48%), Gaps = 12/196 (6%)
+
+Query: 482 ENVPIITPAGEVVASRLNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLYKPPP 541
+           ENV      G      ++F V  G  L + GP+G GKS++ R+L   + +  G + +   
+Sbjct: 57  ENVHFSYADGRETLQDVSFTVMPGQTLALVGPSGAGKSTILRLLFRFYDISSGCI-RIDG 115
+
+Query: 542 QHMFYIPQRPYMS-LGSL-RDQVIYPDS-ADDMREKGYT--DQDLERILHSVHLYHIVQR 596
+           Q +  + Q    S +G + +D V++ D+ AD++R    T  + ++E    +  ++  +  
+Sbjct: 116 QDISQVTQASLRSHIGVVPQDTVLFNDTIADNIRYGRVTAGNDEVEAAAQAAGIHDAIMA 175
+
+Query: 597 --EGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQAAIG 654
+             EG    V +    LSGGEKQR+ +AR     P   LLDE TSA+    E +  QA++ 
+Sbjct: 176 FPEGYRTQVGERGLKLSGGEKQRVAIARTILKAPGIILLDEATSALDTSNE-RAIQASLA 234
+
+Query: 655 ---AGISLLSITHRPS 667
+              A  + + + HR S
+Sbjct: 235 KVCANRTTIVVAHRLS 250
+
+
+>pdb||3nh6_A mol:protein length:306  ATP-binding cassette sub-family
+           B member 6, m
+          Length = 306
+
+ Score = 62.4 bits (150), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 57/196 (29%), Positives = 95/196 (48%), Gaps = 12/196 (6%)
+
+Query: 482 ENVPIITPAGEVVASRLNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLYKPPP 541
+           ENV      G      ++F V  G  L + GP+G GKS++ R+L   + +  G + +   
+Sbjct: 57  ENVHFSYADGRETLQDVSFTVMPGQTLALVGPSGAGKSTILRLLFRFYDISSGCI-RIDG 115
+
+Query: 542 QHMFYIPQRPYMS-LGSL-RDQVIYPDS-ADDMREKGYT--DQDLERILHSVHLYHIVQR 596
+           Q +  + Q    S +G + +D V++ D+ AD++R    T  + ++E    +  ++  +  
+Sbjct: 116 QDISQVTQASLRSHIGVVPQDTVLFNDTIADNIRYGRVTAGNDEVEAAAQAAGIHDAIMA 175
+
+Query: 597 --EGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQAAIG 654
+             EG    V +    LSGGEKQR+ +AR     P   LLDE TSA+    E +  QA++ 
+Sbjct: 176 FPEGYRTQVGERGLKLSGGEKQRVAIARTILKAPGIILLDEATSALDTSNE-RAIQASLA 234
+
+Query: 655 ---AGISLLSITHRPS 667
+              A  + + + HR S
+Sbjct: 235 KVCANRTTIVVAHRLS 250
+
+
+>pdb||4ki0_B mol:protein length:381  ABC transporter related protein
+          Length = 381
+
+ Score = 63.2 bits (152), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 51/197 (25%), Positives = 92/197 (46%), Gaps = 41/197 (20%)
+
+Query: 491 GEVVASR-LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLY--------KPPP 541
+           GEVV S+ +N  + EG  ++  GP+GCGKS+L R+++GL  +  G L+         PP 
+Sbjct: 14  GEVVVSKDINLDIHEGEFVVFVGPSGCGKSTLLRMIAGLETITSGDLFIGEKRMNDTPPA 73
+
+Query: 542 QHMFYIPQRPYMSLGSLRDQVIYP--DSADDMR--------EKGYTDQDLERILHSVHLY 591
+           +    +  + Y          +YP    A++M         +K   +Q + ++   + L 
+Sbjct: 74  ERGVGMVFQSY---------ALYPHLSVAENMSFGLKLAGAKKEVINQRVNQVAEVLQLA 124
+
+Query: 592 HIVQREGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTS----AVSIDVEGK 647
+           H++ R+            LSGG++QR+ + R    +P   LLDE  S    A+ + +  +
+Sbjct: 125 HLLDRK---------PKALSGGQRQRVAIGRTLVAEPSVFLLDEPLSNLDAALRVQMRIE 175
+
+Query: 648 IFQAAIGAGISLLSITH 664
+           I +     G +++ +TH
+Sbjct: 176 ISRLHKRLGRTMIYVTH 192
+
+
+>pdb||4ki0_A mol:protein length:381  ABC transporter related protein
+          Length = 381
+
+ Score = 63.2 bits (152), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 51/197 (25%), Positives = 92/197 (46%), Gaps = 41/197 (20%)
+
+Query: 491 GEVVASR-LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLY--------KPPP 541
+           GEVV S+ +N  + EG  ++  GP+GCGKS+L R+++GL  +  G L+         PP 
+Sbjct: 14  GEVVVSKDINLDIHEGEFVVFVGPSGCGKSTLLRMIAGLETITSGDLFIGEKRMNDTPPA 73
+
+Query: 542 QHMFYIPQRPYMSLGSLRDQVIYP--DSADDMR--------EKGYTDQDLERILHSVHLY 591
+           +    +  + Y          +YP    A++M         +K   +Q + ++   + L 
+Sbjct: 74  ERGVGMVFQSY---------ALYPHLSVAENMSFGLKLAGAKKEVINQRVNQVAEVLQLA 124
+
+Query: 592 HIVQREGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTS----AVSIDVEGK 647
+           H++ R+            LSGG++QR+ + R    +P   LLDE  S    A+ + +  +
+Sbjct: 125 HLLDRK---------PKALSGGQRQRVAIGRTLVAEPSVFLLDEPLSNLDAALRVQMRIE 175
+
+Query: 648 IFQAAIGAGISLLSITH 664
+           I +     G +++ +TH
+Sbjct: 176 ISRLHKRLGRTMIYVTH 192
+
+
+>pdb||4khz_B mol:protein length:381  Binding-protein-dependent
+           transport systems i
+          Length = 381
+
+ Score = 63.2 bits (152), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 51/197 (25%), Positives = 92/197 (46%), Gaps = 41/197 (20%)
+
+Query: 491 GEVVASR-LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLY--------KPPP 541
+           GEVV S+ +N  + EG  ++  GP+GCGKS+L R+++GL  +  G L+         PP 
+Sbjct: 14  GEVVVSKDINLDIHEGEFVVFVGPSGCGKSTLLRMIAGLETITSGDLFIGEKRMNDTPPA 73
+
+Query: 542 QHMFYIPQRPYMSLGSLRDQVIYP--DSADDMR--------EKGYTDQDLERILHSVHLY 591
+           +    +  + Y          +YP    A++M         +K   +Q + ++   + L 
+Sbjct: 74  ERGVGMVFQSY---------ALYPHLSVAENMSFGLKLAGAKKEVINQRVNQVAEVLQLA 124
+
+Query: 592 HIVQREGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTS----AVSIDVEGK 647
+           H++ R+            LSGG++QR+ + R    +P   LLDE  S    A+ + +  +
+Sbjct: 125 HLLDRK---------PKALSGGQRQRVAIGRTLVAEPSVFLLDEPLSNLDAALRVQMRIE 175
+
+Query: 648 IFQAAIGAGISLLSITH 664
+           I +     G +++ +TH
+Sbjct: 176 ISRLHKRLGRTMIYVTH 192
+
+
+>pdb||4khz_A mol:protein length:381  Binding-protein-dependent
+           transport systems i
+          Length = 381
+
+ Score = 63.2 bits (152), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 51/197 (25%), Positives = 92/197 (46%), Gaps = 41/197 (20%)
+
+Query: 491 GEVVASR-LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLY--------KPPP 541
+           GEVV S+ +N  + EG  ++  GP+GCGKS+L R+++GL  +  G L+         PP 
+Sbjct: 14  GEVVVSKDINLDIHEGEFVVFVGPSGCGKSTLLRMIAGLETITSGDLFIGEKRMNDTPPA 73
+
+Query: 542 QHMFYIPQRPYMSLGSLRDQVIYP--DSADDMR--------EKGYTDQDLERILHSVHLY 591
+           +    +  + Y          +YP    A++M         +K   +Q + ++   + L 
+Sbjct: 74  ERGVGMVFQSY---------ALYPHLSVAENMSFGLKLAGAKKEVINQRVNQVAEVLQLA 124
+
+Query: 592 HIVQREGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTS----AVSIDVEGK 647
+           H++ R+            LSGG++QR+ + R    +P   LLDE  S    A+ + +  +
+Sbjct: 125 HLLDRK---------PKALSGGQRQRVAIGRTLVAEPSVFLLDEPLSNLDAALRVQMRIE 175
+
+Query: 648 IFQAAIGAGISLLSITH 664
+           I +     G +++ +TH
+Sbjct: 176 ISRLHKRLGRTMIYVTH 192
+
+
+>pdb||4jbw_D mol:protein length:381  Maltose/maltodextrin import
+           ATP-binding prote
+          Length = 381
+
+ Score = 63.2 bits (152), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 51/197 (25%), Positives = 92/197 (46%), Gaps = 41/197 (20%)
+
+Query: 491 GEVVASR-LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLY--------KPPP 541
+           GEVV S+ +N  + EG  ++  GP+GCGKS+L R+++GL  +  G L+         PP 
+Sbjct: 14  GEVVVSKDINLDIHEGEFVVFVGPSGCGKSTLLRMIAGLETITSGDLFIGEKRMNDTPPA 73
+
+Query: 542 QHMFYIPQRPYMSLGSLRDQVIYP--DSADDMR--------EKGYTDQDLERILHSVHLY 591
+           +    +  + Y          +YP    A++M         +K   +Q + ++   + L 
+Sbjct: 74  ERGVGMVFQSY---------ALYPHLSVAENMSFGLKLAGAKKEVINQRVNQVAEVLQLA 124
+
+Query: 592 HIVQREGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTS----AVSIDVEGK 647
+           H++ R+            LSGG++QR+ + R    +P   LLDE  S    A+ + +  +
+Sbjct: 125 HLLDRK---------PKALSGGQRQRVAIGRTLVAEPSVFLLDEPLSNLDAALRVQMRIE 175
+
+Query: 648 IFQAAIGAGISLLSITH 664
+           I +     G +++ +TH
+Sbjct: 176 ISRLHKRLGRTMIYVTH 192
+
+
+>pdb||4jbw_C mol:protein length:381  Maltose/maltodextrin import
+           ATP-binding prote
+          Length = 381
+
+ Score = 63.2 bits (152), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 51/197 (25%), Positives = 92/197 (46%), Gaps = 41/197 (20%)
+
+Query: 491 GEVVASR-LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLY--------KPPP 541
+           GEVV S+ +N  + EG  ++  GP+GCGKS+L R+++GL  +  G L+         PP 
+Sbjct: 14  GEVVVSKDINLDIHEGEFVVFVGPSGCGKSTLLRMIAGLETITSGDLFIGEKRMNDTPPA 73
+
+Query: 542 QHMFYIPQRPYMSLGSLRDQVIYP--DSADDMR--------EKGYTDQDLERILHSVHLY 591
+           +    +  + Y          +YP    A++M         +K   +Q + ++   + L 
+Sbjct: 74  ERGVGMVFQSY---------ALYPHLSVAENMSFGLKLAGAKKEVINQRVNQVAEVLQLA 124
+
+Query: 592 HIVQREGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTS----AVSIDVEGK 647
+           H++ R+            LSGG++QR+ + R    +P   LLDE  S    A+ + +  +
+Sbjct: 125 HLLDRK---------PKALSGGQRQRVAIGRTLVAEPSVFLLDEPLSNLDAALRVQMRIE 175
+
+Query: 648 IFQAAIGAGISLLSITH 664
+           I +     G +++ +TH
+Sbjct: 176 ISRLHKRLGRTMIYVTH 192
+
+
+>pdb||4jbw_B mol:protein length:381  Maltose/maltodextrin import
+           ATP-binding prote
+          Length = 381
+
+ Score = 63.2 bits (152), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 51/197 (25%), Positives = 92/197 (46%), Gaps = 41/197 (20%)
+
+Query: 491 GEVVASR-LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLY--------KPPP 541
+           GEVV S+ +N  + EG  ++  GP+GCGKS+L R+++GL  +  G L+         PP 
+Sbjct: 14  GEVVVSKDINLDIHEGEFVVFVGPSGCGKSTLLRMIAGLETITSGDLFIGEKRMNDTPPA 73
+
+Query: 542 QHMFYIPQRPYMSLGSLRDQVIYP--DSADDMR--------EKGYTDQDLERILHSVHLY 591
+           +    +  + Y          +YP    A++M         +K   +Q + ++   + L 
+Sbjct: 74  ERGVGMVFQSY---------ALYPHLSVAENMSFGLKLAGAKKEVINQRVNQVAEVLQLA 124
+
+Query: 592 HIVQREGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTS----AVSIDVEGK 647
+           H++ R+            LSGG++QR+ + R    +P   LLDE  S    A+ + +  +
+Sbjct: 125 HLLDRK---------PKALSGGQRQRVAIGRTLVAEPSVFLLDEPLSNLDAALRVQMRIE 175
+
+Query: 648 IFQAAIGAGISLLSITH 664
+           I +     G +++ +TH
+Sbjct: 176 ISRLHKRLGRTMIYVTH 192
+
+
+>pdb||4jbw_A mol:protein length:381  Maltose/maltodextrin import
+           ATP-binding prote
+          Length = 381
+
+ Score = 63.2 bits (152), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 51/197 (25%), Positives = 92/197 (46%), Gaps = 41/197 (20%)
+
+Query: 491 GEVVASR-LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLY--------KPPP 541
+           GEVV S+ +N  + EG  ++  GP+GCGKS+L R+++GL  +  G L+         PP 
+Sbjct: 14  GEVVVSKDINLDIHEGEFVVFVGPSGCGKSTLLRMIAGLETITSGDLFIGEKRMNDTPPA 73
+
+Query: 542 QHMFYIPQRPYMSLGSLRDQVIYP--DSADDMR--------EKGYTDQDLERILHSVHLY 591
+           +    +  + Y          +YP    A++M         +K   +Q + ++   + L 
+Sbjct: 74  ERGVGMVFQSY---------ALYPHLSVAENMSFGLKLAGAKKEVINQRVNQVAEVLQLA 124
+
+Query: 592 HIVQREGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTS----AVSIDVEGK 647
+           H++ R+            LSGG++QR+ + R    +P   LLDE  S    A+ + +  +
+Sbjct: 125 HLLDRK---------PKALSGGQRQRVAIGRTLVAEPSVFLLDEPLSNLDAALRVQMRIE 175
+
+Query: 648 IFQAAIGAGISLLSITH 664
+           I +     G +++ +TH
+Sbjct: 176 ISRLHKRLGRTMIYVTH 192
+
+
+>pdb||3rlf_B mol:protein length:381  Maltose/maltodextrin import
+           ATP-binding prote
+          Length = 381
+
+ Score = 63.2 bits (152), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 51/197 (25%), Positives = 92/197 (46%), Gaps = 41/197 (20%)
+
+Query: 491 GEVVASR-LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLY--------KPPP 541
+           GEVV S+ +N  + EG  ++  GP+GCGKS+L R+++GL  +  G L+         PP 
+Sbjct: 14  GEVVVSKDINLDIHEGEFVVFVGPSGCGKSTLLRMIAGLETITSGDLFIGEKRMNDTPPA 73
+
+Query: 542 QHMFYIPQRPYMSLGSLRDQVIYP--DSADDMR--------EKGYTDQDLERILHSVHLY 591
+           +    +  + Y          +YP    A++M         +K   +Q + ++   + L 
+Sbjct: 74  ERGVGMVFQSY---------ALYPHLSVAENMSFGLKLAGAKKEVINQRVNQVAEVLQLA 124
+
+Query: 592 HIVQREGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTS----AVSIDVEGK 647
+           H++ R+            LSGG++QR+ + R    +P   LLDE  S    A+ + +  +
+Sbjct: 125 HLLDRK---------PKALSGGQRQRVAIGRTLVAEPSVFLLDEPLSNLDAALRVQMRIE 175
+
+Query: 648 IFQAAIGAGISLLSITH 664
+           I +     G +++ +TH
+Sbjct: 176 ISRLHKRLGRTMIYVTH 192
+
+
+>pdb||3rlf_A mol:protein length:381  Maltose/maltodextrin import
+           ATP-binding prote
+          Length = 381
+
+ Score = 63.2 bits (152), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 51/197 (25%), Positives = 92/197 (46%), Gaps = 41/197 (20%)
+
+Query: 491 GEVVASR-LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLY--------KPPP 541
+           GEVV S+ +N  + EG  ++  GP+GCGKS+L R+++GL  +  G L+         PP 
+Sbjct: 14  GEVVVSKDINLDIHEGEFVVFVGPSGCGKSTLLRMIAGLETITSGDLFIGEKRMNDTPPA 73
+
+Query: 542 QHMFYIPQRPYMSLGSLRDQVIYP--DSADDMR--------EKGYTDQDLERILHSVHLY 591
+           +    +  + Y          +YP    A++M         +K   +Q + ++   + L 
+Sbjct: 74  ERGVGMVFQSY---------ALYPHLSVAENMSFGLKLAGAKKEVINQRVNQVAEVLQLA 124
+
+Query: 592 HIVQREGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTS----AVSIDVEGK 647
+           H++ R+            LSGG++QR+ + R    +P   LLDE  S    A+ + +  +
+Sbjct: 125 HLLDRK---------PKALSGGQRQRVAIGRTLVAEPSVFLLDEPLSNLDAALRVQMRIE 175
+
+Query: 648 IFQAAIGAGISLLSITH 664
+           I +     G +++ +TH
+Sbjct: 176 ISRLHKRLGRTMIYVTH 192
+
+
+>pdb||3pv0_B mol:protein length:381  Fused maltose transport
+           subunit, ATP-binding
+          Length = 381
+
+ Score = 63.2 bits (152), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 51/197 (25%), Positives = 92/197 (46%), Gaps = 41/197 (20%)
+
+Query: 491 GEVVASR-LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLY--------KPPP 541
+           GEVV S+ +N  + EG  ++  GP+GCGKS+L R+++GL  +  G L+         PP 
+Sbjct: 14  GEVVVSKDINLDIHEGEFVVFVGPSGCGKSTLLRMIAGLETITSGDLFIGEKRMNDTPPA 73
+
+Query: 542 QHMFYIPQRPYMSLGSLRDQVIYP--DSADDMR--------EKGYTDQDLERILHSVHLY 591
+           +    +  + Y          +YP    A++M         +K   +Q + ++   + L 
+Sbjct: 74  ERGVGMVFQSY---------ALYPHLSVAENMSFGLKLAGAKKEVINQRVNQVAEVLQLA 124
+
+Query: 592 HIVQREGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTS----AVSIDVEGK 647
+           H++ R+            LSGG++QR+ + R    +P   LLDE  S    A+ + +  +
+Sbjct: 125 HLLDRK---------PKALSGGQRQRVAIGRTLVAEPSVFLLDEPLSNLDAALRVQMRIE 175
+
+Query: 648 IFQAAIGAGISLLSITH 664
+           I +     G +++ +TH
+Sbjct: 176 ISRLHKRLGRTMIYVTH 192
+
+
+>pdb||3pv0_A mol:protein length:381  Fused maltose transport
+           subunit, ATP-binding
+          Length = 381
+
+ Score = 63.2 bits (152), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 51/197 (25%), Positives = 92/197 (46%), Gaps = 41/197 (20%)
+
+Query: 491 GEVVASR-LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLY--------KPPP 541
+           GEVV S+ +N  + EG  ++  GP+GCGKS+L R+++GL  +  G L+         PP 
+Sbjct: 14  GEVVVSKDINLDIHEGEFVVFVGPSGCGKSTLLRMIAGLETITSGDLFIGEKRMNDTPPA 73
+
+Query: 542 QHMFYIPQRPYMSLGSLRDQVIYP--DSADDMR--------EKGYTDQDLERILHSVHLY 591
+           +    +  + Y          +YP    A++M         +K   +Q + ++   + L 
+Sbjct: 74  ERGVGMVFQSY---------ALYPHLSVAENMSFGLKLAGAKKEVINQRVNQVAEVLQLA 124
+
+Query: 592 HIVQREGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTS----AVSIDVEGK 647
+           H++ R+            LSGG++QR+ + R    +P   LLDE  S    A+ + +  +
+Sbjct: 125 HLLDRK---------PKALSGGQRQRVAIGRTLVAEPSVFLLDEPLSNLDAALRVQMRIE 175
+
+Query: 648 IFQAAIGAGISLLSITH 664
+           I +     G +++ +TH
+Sbjct: 176 ISRLHKRLGRTMIYVTH 192
+
+
+>pdb||3puz_B mol:protein length:381  Fused maltose transport
+           subunit, ATP-binding
+          Length = 381
+
+ Score = 63.2 bits (152), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 51/197 (25%), Positives = 92/197 (46%), Gaps = 41/197 (20%)
+
+Query: 491 GEVVASR-LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLY--------KPPP 541
+           GEVV S+ +N  + EG  ++  GP+GCGKS+L R+++GL  +  G L+         PP 
+Sbjct: 14  GEVVVSKDINLDIHEGEFVVFVGPSGCGKSTLLRMIAGLETITSGDLFIGEKRMNDTPPA 73
+
+Query: 542 QHMFYIPQRPYMSLGSLRDQVIYP--DSADDMR--------EKGYTDQDLERILHSVHLY 591
+           +    +  + Y          +YP    A++M         +K   +Q + ++   + L 
+Sbjct: 74  ERGVGMVFQSY---------ALYPHLSVAENMSFGLKLAGAKKEVINQRVNQVAEVLQLA 124
+
+Query: 592 HIVQREGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTS----AVSIDVEGK 647
+           H++ R+            LSGG++QR+ + R    +P   LLDE  S    A+ + +  +
+Sbjct: 125 HLLDRK---------PKALSGGQRQRVAIGRTLVAEPSVFLLDEPLSNLDAALRVQMRIE 175
+
+Query: 648 IFQAAIGAGISLLSITH 664
+           I +     G +++ +TH
+Sbjct: 176 ISRLHKRLGRTMIYVTH 192
+
+
+>pdb||3puz_A mol:protein length:381  Fused maltose transport
+           subunit, ATP-binding
+          Length = 381
+
+ Score = 63.2 bits (152), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 51/197 (25%), Positives = 92/197 (46%), Gaps = 41/197 (20%)
+
+Query: 491 GEVVASR-LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLY--------KPPP 541
+           GEVV S+ +N  + EG  ++  GP+GCGKS+L R+++GL  +  G L+         PP 
+Sbjct: 14  GEVVVSKDINLDIHEGEFVVFVGPSGCGKSTLLRMIAGLETITSGDLFIGEKRMNDTPPA 73
+
+Query: 542 QHMFYIPQRPYMSLGSLRDQVIYP--DSADDMR--------EKGYTDQDLERILHSVHLY 591
+           +    +  + Y          +YP    A++M         +K   +Q + ++   + L 
+Sbjct: 74  ERGVGMVFQSY---------ALYPHLSVAENMSFGLKLAGAKKEVINQRVNQVAEVLQLA 124
+
+Query: 592 HIVQREGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTS----AVSIDVEGK 647
+           H++ R+            LSGG++QR+ + R    +P   LLDE  S    A+ + +  +
+Sbjct: 125 HLLDRK---------PKALSGGQRQRVAIGRTLVAEPSVFLLDEPLSNLDAALRVQMRIE 175
+
+Query: 648 IFQAAIGAGISLLSITH 664
+           I +     G +++ +TH
+Sbjct: 176 ISRLHKRLGRTMIYVTH 192
+
+
+>pdb||3puy_B mol:protein length:381  Fused maltose transport
+           subunit, ATP-binding
+          Length = 381
+
+ Score = 63.2 bits (152), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 51/197 (25%), Positives = 92/197 (46%), Gaps = 41/197 (20%)
+
+Query: 491 GEVVASR-LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLY--------KPPP 541
+           GEVV S+ +N  + EG  ++  GP+GCGKS+L R+++GL  +  G L+         PP 
+Sbjct: 14  GEVVVSKDINLDIHEGEFVVFVGPSGCGKSTLLRMIAGLETITSGDLFIGEKRMNDTPPA 73
+
+Query: 542 QHMFYIPQRPYMSLGSLRDQVIYP--DSADDMR--------EKGYTDQDLERILHSVHLY 591
+           +    +  + Y          +YP    A++M         +K   +Q + ++   + L 
+Sbjct: 74  ERGVGMVFQSY---------ALYPHLSVAENMSFGLKLAGAKKEVINQRVNQVAEVLQLA 124
+
+Query: 592 HIVQREGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTS----AVSIDVEGK 647
+           H++ R+            LSGG++QR+ + R    +P   LLDE  S    A+ + +  +
+Sbjct: 125 HLLDRK---------PKALSGGQRQRVAIGRTLVAEPSVFLLDEPLSNLDAALRVQMRIE 175
+
+Query: 648 IFQAAIGAGISLLSITH 664
+           I +     G +++ +TH
+Sbjct: 176 ISRLHKRLGRTMIYVTH 192
+
+
+>pdb||3puy_A mol:protein length:381  Fused maltose transport
+           subunit, ATP-binding
+          Length = 381
+
+ Score = 63.2 bits (152), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 51/197 (25%), Positives = 92/197 (46%), Gaps = 41/197 (20%)
+
+Query: 491 GEVVASR-LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLY--------KPPP 541
+           GEVV S+ +N  + EG  ++  GP+GCGKS+L R+++GL  +  G L+         PP 
+Sbjct: 14  GEVVVSKDINLDIHEGEFVVFVGPSGCGKSTLLRMIAGLETITSGDLFIGEKRMNDTPPA 73
+
+Query: 542 QHMFYIPQRPYMSLGSLRDQVIYP--DSADDMR--------EKGYTDQDLERILHSVHLY 591
+           +    +  + Y          +YP    A++M         +K   +Q + ++   + L 
+Sbjct: 74  ERGVGMVFQSY---------ALYPHLSVAENMSFGLKLAGAKKEVINQRVNQVAEVLQLA 124
+
+Query: 592 HIVQREGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTS----AVSIDVEGK 647
+           H++ R+            LSGG++QR+ + R    +P   LLDE  S    A+ + +  +
+Sbjct: 125 HLLDRK---------PKALSGGQRQRVAIGRTLVAEPSVFLLDEPLSNLDAALRVQMRIE 175
+
+Query: 648 IFQAAIGAGISLLSITH 664
+           I +     G +++ +TH
+Sbjct: 176 ISRLHKRLGRTMIYVTH 192
+
+
+>pdb||3pux_B mol:protein length:381  Maltose/maltodextrin import
+           ATP-binding prote
+          Length = 381
+
+ Score = 63.2 bits (152), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 51/197 (25%), Positives = 92/197 (46%), Gaps = 41/197 (20%)
+
+Query: 491 GEVVASR-LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLY--------KPPP 541
+           GEVV S+ +N  + EG  ++  GP+GCGKS+L R+++GL  +  G L+         PP 
+Sbjct: 14  GEVVVSKDINLDIHEGEFVVFVGPSGCGKSTLLRMIAGLETITSGDLFIGEKRMNDTPPA 73
+
+Query: 542 QHMFYIPQRPYMSLGSLRDQVIYP--DSADDMR--------EKGYTDQDLERILHSVHLY 591
+           +    +  + Y          +YP    A++M         +K   +Q + ++   + L 
+Sbjct: 74  ERGVGMVFQSY---------ALYPHLSVAENMSFGLKLAGAKKEVINQRVNQVAEVLQLA 124
+
+Query: 592 HIVQREGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTS----AVSIDVEGK 647
+           H++ R+            LSGG++QR+ + R    +P   LLDE  S    A+ + +  +
+Sbjct: 125 HLLDRK---------PKALSGGQRQRVAIGRTLVAEPSVFLLDEPLSNLDAALRVQMRIE 175
+
+Query: 648 IFQAAIGAGISLLSITH 664
+           I +     G +++ +TH
+Sbjct: 176 ISRLHKRLGRTMIYVTH 192
+
+
+>pdb||3pux_A mol:protein length:381  Maltose/maltodextrin import
+           ATP-binding prote
+          Length = 381
+
+ Score = 63.2 bits (152), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 51/197 (25%), Positives = 92/197 (46%), Gaps = 41/197 (20%)
+
+Query: 491 GEVVASR-LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLY--------KPPP 541
+           GEVV S+ +N  + EG  ++  GP+GCGKS+L R+++GL  +  G L+         PP 
+Sbjct: 14  GEVVVSKDINLDIHEGEFVVFVGPSGCGKSTLLRMIAGLETITSGDLFIGEKRMNDTPPA 73
+
+Query: 542 QHMFYIPQRPYMSLGSLRDQVIYP--DSADDMR--------EKGYTDQDLERILHSVHLY 591
+           +    +  + Y          +YP    A++M         +K   +Q + ++   + L 
+Sbjct: 74  ERGVGMVFQSY---------ALYPHLSVAENMSFGLKLAGAKKEVINQRVNQVAEVLQLA 124
+
+Query: 592 HIVQREGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTS----AVSIDVEGK 647
+           H++ R+            LSGG++QR+ + R    +P   LLDE  S    A+ + +  +
+Sbjct: 125 HLLDRK---------PKALSGGQRQRVAIGRTLVAEPSVFLLDEPLSNLDAALRVQMRIE 175
+
+Query: 648 IFQAAIGAGISLLSITH 664
+           I +     G +++ +TH
+Sbjct: 176 ISRLHKRLGRTMIYVTH 192
+
+
+>pdb||3puw_B mol:protein length:381  Maltose/maltodextrin import
+           ATP-binding prote
+          Length = 381
+
+ Score = 63.2 bits (152), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 51/197 (25%), Positives = 92/197 (46%), Gaps = 41/197 (20%)
+
+Query: 491 GEVVASR-LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLY--------KPPP 541
+           GEVV S+ +N  + EG  ++  GP+GCGKS+L R+++GL  +  G L+         PP 
+Sbjct: 14  GEVVVSKDINLDIHEGEFVVFVGPSGCGKSTLLRMIAGLETITSGDLFIGEKRMNDTPPA 73
+
+Query: 542 QHMFYIPQRPYMSLGSLRDQVIYP--DSADDMR--------EKGYTDQDLERILHSVHLY 591
+           +    +  + Y          +YP    A++M         +K   +Q + ++   + L 
+Sbjct: 74  ERGVGMVFQSY---------ALYPHLSVAENMSFGLKLAGAKKEVINQRVNQVAEVLQLA 124
+
+Query: 592 HIVQREGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTS----AVSIDVEGK 647
+           H++ R+            LSGG++QR+ + R    +P   LLDE  S    A+ + +  +
+Sbjct: 125 HLLDRK---------PKALSGGQRQRVAIGRTLVAEPSVFLLDEPLSNLDAALRVQMRIE 175
+
+Query: 648 IFQAAIGAGISLLSITH 664
+           I +     G +++ +TH
+Sbjct: 176 ISRLHKRLGRTMIYVTH 192
+
+
+>pdb||3puw_A mol:protein length:381  Maltose/maltodextrin import
+           ATP-binding prote
+          Length = 381
+
+ Score = 63.2 bits (152), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 51/197 (25%), Positives = 92/197 (46%), Gaps = 41/197 (20%)
+
+Query: 491 GEVVASR-LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLY--------KPPP 541
+           GEVV S+ +N  + EG  ++  GP+GCGKS+L R+++GL  +  G L+         PP 
+Sbjct: 14  GEVVVSKDINLDIHEGEFVVFVGPSGCGKSTLLRMIAGLETITSGDLFIGEKRMNDTPPA 73
+
+Query: 542 QHMFYIPQRPYMSLGSLRDQVIYP--DSADDMR--------EKGYTDQDLERILHSVHLY 591
+           +    +  + Y          +YP    A++M         +K   +Q + ++   + L 
+Sbjct: 74  ERGVGMVFQSY---------ALYPHLSVAENMSFGLKLAGAKKEVINQRVNQVAEVLQLA 124
+
+Query: 592 HIVQREGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTS----AVSIDVEGK 647
+           H++ R+            LSGG++QR+ + R    +P   LLDE  S    A+ + +  +
+Sbjct: 125 HLLDRK---------PKALSGGQRQRVAIGRTLVAEPSVFLLDEPLSNLDAALRVQMRIE 175
+
+Query: 648 IFQAAIGAGISLLSITH 664
+           I +     G +++ +TH
+Sbjct: 176 ISRLHKRLGRTMIYVTH 192
+
+
+>pdb||3puv_B mol:protein length:381  Maltose/maltodextrin import
+           ATP-binding prote
+          Length = 381
+
+ Score = 63.2 bits (152), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 51/197 (25%), Positives = 92/197 (46%), Gaps = 41/197 (20%)
+
+Query: 491 GEVVASR-LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLY--------KPPP 541
+           GEVV S+ +N  + EG  ++  GP+GCGKS+L R+++GL  +  G L+         PP 
+Sbjct: 14  GEVVVSKDINLDIHEGEFVVFVGPSGCGKSTLLRMIAGLETITSGDLFIGEKRMNDTPPA 73
+
+Query: 542 QHMFYIPQRPYMSLGSLRDQVIYP--DSADDMR--------EKGYTDQDLERILHSVHLY 591
+           +    +  + Y          +YP    A++M         +K   +Q + ++   + L 
+Sbjct: 74  ERGVGMVFQSY---------ALYPHLSVAENMSFGLKLAGAKKEVINQRVNQVAEVLQLA 124
+
+Query: 592 HIVQREGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTS----AVSIDVEGK 647
+           H++ R+            LSGG++QR+ + R    +P   LLDE  S    A+ + +  +
+Sbjct: 125 HLLDRK---------PKALSGGQRQRVAIGRTLVAEPSVFLLDEPLSNLDAALRVQMRIE 175
+
+Query: 648 IFQAAIGAGISLLSITH 664
+           I +     G +++ +TH
+Sbjct: 176 ISRLHKRLGRTMIYVTH 192
+
+
+>pdb||3puv_A mol:protein length:381  Maltose/maltodextrin import
+           ATP-binding prote
+          Length = 381
+
+ Score = 63.2 bits (152), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 51/197 (25%), Positives = 92/197 (46%), Gaps = 41/197 (20%)
+
+Query: 491 GEVVASR-LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLY--------KPPP 541
+           GEVV S+ +N  + EG  ++  GP+GCGKS+L R+++GL  +  G L+         PP 
+Sbjct: 14  GEVVVSKDINLDIHEGEFVVFVGPSGCGKSTLLRMIAGLETITSGDLFIGEKRMNDTPPA 73
+
+Query: 542 QHMFYIPQRPYMSLGSLRDQVIYP--DSADDMR--------EKGYTDQDLERILHSVHLY 591
+           +    +  + Y          +YP    A++M         +K   +Q + ++   + L 
+Sbjct: 74  ERGVGMVFQSY---------ALYPHLSVAENMSFGLKLAGAKKEVINQRVNQVAEVLQLA 124
+
+Query: 592 HIVQREGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTS----AVSIDVEGK 647
+           H++ R+            LSGG++QR+ + R    +P   LLDE  S    A+ + +  +
+Sbjct: 125 HLLDRK---------PKALSGGQRQRVAIGRTLVAEPSVFLLDEPLSNLDAALRVQMRIE 175
+
+Query: 648 IFQAAIGAGISLLSITH 664
+           I +     G +++ +TH
+Sbjct: 176 ISRLHKRLGRTMIYVTH 192
+
+
+>pdb||3fh6_D mol:protein length:381  Maltose/maltodextrin import
+           ATP-binding prote
+          Length = 381
+
+ Score = 63.2 bits (152), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 51/197 (25%), Positives = 92/197 (46%), Gaps = 41/197 (20%)
+
+Query: 491 GEVVASR-LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLY--------KPPP 541
+           GEVV S+ +N  + EG  ++  GP+GCGKS+L R+++GL  +  G L+         PP 
+Sbjct: 14  GEVVVSKDINLDIHEGEFVVFVGPSGCGKSTLLRMIAGLETITSGDLFIGEKRMNDTPPA 73
+
+Query: 542 QHMFYIPQRPYMSLGSLRDQVIYP--DSADDMR--------EKGYTDQDLERILHSVHLY 591
+           +    +  + Y          +YP    A++M         +K   +Q + ++   + L 
+Sbjct: 74  ERGVGMVFQSY---------ALYPHLSVAENMSFGLKLAGAKKEVINQRVNQVAEVLQLA 124
+
+Query: 592 HIVQREGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTS----AVSIDVEGK 647
+           H++ R+            LSGG++QR+ + R    +P   LLDE  S    A+ + +  +
+Sbjct: 125 HLLDRK---------PKALSGGQRQRVAIGRTLVAEPSVFLLDEPLSNLDAALRVQMRIE 175
+
+Query: 648 IFQAAIGAGISLLSITH 664
+           I +     G +++ +TH
+Sbjct: 176 ISRLHKRLGRTMIYVTH 192
+
+
+>pdb||3fh6_C mol:protein length:381  Maltose/maltodextrin import
+           ATP-binding prote
+          Length = 381
+
+ Score = 63.2 bits (152), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 51/197 (25%), Positives = 92/197 (46%), Gaps = 41/197 (20%)
+
+Query: 491 GEVVASR-LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLY--------KPPP 541
+           GEVV S+ +N  + EG  ++  GP+GCGKS+L R+++GL  +  G L+         PP 
+Sbjct: 14  GEVVVSKDINLDIHEGEFVVFVGPSGCGKSTLLRMIAGLETITSGDLFIGEKRMNDTPPA 73
+
+Query: 542 QHMFYIPQRPYMSLGSLRDQVIYP--DSADDMR--------EKGYTDQDLERILHSVHLY 591
+           +    +  + Y          +YP    A++M         +K   +Q + ++   + L 
+Sbjct: 74  ERGVGMVFQSY---------ALYPHLSVAENMSFGLKLAGAKKEVINQRVNQVAEVLQLA 124
+
+Query: 592 HIVQREGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTS----AVSIDVEGK 647
+           H++ R+            LSGG++QR+ + R    +P   LLDE  S    A+ + +  +
+Sbjct: 125 HLLDRK---------PKALSGGQRQRVAIGRTLVAEPSVFLLDEPLSNLDAALRVQMRIE 175
+
+Query: 648 IFQAAIGAGISLLSITH 664
+           I +     G +++ +TH
+Sbjct: 176 ISRLHKRLGRTMIYVTH 192
+
+
+>pdb||3fh6_B mol:protein length:381  Maltose/maltodextrin import
+           ATP-binding prote
+          Length = 381
+
+ Score = 63.2 bits (152), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 51/197 (25%), Positives = 92/197 (46%), Gaps = 41/197 (20%)
+
+Query: 491 GEVVASR-LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLY--------KPPP 541
+           GEVV S+ +N  + EG  ++  GP+GCGKS+L R+++GL  +  G L+         PP 
+Sbjct: 14  GEVVVSKDINLDIHEGEFVVFVGPSGCGKSTLLRMIAGLETITSGDLFIGEKRMNDTPPA 73
+
+Query: 542 QHMFYIPQRPYMSLGSLRDQVIYP--DSADDMR--------EKGYTDQDLERILHSVHLY 591
+           +    +  + Y          +YP    A++M         +K   +Q + ++   + L 
+Sbjct: 74  ERGVGMVFQSY---------ALYPHLSVAENMSFGLKLAGAKKEVINQRVNQVAEVLQLA 124
+
+Query: 592 HIVQREGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTS----AVSIDVEGK 647
+           H++ R+            LSGG++QR+ + R    +P   LLDE  S    A+ + +  +
+Sbjct: 125 HLLDRK---------PKALSGGQRQRVAIGRTLVAEPSVFLLDEPLSNLDAALRVQMRIE 175
+
+Query: 648 IFQAAIGAGISLLSITH 664
+           I +     G +++ +TH
+Sbjct: 176 ISRLHKRLGRTMIYVTH 192
+
+
+>pdb||3fh6_A mol:protein length:381  Maltose/maltodextrin import
+           ATP-binding prote
+          Length = 381
+
+ Score = 63.2 bits (152), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 51/197 (25%), Positives = 92/197 (46%), Gaps = 41/197 (20%)
+
+Query: 491 GEVVASR-LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLY--------KPPP 541
+           GEVV S+ +N  + EG  ++  GP+GCGKS+L R+++GL  +  G L+         PP 
+Sbjct: 14  GEVVVSKDINLDIHEGEFVVFVGPSGCGKSTLLRMIAGLETITSGDLFIGEKRMNDTPPA 73
+
+Query: 542 QHMFYIPQRPYMSLGSLRDQVIYP--DSADDMR--------EKGYTDQDLERILHSVHLY 591
+           +    +  + Y          +YP    A++M         +K   +Q + ++   + L 
+Sbjct: 74  ERGVGMVFQSY---------ALYPHLSVAENMSFGLKLAGAKKEVINQRVNQVAEVLQLA 124
+
+Query: 592 HIVQREGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTS----AVSIDVEGK 647
+           H++ R+            LSGG++QR+ + R    +P   LLDE  S    A+ + +  +
+Sbjct: 125 HLLDRK---------PKALSGGQRQRVAIGRTLVAEPSVFLLDEPLSNLDAALRVQMRIE 175
+
+Query: 648 IFQAAIGAGISLLSITH 664
+           I +     G +++ +TH
+Sbjct: 176 ISRLHKRLGRTMIYVTH 192
+
+
+>pdb||2awo_D mol:protein length:381  Maltose/maltodextrin import
+           ATP-binding prote
+          Length = 381
+
+ Score = 63.2 bits (152), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 51/197 (25%), Positives = 92/197 (46%), Gaps = 41/197 (20%)
+
+Query: 491 GEVVASR-LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLY--------KPPP 541
+           GEVV S+ +N  + EG  ++  GP+GCGKS+L R+++GL  +  G L+         PP 
+Sbjct: 14  GEVVVSKDINLDIHEGEFVVFVGPSGCGKSTLLRMIAGLETITSGDLFIGEKRMNDTPPA 73
+
+Query: 542 QHMFYIPQRPYMSLGSLRDQVIYP--DSADDMR--------EKGYTDQDLERILHSVHLY 591
+           +    +  + Y          +YP    A++M         +K   +Q + ++   + L 
+Sbjct: 74  ERGVGMVFQSY---------ALYPHLSVAENMSFGLKLAGAKKEVINQRVNQVAEVLQLA 124
+
+Query: 592 HIVQREGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTS----AVSIDVEGK 647
+           H++ R+            LSGG++QR+ + R    +P   LLDE  S    A+ + +  +
+Sbjct: 125 HLLDRK---------PKALSGGQRQRVAIGRTLVAEPSVFLLDEPLSNLDAALRVQMRIE 175
+
+Query: 648 IFQAAIGAGISLLSITH 664
+           I +     G +++ +TH
+Sbjct: 176 ISRLHKRLGRTMIYVTH 192
+
+
+>pdb||2awo_C mol:protein length:381  Maltose/maltodextrin import
+           ATP-binding prote
+          Length = 381
+
+ Score = 63.2 bits (152), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 51/197 (25%), Positives = 92/197 (46%), Gaps = 41/197 (20%)
+
+Query: 491 GEVVASR-LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLY--------KPPP 541
+           GEVV S+ +N  + EG  ++  GP+GCGKS+L R+++GL  +  G L+         PP 
+Sbjct: 14  GEVVVSKDINLDIHEGEFVVFVGPSGCGKSTLLRMIAGLETITSGDLFIGEKRMNDTPPA 73
+
+Query: 542 QHMFYIPQRPYMSLGSLRDQVIYP--DSADDMR--------EKGYTDQDLERILHSVHLY 591
+           +    +  + Y          +YP    A++M         +K   +Q + ++   + L 
+Sbjct: 74  ERGVGMVFQSY---------ALYPHLSVAENMSFGLKLAGAKKEVINQRVNQVAEVLQLA 124
+
+Query: 592 HIVQREGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTS----AVSIDVEGK 647
+           H++ R+            LSGG++QR+ + R    +P   LLDE  S    A+ + +  +
+Sbjct: 125 HLLDRK---------PKALSGGQRQRVAIGRTLVAEPSVFLLDEPLSNLDAALRVQMRIE 175
+
+Query: 648 IFQAAIGAGISLLSITH 664
+           I +     G +++ +TH
+Sbjct: 176 ISRLHKRLGRTMIYVTH 192
+
+
+>pdb||2awo_B mol:protein length:381  Maltose/maltodextrin import
+           ATP-binding prote
+          Length = 381
+
+ Score = 63.2 bits (152), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 51/197 (25%), Positives = 92/197 (46%), Gaps = 41/197 (20%)
+
+Query: 491 GEVVASR-LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLY--------KPPP 541
+           GEVV S+ +N  + EG  ++  GP+GCGKS+L R+++GL  +  G L+         PP 
+Sbjct: 14  GEVVVSKDINLDIHEGEFVVFVGPSGCGKSTLLRMIAGLETITSGDLFIGEKRMNDTPPA 73
+
+Query: 542 QHMFYIPQRPYMSLGSLRDQVIYP--DSADDMR--------EKGYTDQDLERILHSVHLY 591
+           +    +  + Y          +YP    A++M         +K   +Q + ++   + L 
+Sbjct: 74  ERGVGMVFQSY---------ALYPHLSVAENMSFGLKLAGAKKEVINQRVNQVAEVLQLA 124
+
+Query: 592 HIVQREGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTS----AVSIDVEGK 647
+           H++ R+            LSGG++QR+ + R    +P   LLDE  S    A+ + +  +
+Sbjct: 125 HLLDRK---------PKALSGGQRQRVAIGRTLVAEPSVFLLDEPLSNLDAALRVQMRIE 175
+
+Query: 648 IFQAAIGAGISLLSITH 664
+           I +     G +++ +TH
+Sbjct: 176 ISRLHKRLGRTMIYVTH 192
+
+
+>pdb||2awo_A mol:protein length:381  Maltose/maltodextrin import
+           ATP-binding prote
+          Length = 381
+
+ Score = 63.2 bits (152), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 51/197 (25%), Positives = 92/197 (46%), Gaps = 41/197 (20%)
+
+Query: 491 GEVVASR-LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLY--------KPPP 541
+           GEVV S+ +N  + EG  ++  GP+GCGKS+L R+++GL  +  G L+         PP 
+Sbjct: 14  GEVVVSKDINLDIHEGEFVVFVGPSGCGKSTLLRMIAGLETITSGDLFIGEKRMNDTPPA 73
+
+Query: 542 QHMFYIPQRPYMSLGSLRDQVIYP--DSADDMR--------EKGYTDQDLERILHSVHLY 591
+           +    +  + Y          +YP    A++M         +K   +Q + ++   + L 
+Sbjct: 74  ERGVGMVFQSY---------ALYPHLSVAENMSFGLKLAGAKKEVINQRVNQVAEVLQLA 124
+
+Query: 592 HIVQREGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTS----AVSIDVEGK 647
+           H++ R+            LSGG++QR+ + R    +P   LLDE  S    A+ + +  +
+Sbjct: 125 HLLDRK---------PKALSGGQRQRVAIGRTLVAEPSVFLLDEPLSNLDAALRVQMRIE 175
+
+Query: 648 IFQAAIGAGISLLSITH 664
+           I +     G +++ +TH
+Sbjct: 176 ISRLHKRLGRTMIYVTH 192
+
+
+>pdb||2awn_D mol:protein length:381  Maltose/maltodextrin import
+           ATP-binding prote
+          Length = 381
+
+ Score = 63.2 bits (152), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 51/197 (25%), Positives = 92/197 (46%), Gaps = 41/197 (20%)
+
+Query: 491 GEVVASR-LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLY--------KPPP 541
+           GEVV S+ +N  + EG  ++  GP+GCGKS+L R+++GL  +  G L+         PP 
+Sbjct: 14  GEVVVSKDINLDIHEGEFVVFVGPSGCGKSTLLRMIAGLETITSGDLFIGEKRMNDTPPA 73
+
+Query: 542 QHMFYIPQRPYMSLGSLRDQVIYP--DSADDMR--------EKGYTDQDLERILHSVHLY 591
+           +    +  + Y          +YP    A++M         +K   +Q + ++   + L 
+Sbjct: 74  ERGVGMVFQSY---------ALYPHLSVAENMSFGLKLAGAKKEVINQRVNQVAEVLQLA 124
+
+Query: 592 HIVQREGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTS----AVSIDVEGK 647
+           H++ R+            LSGG++QR+ + R    +P   LLDE  S    A+ + +  +
+Sbjct: 125 HLLDRK---------PKALSGGQRQRVAIGRTLVAEPSVFLLDEPLSNLDAALRVQMRIE 175
+
+Query: 648 IFQAAIGAGISLLSITH 664
+           I +     G +++ +TH
+Sbjct: 176 ISRLHKRLGRTMIYVTH 192
+
+
+>pdb||2awn_C mol:protein length:381  Maltose/maltodextrin import
+           ATP-binding prote
+          Length = 381
+
+ Score = 63.2 bits (152), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 51/197 (25%), Positives = 92/197 (46%), Gaps = 41/197 (20%)
+
+Query: 491 GEVVASR-LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLY--------KPPP 541
+           GEVV S+ +N  + EG  ++  GP+GCGKS+L R+++GL  +  G L+         PP 
+Sbjct: 14  GEVVVSKDINLDIHEGEFVVFVGPSGCGKSTLLRMIAGLETITSGDLFIGEKRMNDTPPA 73
+
+Query: 542 QHMFYIPQRPYMSLGSLRDQVIYP--DSADDMR--------EKGYTDQDLERILHSVHLY 591
+           +    +  + Y          +YP    A++M         +K   +Q + ++   + L 
+Sbjct: 74  ERGVGMVFQSY---------ALYPHLSVAENMSFGLKLAGAKKEVINQRVNQVAEVLQLA 124
+
+Query: 592 HIVQREGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTS----AVSIDVEGK 647
+           H++ R+            LSGG++QR+ + R    +P   LLDE  S    A+ + +  +
+Sbjct: 125 HLLDRK---------PKALSGGQRQRVAIGRTLVAEPSVFLLDEPLSNLDAALRVQMRIE 175
+
+Query: 648 IFQAAIGAGISLLSITH 664
+           I +     G +++ +TH
+Sbjct: 176 ISRLHKRLGRTMIYVTH 192
+
+
+>pdb||2awn_B mol:protein length:381  Maltose/maltodextrin import
+           ATP-binding prote
+          Length = 381
+
+ Score = 63.2 bits (152), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 51/197 (25%), Positives = 92/197 (46%), Gaps = 41/197 (20%)
+
+Query: 491 GEVVASR-LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLY--------KPPP 541
+           GEVV S+ +N  + EG  ++  GP+GCGKS+L R+++GL  +  G L+         PP 
+Sbjct: 14  GEVVVSKDINLDIHEGEFVVFVGPSGCGKSTLLRMIAGLETITSGDLFIGEKRMNDTPPA 73
+
+Query: 542 QHMFYIPQRPYMSLGSLRDQVIYP--DSADDMR--------EKGYTDQDLERILHSVHLY 591
+           +    +  + Y          +YP    A++M         +K   +Q + ++   + L 
+Sbjct: 74  ERGVGMVFQSY---------ALYPHLSVAENMSFGLKLAGAKKEVINQRVNQVAEVLQLA 124
+
+Query: 592 HIVQREGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTS----AVSIDVEGK 647
+           H++ R+            LSGG++QR+ + R    +P   LLDE  S    A+ + +  +
+Sbjct: 125 HLLDRK---------PKALSGGQRQRVAIGRTLVAEPSVFLLDEPLSNLDAALRVQMRIE 175
+
+Query: 648 IFQAAIGAGISLLSITH 664
+           I +     G +++ +TH
+Sbjct: 176 ISRLHKRLGRTMIYVTH 192
+
+
+>pdb||2awn_A mol:protein length:381  Maltose/maltodextrin import
+           ATP-binding prote
+          Length = 381
+
+ Score = 63.2 bits (152), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 51/197 (25%), Positives = 92/197 (46%), Gaps = 41/197 (20%)
+
+Query: 491 GEVVASR-LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLY--------KPPP 541
+           GEVV S+ +N  + EG  ++  GP+GCGKS+L R+++GL  +  G L+         PP 
+Sbjct: 14  GEVVVSKDINLDIHEGEFVVFVGPSGCGKSTLLRMIAGLETITSGDLFIGEKRMNDTPPA 73
+
+Query: 542 QHMFYIPQRPYMSLGSLRDQVIYP--DSADDMR--------EKGYTDQDLERILHSVHLY 591
+           +    +  + Y          +YP    A++M         +K   +Q + ++   + L 
+Sbjct: 74  ERGVGMVFQSY---------ALYPHLSVAENMSFGLKLAGAKKEVINQRVNQVAEVLQLA 124
+
+Query: 592 HIVQREGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTS----AVSIDVEGK 647
+           H++ R+            LSGG++QR+ + R    +P   LLDE  S    A+ + +  +
+Sbjct: 125 HLLDRK---------PKALSGGQRQRVAIGRTLVAEPSVFLLDEPLSNLDAALRVQMRIE 175
+
+Query: 648 IFQAAIGAGISLLSITH 664
+           I +     G +++ +TH
+Sbjct: 176 ISRLHKRLGRTMIYVTH 192
+
+
+>pdb||1q1e_B mol:protein length:381  Maltose/maltodextrin transport
+           ATP-binding pr
+          Length = 381
+
+ Score = 63.2 bits (152), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 51/197 (25%), Positives = 92/197 (46%), Gaps = 41/197 (20%)
+
+Query: 491 GEVVASR-LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLY--------KPPP 541
+           GEVV S+ +N  + EG  ++  GP+GCGKS+L R+++GL  +  G L+         PP 
+Sbjct: 14  GEVVVSKDINLDIHEGEFVVFVGPSGCGKSTLLRMIAGLETITSGDLFIGEKRMNDTPPA 73
+
+Query: 542 QHMFYIPQRPYMSLGSLRDQVIYP--DSADDMR--------EKGYTDQDLERILHSVHLY 591
+           +    +  + Y          +YP    A++M         +K   +Q + ++   + L 
+Sbjct: 74  ERGVGMVFQSY---------ALYPHLSVAENMSFGLKLAGAKKEVINQRVNQVAEVLQLA 124
+
+Query: 592 HIVQREGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTS----AVSIDVEGK 647
+           H++ R+            LSGG++QR+ + R    +P   LLDE  S    A+ + +  +
+Sbjct: 125 HLLDRK---------PKALSGGQRQRVAIGRTLVAEPSVFLLDEPLSNLDAALRVQMRIE 175
+
+Query: 648 IFQAAIGAGISLLSITH 664
+           I +     G +++ +TH
+Sbjct: 176 ISRLHKRLGRTMIYVTH 192
+
+
+>pdb||1q1e_A mol:protein length:381  Maltose/maltodextrin transport
+           ATP-binding pr
+          Length = 381
+
+ Score = 63.2 bits (152), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 51/197 (25%), Positives = 92/197 (46%), Gaps = 41/197 (20%)
+
+Query: 491 GEVVASR-LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLY--------KPPP 541
+           GEVV S+ +N  + EG  ++  GP+GCGKS+L R+++GL  +  G L+         PP 
+Sbjct: 14  GEVVVSKDINLDIHEGEFVVFVGPSGCGKSTLLRMIAGLETITSGDLFIGEKRMNDTPPA 73
+
+Query: 542 QHMFYIPQRPYMSLGSLRDQVIYP--DSADDMR--------EKGYTDQDLERILHSVHLY 591
+           +    +  + Y          +YP    A++M         +K   +Q + ++   + L 
+Sbjct: 74  ERGVGMVFQSY---------ALYPHLSVAENMSFGLKLAGAKKEVINQRVNQVAEVLQLA 124
+
+Query: 592 HIVQREGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTS----AVSIDVEGK 647
+           H++ R+            LSGG++QR+ + R    +P   LLDE  S    A+ + +  +
+Sbjct: 125 HLLDRK---------PKALSGGQRQRVAIGRTLVAEPSVFLLDEPLSNLDAALRVQMRIE 175
+
+Query: 648 IFQAAIGAGISLLSITH 664
+           I +     G +++ +TH
+Sbjct: 176 ISRLHKRLGRTMIYVTH 192
+
+
+>pdb||1q12_D mol:protein length:381  Maltose/maltodextrin transport
+           ATP-binding pr
+          Length = 381
+
+ Score = 63.2 bits (152), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 51/197 (25%), Positives = 92/197 (46%), Gaps = 41/197 (20%)
+
+Query: 491 GEVVASR-LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLY--------KPPP 541
+           GEVV S+ +N  + EG  ++  GP+GCGKS+L R+++GL  +  G L+         PP 
+Sbjct: 14  GEVVVSKDINLDIHEGEFVVFVGPSGCGKSTLLRMIAGLETITSGDLFIGEKRMNDTPPA 73
+
+Query: 542 QHMFYIPQRPYMSLGSLRDQVIYP--DSADDMR--------EKGYTDQDLERILHSVHLY 591
+           +    +  + Y          +YP    A++M         +K   +Q + ++   + L 
+Sbjct: 74  ERGVGMVFQSY---------ALYPHLSVAENMSFGLKLAGAKKEVINQRVNQVAEVLQLA 124
+
+Query: 592 HIVQREGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTS----AVSIDVEGK 647
+           H++ R+            LSGG++QR+ + R    +P   LLDE  S    A+ + +  +
+Sbjct: 125 HLLDRK---------PKALSGGQRQRVAIGRTLVAEPSVFLLDEPLSNLDAALRVQMRIE 175
+
+Query: 648 IFQAAIGAGISLLSITH 664
+           I +     G +++ +TH
+Sbjct: 176 ISRLHKRLGRTMIYVTH 192
+
+
+>pdb||1q12_C mol:protein length:381  Maltose/maltodextrin transport
+           ATP-binding pr
+          Length = 381
+
+ Score = 63.2 bits (152), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 51/197 (25%), Positives = 92/197 (46%), Gaps = 41/197 (20%)
+
+Query: 491 GEVVASR-LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLY--------KPPP 541
+           GEVV S+ +N  + EG  ++  GP+GCGKS+L R+++GL  +  G L+         PP 
+Sbjct: 14  GEVVVSKDINLDIHEGEFVVFVGPSGCGKSTLLRMIAGLETITSGDLFIGEKRMNDTPPA 73
+
+Query: 542 QHMFYIPQRPYMSLGSLRDQVIYP--DSADDMR--------EKGYTDQDLERILHSVHLY 591
+           +    +  + Y          +YP    A++M         +K   +Q + ++   + L 
+Sbjct: 74  ERGVGMVFQSY---------ALYPHLSVAENMSFGLKLAGAKKEVINQRVNQVAEVLQLA 124
+
+Query: 592 HIVQREGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTS----AVSIDVEGK 647
+           H++ R+            LSGG++QR+ + R    +P   LLDE  S    A+ + +  +
+Sbjct: 125 HLLDRK---------PKALSGGQRQRVAIGRTLVAEPSVFLLDEPLSNLDAALRVQMRIE 175
+
+Query: 648 IFQAAIGAGISLLSITH 664
+           I +     G +++ +TH
+Sbjct: 176 ISRLHKRLGRTMIYVTH 192
+
+
+>pdb||1q12_B mol:protein length:381  Maltose/maltodextrin transport
+           ATP-binding pr
+          Length = 381
+
+ Score = 63.2 bits (152), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 51/197 (25%), Positives = 92/197 (46%), Gaps = 41/197 (20%)
+
+Query: 491 GEVVASR-LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLY--------KPPP 541
+           GEVV S+ +N  + EG  ++  GP+GCGKS+L R+++GL  +  G L+         PP 
+Sbjct: 14  GEVVVSKDINLDIHEGEFVVFVGPSGCGKSTLLRMIAGLETITSGDLFIGEKRMNDTPPA 73
+
+Query: 542 QHMFYIPQRPYMSLGSLRDQVIYP--DSADDMR--------EKGYTDQDLERILHSVHLY 591
+           +    +  + Y          +YP    A++M         +K   +Q + ++   + L 
+Sbjct: 74  ERGVGMVFQSY---------ALYPHLSVAENMSFGLKLAGAKKEVINQRVNQVAEVLQLA 124
+
+Query: 592 HIVQREGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTS----AVSIDVEGK 647
+           H++ R+            LSGG++QR+ + R    +P   LLDE  S    A+ + +  +
+Sbjct: 125 HLLDRK---------PKALSGGQRQRVAIGRTLVAEPSVFLLDEPLSNLDAALRVQMRIE 175
+
+Query: 648 IFQAAIGAGISLLSITH 664
+           I +     G +++ +TH
+Sbjct: 176 ISRLHKRLGRTMIYVTH 192
+
+
+>pdb||1q12_A mol:protein length:381  Maltose/maltodextrin transport
+           ATP-binding pr
+          Length = 381
+
+ Score = 63.2 bits (152), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 51/197 (25%), Positives = 92/197 (46%), Gaps = 41/197 (20%)
+
+Query: 491 GEVVASR-LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLY--------KPPP 541
+           GEVV S+ +N  + EG  ++  GP+GCGKS+L R+++GL  +  G L+         PP 
+Sbjct: 14  GEVVVSKDINLDIHEGEFVVFVGPSGCGKSTLLRMIAGLETITSGDLFIGEKRMNDTPPA 73
+
+Query: 542 QHMFYIPQRPYMSLGSLRDQVIYP--DSADDMR--------EKGYTDQDLERILHSVHLY 591
+           +    +  + Y          +YP    A++M         +K   +Q + ++   + L 
+Sbjct: 74  ERGVGMVFQSY---------ALYPHLSVAENMSFGLKLAGAKKEVINQRVNQVAEVLQLA 124
+
+Query: 592 HIVQREGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTS----AVSIDVEGK 647
+           H++ R+            LSGG++QR+ + R    +P   LLDE  S    A+ + +  +
+Sbjct: 125 HLLDRK---------PKALSGGQRQRVAIGRTLVAEPSVFLLDEPLSNLDAALRVQMRIE 175
+
+Query: 648 IFQAAIGAGISLLSITH 664
+           I +     G +++ +TH
+Sbjct: 176 ISRLHKRLGRTMIYVTH 192
+
+
+>pdb||1q1b_D mol:protein length:381  Maltose/maltodextrin transport
+           ATP-binding pr
+          Length = 381
+
+ Score = 63.2 bits (152), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 51/197 (25%), Positives = 92/197 (46%), Gaps = 41/197 (20%)
+
+Query: 491 GEVVASR-LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLY--------KPPP 541
+           GEVV S+ +N  + EG  ++  GP+GCGKS+L R+++GL  +  G L+         PP 
+Sbjct: 14  GEVVVSKDINLDIHEGEFVVFVGPSGCGKSTLLRMIAGLETITSGDLFIGEKRMNDTPPA 73
+
+Query: 542 QHMFYIPQRPYMSLGSLRDQVIYP--DSADDMR--------EKGYTDQDLERILHSVHLY 591
+           +    +  + Y          +YP    A++M         +K   +Q + ++   + L 
+Sbjct: 74  ERGVGMVFQSY---------ALYPHLSVAENMSFGLKLAGAKKEVINQRVNQVAEVLQLA 124
+
+Query: 592 HIVQREGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTS----AVSIDVEGK 647
+           H++ R+            LSGG++QR+ + R    +P   LLDE  S    A+ + +  +
+Sbjct: 125 HLLDRK---------PKALSGGQRQRVAIGRTLVAEPSVFLLDEPLSNLDAALRVQMRIE 175
+
+Query: 648 IFQAAIGAGISLLSITH 664
+           I +     G +++ +TH
+Sbjct: 176 ISRLHKRLGRTMIYVTH 192
+
+
+>pdb||1q1b_C mol:protein length:381  Maltose/maltodextrin transport
+           ATP-binding pr
+          Length = 381
+
+ Score = 63.2 bits (152), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 51/197 (25%), Positives = 92/197 (46%), Gaps = 41/197 (20%)
+
+Query: 491 GEVVASR-LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLY--------KPPP 541
+           GEVV S+ +N  + EG  ++  GP+GCGKS+L R+++GL  +  G L+         PP 
+Sbjct: 14  GEVVVSKDINLDIHEGEFVVFVGPSGCGKSTLLRMIAGLETITSGDLFIGEKRMNDTPPA 73
+
+Query: 542 QHMFYIPQRPYMSLGSLRDQVIYP--DSADDMR--------EKGYTDQDLERILHSVHLY 591
+           +    +  + Y          +YP    A++M         +K   +Q + ++   + L 
+Sbjct: 74  ERGVGMVFQSY---------ALYPHLSVAENMSFGLKLAGAKKEVINQRVNQVAEVLQLA 124
+
+Query: 592 HIVQREGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTS----AVSIDVEGK 647
+           H++ R+            LSGG++QR+ + R    +P   LLDE  S    A+ + +  +
+Sbjct: 125 HLLDRK---------PKALSGGQRQRVAIGRTLVAEPSVFLLDEPLSNLDAALRVQMRIE 175
+
+Query: 648 IFQAAIGAGISLLSITH 664
+           I +     G +++ +TH
+Sbjct: 176 ISRLHKRLGRTMIYVTH 192
+
+
+>pdb||1q1b_B mol:protein length:381  Maltose/maltodextrin transport
+           ATP-binding pr
+          Length = 381
+
+ Score = 63.2 bits (152), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 51/197 (25%), Positives = 92/197 (46%), Gaps = 41/197 (20%)
+
+Query: 491 GEVVASR-LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLY--------KPPP 541
+           GEVV S+ +N  + EG  ++  GP+GCGKS+L R+++GL  +  G L+         PP 
+Sbjct: 14  GEVVVSKDINLDIHEGEFVVFVGPSGCGKSTLLRMIAGLETITSGDLFIGEKRMNDTPPA 73
+
+Query: 542 QHMFYIPQRPYMSLGSLRDQVIYP--DSADDMR--------EKGYTDQDLERILHSVHLY 591
+           +    +  + Y          +YP    A++M         +K   +Q + ++   + L 
+Sbjct: 74  ERGVGMVFQSY---------ALYPHLSVAENMSFGLKLAGAKKEVINQRVNQVAEVLQLA 124
+
+Query: 592 HIVQREGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTS----AVSIDVEGK 647
+           H++ R+            LSGG++QR+ + R    +P   LLDE  S    A+ + +  +
+Sbjct: 125 HLLDRK---------PKALSGGQRQRVAIGRTLVAEPSVFLLDEPLSNLDAALRVQMRIE 175
+
+Query: 648 IFQAAIGAGISLLSITH 664
+           I +     G +++ +TH
+Sbjct: 176 ISRLHKRLGRTMIYVTH 192
+
+
+>pdb||1q1b_A mol:protein length:381  Maltose/maltodextrin transport
+           ATP-binding pr
+          Length = 381
+
+ Score = 63.2 bits (152), Expect = 1e-09,   Method: Compositional matrix adjust.
+ Identities = 51/197 (25%), Positives = 92/197 (46%), Gaps = 41/197 (20%)
+
+Query: 491 GEVVASR-LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLY--------KPPP 541
+           GEVV S+ +N  + EG  ++  GP+GCGKS+L R+++GL  +  G L+         PP 
+Sbjct: 14  GEVVVSKDINLDIHEGEFVVFVGPSGCGKSTLLRMIAGLETITSGDLFIGEKRMNDTPPA 73
+
+Query: 542 QHMFYIPQRPYMSLGSLRDQVIYP--DSADDMR--------EKGYTDQDLERILHSVHLY 591
+           +    +  + Y          +YP    A++M         +K   +Q + ++   + L 
+Sbjct: 74  ERGVGMVFQSY---------ALYPHLSVAENMSFGLKLAGAKKEVINQRVNQVAEVLQLA 124
+
+Query: 592 HIVQREGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTS----AVSIDVEGK 647
+           H++ R+            LSGG++QR+ + R    +P   LLDE  S    A+ + +  +
+Sbjct: 125 HLLDRK---------PKALSGGQRQRVAIGRTLVAEPSVFLLDEPLSNLDAALRVQMRIE 175
+
+Query: 648 IFQAAIGAGISLLSITH 664
+           I +     G +++ +TH
+Sbjct: 176 ISRLHKRLGRTMIYVTH 192
+
+
+>pdb||2pze_B mol:protein length:229  Cystic fibrosis transmembrane
+           conductance reg
+          Length = 229
+
+ Score = 60.5 bits (145), Expect = 2e-09,   Method: Compositional matrix adjust.
+ Identities = 48/178 (26%), Positives = 80/178 (44%), Gaps = 13/178 (7%)
+
+Query: 479 IICENVPII-TPAGEVVASRLNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLY 537
+           ++ ENV       G  V   +NFK+E G  L + G  G GK+SL  ++ G     EG + 
+Sbjct: 7   VVMENVTAFWEEGGTPVLKDINFKIERGQLLAVAGSTGAGKTSLLMMIMGELEPSEGKI- 65
+
+Query: 538 KPPPQHMFYIPQRPYMSLGSLRDQVIYPDSADDMREKGYTD--QDLERILHSVHLYHIVQ 595
+                 + +  Q  ++  G++++ +I+  S D+ R +      Q  E I       +IV 
+Sbjct: 66  -KHSGRISFCSQFSWIMPGTIKENIIFGVSYDEYRYRSVIKACQLEEDISKFAEKDNIVL 124
+
+Query: 596 REGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQAAI 653
+            EGG          LSGG++ R+ +AR  Y      LLD     + +  E +IF++ +
+Sbjct: 125 GEGGI--------TLSGGQRARISLARAVYKDADLYLLDSPFGYLDVLTEKEIFESCV 174
+
+
+>pdb||2pze_A mol:protein length:229  Cystic fibrosis transmembrane
+           conductance reg
+          Length = 229
+
+ Score = 60.5 bits (145), Expect = 2e-09,   Method: Compositional matrix adjust.
+ Identities = 48/178 (26%), Positives = 80/178 (44%), Gaps = 13/178 (7%)
+
+Query: 479 IICENVPII-TPAGEVVASRLNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLY 537
+           ++ ENV       G  V   +NFK+E G  L + G  G GK+SL  ++ G     EG + 
+Sbjct: 7   VVMENVTAFWEEGGTPVLKDINFKIERGQLLAVAGSTGAGKTSLLMMIMGELEPSEGKI- 65
+
+Query: 538 KPPPQHMFYIPQRPYMSLGSLRDQVIYPDSADDMREKGYTD--QDLERILHSVHLYHIVQ 595
+                 + +  Q  ++  G++++ +I+  S D+ R +      Q  E I       +IV 
+Sbjct: 66  -KHSGRISFCSQFSWIMPGTIKENIIFGVSYDEYRYRSVIKACQLEEDISKFAEKDNIVL 124
+
+Query: 596 REGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQAAI 653
+            EGG          LSGG++ R+ +AR  Y      LLD     + +  E +IF++ +
+Sbjct: 125 GEGGI--------TLSGGQRARISLARAVYKDADLYLLDSPFGYLDVLTEKEIFESCV 174
+
+
+>pdb||2pzg_B mol:protein length:241  Cystic fibrosis transmembrane
+           conductance reg
+          Length = 241
+
+ Score = 60.5 bits (145), Expect = 2e-09,   Method: Compositional matrix adjust.
+ Identities = 48/178 (26%), Positives = 80/178 (44%), Gaps = 13/178 (7%)
+
+Query: 479 IICENVPII-TPAGEVVASRLNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLY 537
+           ++ ENV       G  V   +NFK+E G  L + G  G GK+SL  ++ G     EG + 
+Sbjct: 19  VVMENVTAFWEEGGTPVLKDINFKIERGQLLAVAGSTGAGKTSLLMMIMGELEPSEGKI- 77
+
+Query: 538 KPPPQHMFYIPQRPYMSLGSLRDQVIYPDSADDMREKGYTD--QDLERILHSVHLYHIVQ 595
+                 + +  Q  ++  G++++ +I+  S D+ R +      Q  E I       +IV 
+Sbjct: 78  -KHSGRISFCSQFSWIMPGTIKENIIFGVSYDEYRYRSVIKACQLEEDISKFAEKDNIVL 136
+
+Query: 596 REGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQAAI 653
+            EGG          LSGG++ R+ +AR  Y      LLD     + +  E +IF++ +
+Sbjct: 137 GEGGI--------TLSGGQRARISLARAVYKDADLYLLDSPFGYLDVLTEKEIFESCV 186
+
+
+>pdb||2pzg_A mol:protein length:241  Cystic fibrosis transmembrane
+           conductance reg
+          Length = 241
+
+ Score = 60.5 bits (145), Expect = 2e-09,   Method: Compositional matrix adjust.
+ Identities = 48/178 (26%), Positives = 80/178 (44%), Gaps = 13/178 (7%)
+
+Query: 479 IICENVPII-TPAGEVVASRLNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLY 537
+           ++ ENV       G  V   +NFK+E G  L + G  G GK+SL  ++ G     EG + 
+Sbjct: 19  VVMENVTAFWEEGGTPVLKDINFKIERGQLLAVAGSTGAGKTSLLMMIMGELEPSEGKI- 77
+
+Query: 538 KPPPQHMFYIPQRPYMSLGSLRDQVIYPDSADDMREKGYTD--QDLERILHSVHLYHIVQ 595
+                 + +  Q  ++  G++++ +I+  S D+ R +      Q  E I       +IV 
+Sbjct: 78  -KHSGRISFCSQFSWIMPGTIKENIIFGVSYDEYRYRSVIKACQLEEDISKFAEKDNIVL 136
+
+Query: 596 REGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQAAI 653
+            EGG          LSGG++ R+ +AR  Y      LLD     + +  E +IF++ +
+Sbjct: 137 GEGGI--------TLSGGQRARISLARAVYKDADLYLLDSPFGYLDVLTEKEIFESCV 186
+
+
+>pdb||1mv5_D mol:protein length:243  Multidrug resistance ABC
+           transporter ATP-bind
+          Length = 243
+
+ Score = 60.5 bits (145), Expect = 3e-09,   Method: Compositional matrix adjust.
+ Identities = 49/196 (25%), Positives = 88/196 (44%), Gaps = 31/196 (15%)
+
+Query: 492 EVVASRLNFKVEEGMHLLITGPNGCGKSSLFRILSGLW-PVYEGVLYKPPP--------- 541
+           E +   ++F+ +    +   GP+G GKS++F +L   + P    +     P         
+Sbjct: 15  EQILRDISFEAQPNSIIAFAGPSGGGKSTIFSLLERFYQPTAGEITIDGQPIDNISLENW 74
+
+Query: 542 -QHMFYIPQRPYMSLGSLRDQVIYPDSADDMREKGYTDQDLERILHSVHLYHIVQR---- 596
+              + ++ Q   +  G++R+ + Y    D      YTD+DL ++L        V+     
+Sbjct: 75  RSQIGFVSQDSAIMAGTIRENLTYGLEGD------YTDEDLWQVLDLAFARSFVENMPDQ 128
+
+Query: 597 ---EGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQA-- 651
+              E G   V      +SGG++QR+ +AR F   PK  +LDE T+++  + E  + +A  
+Sbjct: 129 LNTEVGERGVK-----ISGGQRQRLAIARAFLRNPKILMLDEATASLDSESESMVQKALD 183
+
+Query: 652 AIGAGISLLSITHRPS 667
+           ++  G + L I HR S
+Sbjct: 184 SLMKGRTTLVIAHRLS 199
+
+
+>pdb||1mv5_C mol:protein length:243  Multidrug resistance ABC
+           transporter ATP-bind
+          Length = 243
+
+ Score = 60.5 bits (145), Expect = 3e-09,   Method: Compositional matrix adjust.
+ Identities = 49/196 (25%), Positives = 88/196 (44%), Gaps = 31/196 (15%)
+
+Query: 492 EVVASRLNFKVEEGMHLLITGPNGCGKSSLFRILSGLW-PVYEGVLYKPPP--------- 541
+           E +   ++F+ +    +   GP+G GKS++F +L   + P    +     P         
+Sbjct: 15  EQILRDISFEAQPNSIIAFAGPSGGGKSTIFSLLERFYQPTAGEITIDGQPIDNISLENW 74
+
+Query: 542 -QHMFYIPQRPYMSLGSLRDQVIYPDSADDMREKGYTDQDLERILHSVHLYHIVQR---- 596
+              + ++ Q   +  G++R+ + Y    D      YTD+DL ++L        V+     
+Sbjct: 75  RSQIGFVSQDSAIMAGTIRENLTYGLEGD------YTDEDLWQVLDLAFARSFVENMPDQ 128
+
+Query: 597 ---EGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQA-- 651
+              E G   V      +SGG++QR+ +AR F   PK  +LDE T+++  + E  + +A  
+Sbjct: 129 LNTEVGERGVK-----ISGGQRQRLAIARAFLRNPKILMLDEATASLDSESESMVQKALD 183
+
+Query: 652 AIGAGISLLSITHRPS 667
+           ++  G + L I HR S
+Sbjct: 184 SLMKGRTTLVIAHRLS 199
+
+
+>pdb||1mv5_B mol:protein length:243  Multidrug resistance ABC
+           transporter ATP-bind
+          Length = 243
+
+ Score = 60.5 bits (145), Expect = 3e-09,   Method: Compositional matrix adjust.
+ Identities = 49/196 (25%), Positives = 88/196 (44%), Gaps = 31/196 (15%)
+
+Query: 492 EVVASRLNFKVEEGMHLLITGPNGCGKSSLFRILSGLW-PVYEGVLYKPPP--------- 541
+           E +   ++F+ +    +   GP+G GKS++F +L   + P    +     P         
+Sbjct: 15  EQILRDISFEAQPNSIIAFAGPSGGGKSTIFSLLERFYQPTAGEITIDGQPIDNISLENW 74
+
+Query: 542 -QHMFYIPQRPYMSLGSLRDQVIYPDSADDMREKGYTDQDLERILHSVHLYHIVQR---- 596
+              + ++ Q   +  G++R+ + Y    D      YTD+DL ++L        V+     
+Sbjct: 75  RSQIGFVSQDSAIMAGTIRENLTYGLEGD------YTDEDLWQVLDLAFARSFVENMPDQ 128
+
+Query: 597 ---EGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQA-- 651
+              E G   V      +SGG++QR+ +AR F   PK  +LDE T+++  + E  + +A  
+Sbjct: 129 LNTEVGERGVK-----ISGGQRQRLAIARAFLRNPKILMLDEATASLDSESESMVQKALD 183
+
+Query: 652 AIGAGISLLSITHRPS 667
+           ++  G + L I HR S
+Sbjct: 184 SLMKGRTTLVIAHRLS 199
+
+
+>pdb||1mv5_A mol:protein length:243  Multidrug resistance ABC
+           transporter ATP-bind
+          Length = 243
+
+ Score = 60.5 bits (145), Expect = 3e-09,   Method: Compositional matrix adjust.
+ Identities = 49/196 (25%), Positives = 88/196 (44%), Gaps = 31/196 (15%)
+
+Query: 492 EVVASRLNFKVEEGMHLLITGPNGCGKSSLFRILSGLW-PVYEGVLYKPPP--------- 541
+           E +   ++F+ +    +   GP+G GKS++F +L   + P    +     P         
+Sbjct: 15  EQILRDISFEAQPNSIIAFAGPSGGGKSTIFSLLERFYQPTAGEITIDGQPIDNISLENW 74
+
+Query: 542 -QHMFYIPQRPYMSLGSLRDQVIYPDSADDMREKGYTDQDLERILHSVHLYHIVQR---- 596
+              + ++ Q   +  G++R+ + Y    D      YTD+DL ++L        V+     
+Sbjct: 75  RSQIGFVSQDSAIMAGTIRENLTYGLEGD------YTDEDLWQVLDLAFARSFVENMPDQ 128
+
+Query: 597 ---EGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQA-- 651
+              E G   V      +SGG++QR+ +AR F   PK  +LDE T+++  + E  + +A  
+Sbjct: 129 LNTEVGERGVK-----ISGGQRQRLAIARAFLRNPKILMLDEATASLDSESESMVQKALD 183
+
+Query: 652 AIGAGISLLSITHRPS 667
+           ++  G + L I HR S
+Sbjct: 184 SLMKGRTTLVIAHRLS 199
+
+
+>pdb||2r6g_B mol:protein length:381  Maltose/maltodextrin import
+           ATP-binding prote
+          Length = 381
+
+ Score = 62.0 bits (149), Expect = 3e-09,   Method: Compositional matrix adjust.
+ Identities = 50/197 (25%), Positives = 92/197 (46%), Gaps = 41/197 (20%)
+
+Query: 491 GEVVASR-LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLY--------KPPP 541
+           GEVV S+ +N  + EG  ++  GP+GCGKS+L R+++GL  +  G L+         PP 
+Sbjct: 14  GEVVVSKDINLDIHEGEFVVFVGPSGCGKSTLLRMIAGLETITSGDLFIGEKRMNDTPPA 73
+
+Query: 542 QHMFYIPQRPYMSLGSLRDQVIYP--DSADDMR--------EKGYTDQDLERILHSVHLY 591
+           +    +  + Y          +YP    A++M         +K   +Q + ++   + L 
+Sbjct: 74  ERGVGMVFQSY---------ALYPHLSVAENMSFGLKLAGAKKEVINQRVNQVAEVLQLA 124
+
+Query: 592 HIVQREGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTS----AVSIDVEGK 647
+           H++ R+            LSGG++QR+ + R    +P   LLD+  S    A+ + +  +
+Sbjct: 125 HLLDRK---------PKALSGGQRQRVAIGRTLVAEPSVFLLDQPLSNLDAALRVQMRIE 175
+
+Query: 648 IFQAAIGAGISLLSITH 664
+           I +     G +++ +TH
+Sbjct: 176 ISRLHKRLGRTMIYVTH 192
+
+
+>pdb||2r6g_A mol:protein length:381  Maltose/maltodextrin import
+           ATP-binding prote
+          Length = 381
+
+ Score = 62.0 bits (149), Expect = 3e-09,   Method: Compositional matrix adjust.
+ Identities = 50/197 (25%), Positives = 92/197 (46%), Gaps = 41/197 (20%)
+
+Query: 491 GEVVASR-LNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLY--------KPPP 541
+           GEVV S+ +N  + EG  ++  GP+GCGKS+L R+++GL  +  G L+         PP 
+Sbjct: 14  GEVVVSKDINLDIHEGEFVVFVGPSGCGKSTLLRMIAGLETITSGDLFIGEKRMNDTPPA 73
+
+Query: 542 QHMFYIPQRPYMSLGSLRDQVIYP--DSADDMR--------EKGYTDQDLERILHSVHLY 591
+           +    +  + Y          +YP    A++M         +K   +Q + ++   + L 
+Sbjct: 74  ERGVGMVFQSY---------ALYPHLSVAENMSFGLKLAGAKKEVINQRVNQVAEVLQLA 124
+
+Query: 592 HIVQREGGWDAVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTS----AVSIDVEGK 647
+           H++ R+            LSGG++QR+ + R    +P   LLD+  S    A+ + +  +
+Sbjct: 125 HLLDRK---------PKALSGGQRQRVAIGRTLVAEPSVFLLDQPLSNLDAALRVQMRIE 175
+
+Query: 648 IFQAAIGAGISLLSITH 664
+           I +     G +++ +TH
+Sbjct: 176 ISRLHKRLGRTMIYVTH 192
+
+
+>pdb||3qf4_A mol:protein length:587  ABC transporter, ATP-binding
+           protein
+          Length = 587
+
+ Score = 61.6 bits (148), Expect = 5e-09,   Method: Compositional matrix adjust.
+ Identities = 48/170 (28%), Positives = 76/170 (44%), Gaps = 18/170 (10%)
+
+Query: 494 VASRLNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEG-----------VLYKPPPQ 542
+           V S +NF V+ G  + + G  G GKS+L  ++  L     G           V  K    
+Sbjct: 358 VLSGVNFSVKPGSLVAVLGETGSGKSTLMNLIPRLIDPERGRVEVDELDVRTVKLKDLRG 417
+
+Query: 543 HMFYIPQRPYMSLGSLRDQVIYPDSADDMREKGYTDQDLERI-LHSVHLYHIVQREGGWD 601
+           H+  +PQ   +  G++++ + +       RE    D+ +E   +  +H + I   EG   
+Sbjct: 418 HISAVPQETVLFSGTIKENLKWG------REDATDDEIVEAAKIAQIHDFIISLPEGYDS 471
+
+Query: 602 AVMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQA 651
+            V       SGG+KQR+ +AR    KPK  +LD+CTS+V    E +I   
+Sbjct: 472 RVERGGRNFSGGQKQRLSIARALVKKPKVLILDDCTSSVDPITEKRILDG 521
+
+
+>pdb||4a82_D mol:protein length:578  CYSTIC FIBROSIS TRANSMEMBRANE
+           CONDUCTANCE REG
+          Length = 578
+
+ Score = 60.5 bits (145), Expect = 1e-08,   Method: Compositional matrix adjust.
+ Identities = 53/213 (24%), Positives = 98/213 (46%), Gaps = 19/213 (8%)
+
+Query: 466 LAIKGTVIDVDHGIICEN---VPIITPAGEVVASRLNFKVEEGMHLLITGPNGCGKSSLF 522
+           + IK   ID+DH     N    PI+          +N  +E+G  +   G +G GKS+L 
+Sbjct: 333 IEIKQGRIDIDHVSFQYNDNEAPIL--------KDINLSIEKGETVAFVGMSGGGKSTLI 384
+
+Query: 523 RILSGLWPVYEGVLYKPPPQHMFYIPQRPYMSLGSLR-DQVIYPDSADDMREKGYTDQDL 581
+            ++   + V  G +         ++       +G ++ D +++ D+  +    G      
+Sbjct: 385 NLIPRFYDVTSGQILIDGHNIKDFLTGSLRNQIGLVQQDNILFSDTVKENILLGRPTATD 444
+
+Query: 582 ERILHSVHLYH----IVQREGGWDAVMDWKDV-LSGGEKQRMGMARMFYHKPKYALLDEC 636
+           E ++ +  + +    I+    G+D  +  + V LSGG+KQR+ +AR+F + P   +LDE 
+Sbjct: 445 EEVVEAAKMANAHDFIMNLPQGYDTEVGERGVKLSGGQKQRLSIARIFLNNPPILILDEA 504
+
+Query: 637 TSAVSIDVEGKIFQA--AIGAGISLLSITHRPS 667
+           TSA+ ++ E  I +A   +    + L + HR S
+Sbjct: 505 TSALDLESESIIQEALDVLSKDRTTLIVAHRLS 537
+
+
+>pdb||4a82_C mol:protein length:578  CYSTIC FIBROSIS TRANSMEMBRANE
+           CONDUCTANCE REG
+          Length = 578
+
+ Score = 60.5 bits (145), Expect = 1e-08,   Method: Compositional matrix adjust.
+ Identities = 53/213 (24%), Positives = 98/213 (46%), Gaps = 19/213 (8%)
+
+Query: 466 LAIKGTVIDVDHGIICEN---VPIITPAGEVVASRLNFKVEEGMHLLITGPNGCGKSSLF 522
+           + IK   ID+DH     N    PI+          +N  +E+G  +   G +G GKS+L 
+Sbjct: 333 IEIKQGRIDIDHVSFQYNDNEAPIL--------KDINLSIEKGETVAFVGMSGGGKSTLI 384
+
+Query: 523 RILSGLWPVYEGVLYKPPPQHMFYIPQRPYMSLGSLR-DQVIYPDSADDMREKGYTDQDL 581
+            ++   + V  G +         ++       +G ++ D +++ D+  +    G      
+Sbjct: 385 NLIPRFYDVTSGQILIDGHNIKDFLTGSLRNQIGLVQQDNILFSDTVKENILLGRPTATD 444
+
+Query: 582 ERILHSVHLYH----IVQREGGWDAVMDWKDV-LSGGEKQRMGMARMFYHKPKYALLDEC 636
+           E ++ +  + +    I+    G+D  +  + V LSGG+KQR+ +AR+F + P   +LDE 
+Sbjct: 445 EEVVEAAKMANAHDFIMNLPQGYDTEVGERGVKLSGGQKQRLSIARIFLNNPPILILDEA 504
+
+Query: 637 TSAVSIDVEGKIFQA--AIGAGISLLSITHRPS 667
+           TSA+ ++ E  I +A   +    + L + HR S
+Sbjct: 505 TSALDLESESIIQEALDVLSKDRTTLIVAHRLS 537
+
+
+>pdb||4a82_B mol:protein length:578  CYSTIC FIBROSIS TRANSMEMBRANE
+           CONDUCTANCE REG
+          Length = 578
+
+ Score = 60.5 bits (145), Expect = 1e-08,   Method: Compositional matrix adjust.
+ Identities = 53/213 (24%), Positives = 98/213 (46%), Gaps = 19/213 (8%)
+
+Query: 466 LAIKGTVIDVDHGIICEN---VPIITPAGEVVASRLNFKVEEGMHLLITGPNGCGKSSLF 522
+           + IK   ID+DH     N    PI+          +N  +E+G  +   G +G GKS+L 
+Sbjct: 333 IEIKQGRIDIDHVSFQYNDNEAPIL--------KDINLSIEKGETVAFVGMSGGGKSTLI 384
+
+Query: 523 RILSGLWPVYEGVLYKPPPQHMFYIPQRPYMSLGSLR-DQVIYPDSADDMREKGYTDQDL 581
+            ++   + V  G +         ++       +G ++ D +++ D+  +    G      
+Sbjct: 385 NLIPRFYDVTSGQILIDGHNIKDFLTGSLRNQIGLVQQDNILFSDTVKENILLGRPTATD 444
+
+Query: 582 ERILHSVHLYH----IVQREGGWDAVMDWKDV-LSGGEKQRMGMARMFYHKPKYALLDEC 636
+           E ++ +  + +    I+    G+D  +  + V LSGG+KQR+ +AR+F + P   +LDE 
+Sbjct: 445 EEVVEAAKMANAHDFIMNLPQGYDTEVGERGVKLSGGQKQRLSIARIFLNNPPILILDEA 504
+
+Query: 637 TSAVSIDVEGKIFQA--AIGAGISLLSITHRPS 667
+           TSA+ ++ E  I +A   +    + L + HR S
+Sbjct: 505 TSALDLESESIIQEALDVLSKDRTTLIVAHRLS 537
+
+
+>pdb||4a82_A mol:protein length:578  CYSTIC FIBROSIS TRANSMEMBRANE
+           CONDUCTANCE REG
+          Length = 578
+
+ Score = 60.5 bits (145), Expect = 1e-08,   Method: Compositional matrix adjust.
+ Identities = 53/213 (24%), Positives = 98/213 (46%), Gaps = 19/213 (8%)
+
+Query: 466 LAIKGTVIDVDHGIICEN---VPIITPAGEVVASRLNFKVEEGMHLLITGPNGCGKSSLF 522
+           + IK   ID+DH     N    PI+          +N  +E+G  +   G +G GKS+L 
+Sbjct: 333 IEIKQGRIDIDHVSFQYNDNEAPIL--------KDINLSIEKGETVAFVGMSGGGKSTLI 384
+
+Query: 523 RILSGLWPVYEGVLYKPPPQHMFYIPQRPYMSLGSLR-DQVIYPDSADDMREKGYTDQDL 581
+            ++   + V  G +         ++       +G ++ D +++ D+  +    G      
+Sbjct: 385 NLIPRFYDVTSGQILIDGHNIKDFLTGSLRNQIGLVQQDNILFSDTVKENILLGRPTATD 444
+
+Query: 582 ERILHSVHLYH----IVQREGGWDAVMDWKDV-LSGGEKQRMGMARMFYHKPKYALLDEC 636
+           E ++ +  + +    I+    G+D  +  + V LSGG+KQR+ +AR+F + P   +LDE 
+Sbjct: 445 EEVVEAAKMANAHDFIMNLPQGYDTEVGERGVKLSGGQKQRLSIARIFLNNPPILILDEA 504
+
+Query: 637 TSAVSIDVEGKIFQA--AIGAGISLLSITHRPS 667
+           TSA+ ++ E  I +A   +    + L + HR S
+Sbjct: 505 TSALDLESESIIQEALDVLSKDRTTLIVAHRLS 537
+
+
+>pdb||2onj_B mol:protein length:578  Multidrug export
+           ATP-binding/permease protein
+          Length = 578
+
+ Score = 60.5 bits (145), Expect = 1e-08,   Method: Compositional matrix adjust.
+ Identities = 53/213 (24%), Positives = 98/213 (46%), Gaps = 19/213 (8%)
+
+Query: 466 LAIKGTVIDVDHGIICEN---VPIITPAGEVVASRLNFKVEEGMHLLITGPNGCGKSSLF 522
+           + IK   ID+DH     N    PI+          +N  +E+G  +   G +G GKS+L 
+Sbjct: 333 IEIKQGRIDIDHVSFQYNDNEAPIL--------KDINLSIEKGETVAFVGMSGGGKSTLI 384
+
+Query: 523 RILSGLWPVYEGVLYKPPPQHMFYIPQRPYMSLGSLR-DQVIYPDSADDMREKGYTDQDL 581
+            ++   + V  G +         ++       +G ++ D +++ D+  +    G      
+Sbjct: 385 NLIPRFYDVTSGQILIDGHNIKDFLTGSLRNQIGLVQQDNILFSDTVKENILLGRPTATD 444
+
+Query: 582 ERILHSVHLYH----IVQREGGWDAVMDWKDV-LSGGEKQRMGMARMFYHKPKYALLDEC 636
+           E ++ +  + +    I+    G+D  +  + V LSGG+KQR+ +AR+F + P   +LDE 
+Sbjct: 445 EEVVEAAKMANAHDFIMNLPQGYDTEVGERGVKLSGGQKQRLSIARIFLNNPPILILDEA 504
+
+Query: 637 TSAVSIDVEGKIFQA--AIGAGISLLSITHRPS 667
+           TSA+ ++ E  I +A   +    + L + HR S
+Sbjct: 505 TSALDLESESIIQEALDVLSKDRTTLIVAHRLS 537
+
+
+>pdb||2onj_A mol:protein length:578  Multidrug export
+           ATP-binding/permease protein
+          Length = 578
+
+ Score = 60.5 bits (145), Expect = 1e-08,   Method: Compositional matrix adjust.
+ Identities = 53/213 (24%), Positives = 98/213 (46%), Gaps = 19/213 (8%)
+
+Query: 466 LAIKGTVIDVDHGIICEN---VPIITPAGEVVASRLNFKVEEGMHLLITGPNGCGKSSLF 522
+           + IK   ID+DH     N    PI+          +N  +E+G  +   G +G GKS+L 
+Sbjct: 333 IEIKQGRIDIDHVSFQYNDNEAPIL--------KDINLSIEKGETVAFVGMSGGGKSTLI 384
+
+Query: 523 RILSGLWPVYEGVLYKPPPQHMFYIPQRPYMSLGSLR-DQVIYPDSADDMREKGYTDQDL 581
+            ++   + V  G +         ++       +G ++ D +++ D+  +    G      
+Sbjct: 385 NLIPRFYDVTSGQILIDGHNIKDFLTGSLRNQIGLVQQDNILFSDTVKENILLGRPTATD 444
+
+Query: 582 ERILHSVHLYH----IVQREGGWDAVMDWKDV-LSGGEKQRMGMARMFYHKPKYALLDEC 636
+           E ++ +  + +    I+    G+D  +  + V LSGG+KQR+ +AR+F + P   +LDE 
+Sbjct: 445 EEVVEAAKMANAHDFIMNLPQGYDTEVGERGVKLSGGQKQRLSIARIFLNNPPILILDEA 504
+
+Query: 637 TSAVSIDVEGKIFQA--AIGAGISLLSITHRPS 667
+           TSA+ ++ E  I +A   +    + L + HR S
+Sbjct: 505 TSALDLESESIIQEALDVLSKDRTTLIVAHRLS 537
+
+
+>pdb||2hyd_B mol:protein length:578  ABC transporter homolog
+          Length = 578
+
+ Score = 60.5 bits (145), Expect = 1e-08,   Method: Compositional matrix adjust.
+ Identities = 53/213 (24%), Positives = 98/213 (46%), Gaps = 19/213 (8%)
+
+Query: 466 LAIKGTVIDVDHGIICEN---VPIITPAGEVVASRLNFKVEEGMHLLITGPNGCGKSSLF 522
+           + IK   ID+DH     N    PI+          +N  +E+G  +   G +G GKS+L 
+Sbjct: 333 IEIKQGRIDIDHVSFQYNDNEAPIL--------KDINLSIEKGETVAFVGMSGGGKSTLI 384
+
+Query: 523 RILSGLWPVYEGVLYKPPPQHMFYIPQRPYMSLGSLR-DQVIYPDSADDMREKGYTDQDL 581
+            ++   + V  G +         ++       +G ++ D +++ D+  +    G      
+Sbjct: 385 NLIPRFYDVTSGQILIDGHNIKDFLTGSLRNQIGLVQQDNILFSDTVKENILLGRPTATD 444
+
+Query: 582 ERILHSVHLYH----IVQREGGWDAVMDWKDV-LSGGEKQRMGMARMFYHKPKYALLDEC 636
+           E ++ +  + +    I+    G+D  +  + V LSGG+KQR+ +AR+F + P   +LDE 
+Sbjct: 445 EEVVEAAKMANAHDFIMNLPQGYDTEVGERGVKLSGGQKQRLSIARIFLNNPPILILDEA 504
+
+Query: 637 TSAVSIDVEGKIFQA--AIGAGISLLSITHRPS 667
+           TSA+ ++ E  I +A   +    + L + HR S
+Sbjct: 505 TSALDLESESIIQEALDVLSKDRTTLIVAHRLS 537
+
+
+>pdb||2hyd_A mol:protein length:578  ABC transporter homolog
+          Length = 578
+
+ Score = 60.5 bits (145), Expect = 1e-08,   Method: Compositional matrix adjust.
+ Identities = 53/213 (24%), Positives = 98/213 (46%), Gaps = 19/213 (8%)
+
+Query: 466 LAIKGTVIDVDHGIICEN---VPIITPAGEVVASRLNFKVEEGMHLLITGPNGCGKSSLF 522
+           + IK   ID+DH     N    PI+          +N  +E+G  +   G +G GKS+L 
+Sbjct: 333 IEIKQGRIDIDHVSFQYNDNEAPIL--------KDINLSIEKGETVAFVGMSGGGKSTLI 384
+
+Query: 523 RILSGLWPVYEGVLYKPPPQHMFYIPQRPYMSLGSLR-DQVIYPDSADDMREKGYTDQDL 581
+            ++   + V  G +         ++       +G ++ D +++ D+  +    G      
+Sbjct: 385 NLIPRFYDVTSGQILIDGHNIKDFLTGSLRNQIGLVQQDNILFSDTVKENILLGRPTATD 444
+
+Query: 582 ERILHSVHLYH----IVQREGGWDAVMDWKDV-LSGGEKQRMGMARMFYHKPKYALLDEC 636
+           E ++ +  + +    I+    G+D  +  + V LSGG+KQR+ +AR+F + P   +LDE 
+Sbjct: 445 EEVVEAAKMANAHDFIMNLPQGYDTEVGERGVKLSGGQKQRLSIARIFLNNPPILILDEA 504
+
+Query: 637 TSAVSIDVEGKIFQA--AIGAGISLLSITHRPS 667
+           TSA+ ++ E  I +A   +    + L + HR S
+Sbjct: 505 TSALDLESESIIQEALDVLSKDRTTLIVAHRLS 537
+
+
+>pdb||1r10_B mol:protein length:286  Cystic fibrosis transmembrane
+           conductance reg
+          Length = 286
+
+ Score = 58.5 bits (140), Expect = 2e-08,   Method: Compositional matrix adjust.
+ Identities = 43/165 (26%), Positives = 75/165 (45%), Gaps = 12/165 (7%)
+
+Query: 491 GEVVASRLNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLYKPPPQHMFYIPQR 550
+           G  V   +N  +E+G  L ITG  G GK+SL  ++ G     EG++       + +  Q 
+Sbjct: 50  GNPVLKNINLNIEKGEMLAITGSTGSGKTSLLMLILGELEASEGII--KHSGRVSFCSQF 107
+
+Query: 551 PYMSLGSLRDQVIYPDSADDMREKGYTD--QDLERILHSVHLYHIVQREGGWDAVMDWKD 608
+            ++  G++++ +I+  S D+ R K      Q  + I       + V  EGG         
+Sbjct: 108 SWIMPGTIKENIIFGVSYDEYRYKSVVKACQLQQDITKFAEQDNTVLGEGGV-------- 159
+
+Query: 609 VLSGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQAAI 653
+            LSGG++ R+ +AR  Y      LLD     + +  E ++F++ +
+Sbjct: 160 TLSGGQRARISLARAVYKDADLYLLDSPFGYLDVFTEEQVFESCV 204
+
+
+>pdb||1r10_A mol:protein length:286  Cystic fibrosis transmembrane
+           conductance reg
+          Length = 286
+
+ Score = 58.5 bits (140), Expect = 2e-08,   Method: Compositional matrix adjust.
+ Identities = 43/165 (26%), Positives = 75/165 (45%), Gaps = 12/165 (7%)
+
+Query: 491 GEVVASRLNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLYKPPPQHMFYIPQR 550
+           G  V   +N  +E+G  L ITG  G GK+SL  ++ G     EG++       + +  Q 
+Sbjct: 50  GNPVLKNINLNIEKGEMLAITGSTGSGKTSLLMLILGELEASEGII--KHSGRVSFCSQF 107
+
+Query: 551 PYMSLGSLRDQVIYPDSADDMREKGYTD--QDLERILHSVHLYHIVQREGGWDAVMDWKD 608
+            ++  G++++ +I+  S D+ R K      Q  + I       + V  EGG         
+Sbjct: 108 SWIMPGTIKENIIFGVSYDEYRYKSVVKACQLQQDITKFAEQDNTVLGEGGV-------- 159
+
+Query: 609 VLSGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQAAI 653
+            LSGG++ R+ +AR  Y      LLD     + +  E ++F++ +
+Sbjct: 160 TLSGGQRARISLARAVYKDADLYLLDSPFGYLDVFTEEQVFESCV 204
+
+
+>pdb||1r0z_D mol:protein length:286  Cystic fibrosis transmembrane
+           conductance reg
+          Length = 286
+
+ Score = 58.5 bits (140), Expect = 2e-08,   Method: Compositional matrix adjust.
+ Identities = 43/165 (26%), Positives = 75/165 (45%), Gaps = 12/165 (7%)
+
+Query: 491 GEVVASRLNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLYKPPPQHMFYIPQR 550
+           G  V   +N  +E+G  L ITG  G GK+SL  ++ G     EG++       + +  Q 
+Sbjct: 50  GNPVLKNINLNIEKGEMLAITGSTGSGKTSLLMLILGELEASEGII--KHSGRVSFCSQF 107
+
+Query: 551 PYMSLGSLRDQVIYPDSADDMREKGYTD--QDLERILHSVHLYHIVQREGGWDAVMDWKD 608
+            ++  G++++ +I+  S D+ R K      Q  + I       + V  EGG         
+Sbjct: 108 SWIMPGTIKENIIFGVSYDEYRYKSVVKACQLQQDITKFAEQDNTVLGEGGV-------- 159
+
+Query: 609 VLSGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQAAI 653
+            LSGG++ R+ +AR  Y      LLD     + +  E ++F++ +
+Sbjct: 160 TLSGGQRARISLARAVYKDADLYLLDSPFGYLDVFTEEQVFESCV 204
+
+
+>pdb||1r0z_C mol:protein length:286  Cystic fibrosis transmembrane
+           conductance reg
+          Length = 286
+
+ Score = 58.5 bits (140), Expect = 2e-08,   Method: Compositional matrix adjust.
+ Identities = 43/165 (26%), Positives = 75/165 (45%), Gaps = 12/165 (7%)
+
+Query: 491 GEVVASRLNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLYKPPPQHMFYIPQR 550
+           G  V   +N  +E+G  L ITG  G GK+SL  ++ G     EG++       + +  Q 
+Sbjct: 50  GNPVLKNINLNIEKGEMLAITGSTGSGKTSLLMLILGELEASEGII--KHSGRVSFCSQF 107
+
+Query: 551 PYMSLGSLRDQVIYPDSADDMREKGYTD--QDLERILHSVHLYHIVQREGGWDAVMDWKD 608
+            ++  G++++ +I+  S D+ R K      Q  + I       + V  EGG         
+Sbjct: 108 SWIMPGTIKENIIFGVSYDEYRYKSVVKACQLQQDITKFAEQDNTVLGEGGV-------- 159
+
+Query: 609 VLSGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQAAI 653
+            LSGG++ R+ +AR  Y      LLD     + +  E ++F++ +
+Sbjct: 160 TLSGGQRARISLARAVYKDADLYLLDSPFGYLDVFTEEQVFESCV 204
+
+
+>pdb||1r0z_B mol:protein length:286  Cystic fibrosis transmembrane
+           conductance reg
+          Length = 286
+
+ Score = 58.5 bits (140), Expect = 2e-08,   Method: Compositional matrix adjust.
+ Identities = 43/165 (26%), Positives = 75/165 (45%), Gaps = 12/165 (7%)
+
+Query: 491 GEVVASRLNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLYKPPPQHMFYIPQR 550
+           G  V   +N  +E+G  L ITG  G GK+SL  ++ G     EG++       + +  Q 
+Sbjct: 50  GNPVLKNINLNIEKGEMLAITGSTGSGKTSLLMLILGELEASEGII--KHSGRVSFCSQF 107
+
+Query: 551 PYMSLGSLRDQVIYPDSADDMREKGYTD--QDLERILHSVHLYHIVQREGGWDAVMDWKD 608
+            ++  G++++ +I+  S D+ R K      Q  + I       + V  EGG         
+Sbjct: 108 SWIMPGTIKENIIFGVSYDEYRYKSVVKACQLQQDITKFAEQDNTVLGEGGV-------- 159
+
+Query: 609 VLSGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQAAI 653
+            LSGG++ R+ +AR  Y      LLD     + +  E ++F++ +
+Sbjct: 160 TLSGGQRARISLARAVYKDADLYLLDSPFGYLDVFTEEQVFESCV 204
+
+
+>pdb||1r0z_A mol:protein length:286  Cystic fibrosis transmembrane
+           conductance reg
+          Length = 286
+
+ Score = 58.5 bits (140), Expect = 2e-08,   Method: Compositional matrix adjust.
+ Identities = 43/165 (26%), Positives = 75/165 (45%), Gaps = 12/165 (7%)
+
+Query: 491 GEVVASRLNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLYKPPPQHMFYIPQR 550
+           G  V   +N  +E+G  L ITG  G GK+SL  ++ G     EG++       + +  Q 
+Sbjct: 50  GNPVLKNINLNIEKGEMLAITGSTGSGKTSLLMLILGELEASEGII--KHSGRVSFCSQF 107
+
+Query: 551 PYMSLGSLRDQVIYPDSADDMREKGYTD--QDLERILHSVHLYHIVQREGGWDAVMDWKD 608
+            ++  G++++ +I+  S D+ R K      Q  + I       + V  EGG         
+Sbjct: 108 SWIMPGTIKENIIFGVSYDEYRYKSVVKACQLQQDITKFAEQDNTVLGEGGV-------- 159
+
+Query: 609 VLSGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQAAI 653
+            LSGG++ R+ +AR  Y      LLD     + +  E ++F++ +
+Sbjct: 160 TLSGGQRARISLARAVYKDADLYLLDSPFGYLDVFTEEQVFESCV 204
+
+
+>pdb||1r0y_D mol:protein length:286  Cystic fibrosis transmembrane
+           conductance reg
+          Length = 286
+
+ Score = 58.5 bits (140), Expect = 2e-08,   Method: Compositional matrix adjust.
+ Identities = 43/165 (26%), Positives = 75/165 (45%), Gaps = 12/165 (7%)
+
+Query: 491 GEVVASRLNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLYKPPPQHMFYIPQR 550
+           G  V   +N  +E+G  L ITG  G GK+SL  ++ G     EG++       + +  Q 
+Sbjct: 50  GNPVLKNINLNIEKGEMLAITGSTGSGKTSLLMLILGELEASEGII--KHSGRVSFCSQF 107
+
+Query: 551 PYMSLGSLRDQVIYPDSADDMREKGYTD--QDLERILHSVHLYHIVQREGGWDAVMDWKD 608
+            ++  G++++ +I+  S D+ R K      Q  + I       + V  EGG         
+Sbjct: 108 SWIMPGTIKENIIFGVSYDEYRYKSVVKACQLQQDITKFAEQDNTVLGEGGV-------- 159
+
+Query: 609 VLSGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQAAI 653
+            LSGG++ R+ +AR  Y      LLD     + +  E ++F++ +
+Sbjct: 160 TLSGGQRARISLARAVYKDADLYLLDSPFGYLDVFTEEQVFESCV 204
+
+
+>pdb||1r0y_C mol:protein length:286  Cystic fibrosis transmembrane
+           conductance reg
+          Length = 286
+
+ Score = 58.5 bits (140), Expect = 2e-08,   Method: Compositional matrix adjust.
+ Identities = 43/165 (26%), Positives = 75/165 (45%), Gaps = 12/165 (7%)
+
+Query: 491 GEVVASRLNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLYKPPPQHMFYIPQR 550
+           G  V   +N  +E+G  L ITG  G GK+SL  ++ G     EG++       + +  Q 
+Sbjct: 50  GNPVLKNINLNIEKGEMLAITGSTGSGKTSLLMLILGELEASEGII--KHSGRVSFCSQF 107
+
+Query: 551 PYMSLGSLRDQVIYPDSADDMREKGYTD--QDLERILHSVHLYHIVQREGGWDAVMDWKD 608
+            ++  G++++ +I+  S D+ R K      Q  + I       + V  EGG         
+Sbjct: 108 SWIMPGTIKENIIFGVSYDEYRYKSVVKACQLQQDITKFAEQDNTVLGEGGV-------- 159
+
+Query: 609 VLSGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQAAI 653
+            LSGG++ R+ +AR  Y      LLD     + +  E ++F++ +
+Sbjct: 160 TLSGGQRARISLARAVYKDADLYLLDSPFGYLDVFTEEQVFESCV 204
+
+
+>pdb||1r0y_B mol:protein length:286  Cystic fibrosis transmembrane
+           conductance reg
+          Length = 286
+
+ Score = 58.5 bits (140), Expect = 2e-08,   Method: Compositional matrix adjust.
+ Identities = 43/165 (26%), Positives = 75/165 (45%), Gaps = 12/165 (7%)
+
+Query: 491 GEVVASRLNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLYKPPPQHMFYIPQR 550
+           G  V   +N  +E+G  L ITG  G GK+SL  ++ G     EG++       + +  Q 
+Sbjct: 50  GNPVLKNINLNIEKGEMLAITGSTGSGKTSLLMLILGELEASEGII--KHSGRVSFCSQF 107
+
+Query: 551 PYMSLGSLRDQVIYPDSADDMREKGYTD--QDLERILHSVHLYHIVQREGGWDAVMDWKD 608
+            ++  G++++ +I+  S D+ R K      Q  + I       + V  EGG         
+Sbjct: 108 SWIMPGTIKENIIFGVSYDEYRYKSVVKACQLQQDITKFAEQDNTVLGEGGV-------- 159
+
+Query: 609 VLSGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQAAI 653
+            LSGG++ R+ +AR  Y      LLD     + +  E ++F++ +
+Sbjct: 160 TLSGGQRARISLARAVYKDADLYLLDSPFGYLDVFTEEQVFESCV 204
+
+
+>pdb||1r0y_A mol:protein length:286  Cystic fibrosis transmembrane
+           conductance reg
+          Length = 286
+
+ Score = 58.5 bits (140), Expect = 2e-08,   Method: Compositional matrix adjust.
+ Identities = 43/165 (26%), Positives = 75/165 (45%), Gaps = 12/165 (7%)
+
+Query: 491 GEVVASRLNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLYKPPPQHMFYIPQR 550
+           G  V   +N  +E+G  L ITG  G GK+SL  ++ G     EG++       + +  Q 
+Sbjct: 50  GNPVLKNINLNIEKGEMLAITGSTGSGKTSLLMLILGELEASEGII--KHSGRVSFCSQF 107
+
+Query: 551 PYMSLGSLRDQVIYPDSADDMREKGYTD--QDLERILHSVHLYHIVQREGGWDAVMDWKD 608
+            ++  G++++ +I+  S D+ R K      Q  + I       + V  EGG         
+Sbjct: 108 SWIMPGTIKENIIFGVSYDEYRYKSVVKACQLQQDITKFAEQDNTVLGEGGV-------- 159
+
+Query: 609 VLSGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQAAI 653
+            LSGG++ R+ +AR  Y      LLD     + +  E ++F++ +
+Sbjct: 160 TLSGGQRARISLARAVYKDADLYLLDSPFGYLDVFTEEQVFESCV 204
+
+
+>pdb||1r0x_D mol:protein length:286  Cystic fibrosis transmembrane
+           conductance reg
+          Length = 286
+
+ Score = 58.5 bits (140), Expect = 2e-08,   Method: Compositional matrix adjust.
+ Identities = 43/165 (26%), Positives = 75/165 (45%), Gaps = 12/165 (7%)
+
+Query: 491 GEVVASRLNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLYKPPPQHMFYIPQR 550
+           G  V   +N  +E+G  L ITG  G GK+SL  ++ G     EG++       + +  Q 
+Sbjct: 50  GNPVLKNINLNIEKGEMLAITGSTGSGKTSLLMLILGELEASEGII--KHSGRVSFCSQF 107
+
+Query: 551 PYMSLGSLRDQVIYPDSADDMREKGYTD--QDLERILHSVHLYHIVQREGGWDAVMDWKD 608
+            ++  G++++ +I+  S D+ R K      Q  + I       + V  EGG         
+Sbjct: 108 SWIMPGTIKENIIFGVSYDEYRYKSVVKACQLQQDITKFAEQDNTVLGEGGV-------- 159
+
+Query: 609 VLSGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQAAI 653
+            LSGG++ R+ +AR  Y      LLD     + +  E ++F++ +
+Sbjct: 160 TLSGGQRARISLARAVYKDADLYLLDSPFGYLDVFTEEQVFESCV 204
+
+
+>pdb||1r0x_C mol:protein length:286  Cystic fibrosis transmembrane
+           conductance reg
+          Length = 286
+
+ Score = 58.5 bits (140), Expect = 2e-08,   Method: Compositional matrix adjust.
+ Identities = 43/165 (26%), Positives = 75/165 (45%), Gaps = 12/165 (7%)
+
+Query: 491 GEVVASRLNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLYKPPPQHMFYIPQR 550
+           G  V   +N  +E+G  L ITG  G GK+SL  ++ G     EG++       + +  Q 
+Sbjct: 50  GNPVLKNINLNIEKGEMLAITGSTGSGKTSLLMLILGELEASEGII--KHSGRVSFCSQF 107
+
+Query: 551 PYMSLGSLRDQVIYPDSADDMREKGYTD--QDLERILHSVHLYHIVQREGGWDAVMDWKD 608
+            ++  G++++ +I+  S D+ R K      Q  + I       + V  EGG         
+Sbjct: 108 SWIMPGTIKENIIFGVSYDEYRYKSVVKACQLQQDITKFAEQDNTVLGEGGV-------- 159
+
+Query: 609 VLSGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQAAI 653
+            LSGG++ R+ +AR  Y      LLD     + +  E ++F++ +
+Sbjct: 160 TLSGGQRARISLARAVYKDADLYLLDSPFGYLDVFTEEQVFESCV 204
+
+
+>pdb||1r0x_B mol:protein length:286  Cystic fibrosis transmembrane
+           conductance reg
+          Length = 286
+
+ Score = 58.5 bits (140), Expect = 2e-08,   Method: Compositional matrix adjust.
+ Identities = 43/165 (26%), Positives = 75/165 (45%), Gaps = 12/165 (7%)
+
+Query: 491 GEVVASRLNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLYKPPPQHMFYIPQR 550
+           G  V   +N  +E+G  L ITG  G GK+SL  ++ G     EG++       + +  Q 
+Sbjct: 50  GNPVLKNINLNIEKGEMLAITGSTGSGKTSLLMLILGELEASEGII--KHSGRVSFCSQF 107
+
+Query: 551 PYMSLGSLRDQVIYPDSADDMREKGYTD--QDLERILHSVHLYHIVQREGGWDAVMDWKD 608
+            ++  G++++ +I+  S D+ R K      Q  + I       + V  EGG         
+Sbjct: 108 SWIMPGTIKENIIFGVSYDEYRYKSVVKACQLQQDITKFAEQDNTVLGEGGV-------- 159
+
+Query: 609 VLSGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQAAI 653
+            LSGG++ R+ +AR  Y      LLD     + +  E ++F++ +
+Sbjct: 160 TLSGGQRARISLARAVYKDADLYLLDSPFGYLDVFTEEQVFESCV 204
+
+
+>pdb||1r0x_A mol:protein length:286  Cystic fibrosis transmembrane
+           conductance reg
+          Length = 286
+
+ Score = 58.5 bits (140), Expect = 2e-08,   Method: Compositional matrix adjust.
+ Identities = 43/165 (26%), Positives = 75/165 (45%), Gaps = 12/165 (7%)
+
+Query: 491 GEVVASRLNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLYKPPPQHMFYIPQR 550
+           G  V   +N  +E+G  L ITG  G GK+SL  ++ G     EG++       + +  Q 
+Sbjct: 50  GNPVLKNINLNIEKGEMLAITGSTGSGKTSLLMLILGELEASEGII--KHSGRVSFCSQF 107
+
+Query: 551 PYMSLGSLRDQVIYPDSADDMREKGYTD--QDLERILHSVHLYHIVQREGGWDAVMDWKD 608
+            ++  G++++ +I+  S D+ R K      Q  + I       + V  EGG         
+Sbjct: 108 SWIMPGTIKENIIFGVSYDEYRYKSVVKACQLQQDITKFAEQDNTVLGEGGV-------- 159
+
+Query: 609 VLSGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQAAI 653
+            LSGG++ R+ +AR  Y      LLD     + +  E ++F++ +
+Sbjct: 160 TLSGGQRARISLARAVYKDADLYLLDSPFGYLDVFTEEQVFESCV 204
+
+
+>pdb||1r0w_D mol:protein length:286  Cystic fibrosis transmembrane
+           conductance reg
+          Length = 286
+
+ Score = 58.5 bits (140), Expect = 2e-08,   Method: Compositional matrix adjust.
+ Identities = 43/165 (26%), Positives = 75/165 (45%), Gaps = 12/165 (7%)
+
+Query: 491 GEVVASRLNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLYKPPPQHMFYIPQR 550
+           G  V   +N  +E+G  L ITG  G GK+SL  ++ G     EG++       + +  Q 
+Sbjct: 50  GNPVLKNINLNIEKGEMLAITGSTGSGKTSLLMLILGELEASEGII--KHSGRVSFCSQF 107
+
+Query: 551 PYMSLGSLRDQVIYPDSADDMREKGYTD--QDLERILHSVHLYHIVQREGGWDAVMDWKD 608
+            ++  G++++ +I+  S D+ R K      Q  + I       + V  EGG         
+Sbjct: 108 SWIMPGTIKENIIFGVSYDEYRYKSVVKACQLQQDITKFAEQDNTVLGEGGV-------- 159
+
+Query: 609 VLSGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQAAI 653
+            LSGG++ R+ +AR  Y      LLD     + +  E ++F++ +
+Sbjct: 160 TLSGGQRARISLARAVYKDADLYLLDSPFGYLDVFTEEQVFESCV 204
+
+
+>pdb||1r0w_C mol:protein length:286  Cystic fibrosis transmembrane
+           conductance reg
+          Length = 286
+
+ Score = 58.5 bits (140), Expect = 2e-08,   Method: Compositional matrix adjust.
+ Identities = 43/165 (26%), Positives = 75/165 (45%), Gaps = 12/165 (7%)
+
+Query: 491 GEVVASRLNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLYKPPPQHMFYIPQR 550
+           G  V   +N  +E+G  L ITG  G GK+SL  ++ G     EG++       + +  Q 
+Sbjct: 50  GNPVLKNINLNIEKGEMLAITGSTGSGKTSLLMLILGELEASEGII--KHSGRVSFCSQF 107
+
+Query: 551 PYMSLGSLRDQVIYPDSADDMREKGYTD--QDLERILHSVHLYHIVQREGGWDAVMDWKD 608
+            ++  G++++ +I+  S D+ R K      Q  + I       + V  EGG         
+Sbjct: 108 SWIMPGTIKENIIFGVSYDEYRYKSVVKACQLQQDITKFAEQDNTVLGEGGV-------- 159
+
+Query: 609 VLSGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQAAI 653
+            LSGG++ R+ +AR  Y      LLD     + +  E ++F++ +
+Sbjct: 160 TLSGGQRARISLARAVYKDADLYLLDSPFGYLDVFTEEQVFESCV 204
+
+
+>pdb||1r0w_B mol:protein length:286  Cystic fibrosis transmembrane
+           conductance reg
+          Length = 286
+
+ Score = 58.5 bits (140), Expect = 2e-08,   Method: Compositional matrix adjust.
+ Identities = 43/165 (26%), Positives = 75/165 (45%), Gaps = 12/165 (7%)
+
+Query: 491 GEVVASRLNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLYKPPPQHMFYIPQR 550
+           G  V   +N  +E+G  L ITG  G GK+SL  ++ G     EG++       + +  Q 
+Sbjct: 50  GNPVLKNINLNIEKGEMLAITGSTGSGKTSLLMLILGELEASEGII--KHSGRVSFCSQF 107
+
+Query: 551 PYMSLGSLRDQVIYPDSADDMREKGYTD--QDLERILHSVHLYHIVQREGGWDAVMDWKD 608
+            ++  G++++ +I+  S D+ R K      Q  + I       + V  EGG         
+Sbjct: 108 SWIMPGTIKENIIFGVSYDEYRYKSVVKACQLQQDITKFAEQDNTVLGEGGV-------- 159
+
+Query: 609 VLSGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQAAI 653
+            LSGG++ R+ +AR  Y      LLD     + +  E ++F++ +
+Sbjct: 160 TLSGGQRARISLARAVYKDADLYLLDSPFGYLDVFTEEQVFESCV 204
+
+
+>pdb||1r0w_A mol:protein length:286  Cystic fibrosis transmembrane
+           conductance reg
+          Length = 286
+
+ Score = 58.5 bits (140), Expect = 2e-08,   Method: Compositional matrix adjust.
+ Identities = 43/165 (26%), Positives = 75/165 (45%), Gaps = 12/165 (7%)
+
+Query: 491 GEVVASRLNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLYKPPPQHMFYIPQR 550
+           G  V   +N  +E+G  L ITG  G GK+SL  ++ G     EG++       + +  Q 
+Sbjct: 50  GNPVLKNINLNIEKGEMLAITGSTGSGKTSLLMLILGELEASEGII--KHSGRVSFCSQF 107
+
+Query: 551 PYMSLGSLRDQVIYPDSADDMREKGYTD--QDLERILHSVHLYHIVQREGGWDAVMDWKD 608
+            ++  G++++ +I+  S D+ R K      Q  + I       + V  EGG         
+Sbjct: 108 SWIMPGTIKENIIFGVSYDEYRYKSVVKACQLQQDITKFAEQDNTVLGEGGV-------- 159
+
+Query: 609 VLSGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQAAI 653
+            LSGG++ R+ +AR  Y      LLD     + +  E ++F++ +
+Sbjct: 160 TLSGGQRARISLARAVYKDADLYLLDSPFGYLDVFTEEQVFESCV 204
+
+
+>pdb||1q3h_D mol:protein length:286  Cystic fibrosis transmembrane
+           conductance reg
+          Length = 286
+
+ Score = 58.5 bits (140), Expect = 2e-08,   Method: Compositional matrix adjust.
+ Identities = 43/165 (26%), Positives = 75/165 (45%), Gaps = 12/165 (7%)
+
+Query: 491 GEVVASRLNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLYKPPPQHMFYIPQR 550
+           G  V   +N  +E+G  L ITG  G GK+SL  ++ G     EG++       + +  Q 
+Sbjct: 50  GNPVLKNINLNIEKGEMLAITGSTGSGKTSLLMLILGELEASEGII--KHSGRVSFCSQF 107
+
+Query: 551 PYMSLGSLRDQVIYPDSADDMREKGYTD--QDLERILHSVHLYHIVQREGGWDAVMDWKD 608
+            ++  G++++ +I+  S D+ R K      Q  + I       + V  EGG         
+Sbjct: 108 SWIMPGTIKENIIFGVSYDEYRYKSVVKACQLQQDITKFAEQDNTVLGEGGV-------- 159
+
+Query: 609 VLSGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQAAI 653
+            LSGG++ R+ +AR  Y      LLD     + +  E ++F++ +
+Sbjct: 160 TLSGGQRARISLARAVYKDADLYLLDSPFGYLDVFTEEQVFESCV 204
+
+
+>pdb||1q3h_C mol:protein length:286  Cystic fibrosis transmembrane
+           conductance reg
+          Length = 286
+
+ Score = 58.5 bits (140), Expect = 2e-08,   Method: Compositional matrix adjust.
+ Identities = 43/165 (26%), Positives = 75/165 (45%), Gaps = 12/165 (7%)
+
+Query: 491 GEVVASRLNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLYKPPPQHMFYIPQR 550
+           G  V   +N  +E+G  L ITG  G GK+SL  ++ G     EG++       + +  Q 
+Sbjct: 50  GNPVLKNINLNIEKGEMLAITGSTGSGKTSLLMLILGELEASEGII--KHSGRVSFCSQF 107
+
+Query: 551 PYMSLGSLRDQVIYPDSADDMREKGYTD--QDLERILHSVHLYHIVQREGGWDAVMDWKD 608
+            ++  G++++ +I+  S D+ R K      Q  + I       + V  EGG         
+Sbjct: 108 SWIMPGTIKENIIFGVSYDEYRYKSVVKACQLQQDITKFAEQDNTVLGEGGV-------- 159
+
+Query: 609 VLSGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQAAI 653
+            LSGG++ R+ +AR  Y      LLD     + +  E ++F++ +
+Sbjct: 160 TLSGGQRARISLARAVYKDADLYLLDSPFGYLDVFTEEQVFESCV 204
+
+
+>pdb||1q3h_B mol:protein length:286  Cystic fibrosis transmembrane
+           conductance reg
+          Length = 286
+
+ Score = 58.5 bits (140), Expect = 2e-08,   Method: Compositional matrix adjust.
+ Identities = 43/165 (26%), Positives = 75/165 (45%), Gaps = 12/165 (7%)
+
+Query: 491 GEVVASRLNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLYKPPPQHMFYIPQR 550
+           G  V   +N  +E+G  L ITG  G GK+SL  ++ G     EG++       + +  Q 
+Sbjct: 50  GNPVLKNINLNIEKGEMLAITGSTGSGKTSLLMLILGELEASEGII--KHSGRVSFCSQF 107
+
+Query: 551 PYMSLGSLRDQVIYPDSADDMREKGYTD--QDLERILHSVHLYHIVQREGGWDAVMDWKD 608
+            ++  G++++ +I+  S D+ R K      Q  + I       + V  EGG         
+Sbjct: 108 SWIMPGTIKENIIFGVSYDEYRYKSVVKACQLQQDITKFAEQDNTVLGEGGV-------- 159
+
+Query: 609 VLSGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQAAI 653
+            LSGG++ R+ +AR  Y      LLD     + +  E ++F++ +
+Sbjct: 160 TLSGGQRARISLARAVYKDADLYLLDSPFGYLDVFTEEQVFESCV 204
+
+
+>pdb||1q3h_A mol:protein length:286  Cystic fibrosis transmembrane
+           conductance reg
+          Length = 286
+
+ Score = 58.5 bits (140), Expect = 2e-08,   Method: Compositional matrix adjust.
+ Identities = 43/165 (26%), Positives = 75/165 (45%), Gaps = 12/165 (7%)
+
+Query: 491 GEVVASRLNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLYKPPPQHMFYIPQR 550
+           G  V   +N  +E+G  L ITG  G GK+SL  ++ G     EG++       + +  Q 
+Sbjct: 50  GNPVLKNINLNIEKGEMLAITGSTGSGKTSLLMLILGELEASEGII--KHSGRVSFCSQF 107
+
+Query: 551 PYMSLGSLRDQVIYPDSADDMREKGYTD--QDLERILHSVHLYHIVQREGGWDAVMDWKD 608
+            ++  G++++ +I+  S D+ R K      Q  + I       + V  EGG         
+Sbjct: 108 SWIMPGTIKENIIFGVSYDEYRYKSVVKACQLQQDITKFAEQDNTVLGEGGV-------- 159
+
+Query: 609 VLSGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQAAI 653
+            LSGG++ R+ +AR  Y      LLD     + +  E ++F++ +
+Sbjct: 160 TLSGGQRARISLARAVYKDADLYLLDSPFGYLDVFTEEQVFESCV 204
+
+
+>pdb||2ixf_D mol:protein length:271  ANTIGEN PEPTIDE TRANSPORTER 1
+          Length = 271
+
+ Score = 58.2 bits (139), Expect = 2e-08,   Method: Compositional matrix adjust.
+ Identities = 66/235 (28%), Positives = 105/235 (44%), Gaps = 29/235 (12%)
+
+Query: 461 PLSDTLA---IKGTVIDVDHGIICENVPIITPAGEVVASRLNFKVEEGMHLLITGPNGCG 517
+           PLS +LA   +KG V   D      N P +      V   L F +  G    + GPNG G
+Sbjct: 3   PLSGSLAPLNMKGLVKFQDVSFAYPNHPNVQ-----VLQGLTFTLYPGKVTALVGPNGSG 57
+
+Query: 518 KSSLFRILSGLW-PVYEGVLYKPPP-----QHMFY-----IPQRPYMSLGSLRDQVIYPD 566
+           KS++  +L  L+ P    VL    P      H  +     + Q P +   S R+ + Y  
+Sbjct: 58  KSTVAALLQNLYQPTGGKVLLDGEPLVQYDHHYLHTQVAAVGQEPLLFGRSFRENIAYGL 117
+
+Query: 567 SADDMREKGYTDQDLERILHSVHLYHIVQREGGWDA-VMDWKDVLSGGEKQRMGMARMFY 625
+           +     E+  T   +E   H      I     G+D  V +  + LSGG++Q + +AR   
+Sbjct: 118 TRTPTMEE-ITAVAMESGAHDF----ISGFPQGYDTEVGETGNQLSGGQRQAVALARALI 172
+
+Query: 626 HKPKYALLDECTSAVS----IDVEGKIFQAAIGAGISLLSITHRPSLWKYHTHLL 676
+            KP+  +LD+ TSA+     + V+  ++++   A  ++L ITH+ SL +   H+L
+Sbjct: 173 RKPRLLILDQATSALDAGNQLRVQRLLYESPEWASRTVLLITHQLSLAERAHHIL 227
+
+
+>pdb||2ixf_C mol:protein length:271  ANTIGEN PEPTIDE TRANSPORTER 1
+          Length = 271
+
+ Score = 58.2 bits (139), Expect = 2e-08,   Method: Compositional matrix adjust.
+ Identities = 66/235 (28%), Positives = 105/235 (44%), Gaps = 29/235 (12%)
+
+Query: 461 PLSDTLA---IKGTVIDVDHGIICENVPIITPAGEVVASRLNFKVEEGMHLLITGPNGCG 517
+           PLS +LA   +KG V   D      N P +      V   L F +  G    + GPNG G
+Sbjct: 3   PLSGSLAPLNMKGLVKFQDVSFAYPNHPNVQ-----VLQGLTFTLYPGKVTALVGPNGSG 57
+
+Query: 518 KSSLFRILSGLW-PVYEGVLYKPPP-----QHMFY-----IPQRPYMSLGSLRDQVIYPD 566
+           KS++  +L  L+ P    VL    P      H  +     + Q P +   S R+ + Y  
+Sbjct: 58  KSTVAALLQNLYQPTGGKVLLDGEPLVQYDHHYLHTQVAAVGQEPLLFGRSFRENIAYGL 117
+
+Query: 567 SADDMREKGYTDQDLERILHSVHLYHIVQREGGWDA-VMDWKDVLSGGEKQRMGMARMFY 625
+           +     E+  T   +E   H      I     G+D  V +  + LSGG++Q + +AR   
+Sbjct: 118 TRTPTMEE-ITAVAMESGAHDF----ISGFPQGYDTEVGETGNQLSGGQRQAVALARALI 172
+
+Query: 626 HKPKYALLDECTSAVS----IDVEGKIFQAAIGAGISLLSITHRPSLWKYHTHLL 676
+            KP+  +LD+ TSA+     + V+  ++++   A  ++L ITH+ SL +   H+L
+Sbjct: 173 RKPRLLILDQATSALDAGNQLRVQRLLYESPEWASRTVLLITHQLSLAERAHHIL 227
+
+
+>pdb||2ixf_B mol:protein length:271  ANTIGEN PEPTIDE TRANSPORTER 1
+          Length = 271
+
+ Score = 58.2 bits (139), Expect = 2e-08,   Method: Compositional matrix adjust.
+ Identities = 66/235 (28%), Positives = 105/235 (44%), Gaps = 29/235 (12%)
+
+Query: 461 PLSDTLA---IKGTVIDVDHGIICENVPIITPAGEVVASRLNFKVEEGMHLLITGPNGCG 517
+           PLS +LA   +KG V   D      N P +      V   L F +  G    + GPNG G
+Sbjct: 3   PLSGSLAPLNMKGLVKFQDVSFAYPNHPNVQ-----VLQGLTFTLYPGKVTALVGPNGSG 57
+
+Query: 518 KSSLFRILSGLW-PVYEGVLYKPPP-----QHMFY-----IPQRPYMSLGSLRDQVIYPD 566
+           KS++  +L  L+ P    VL    P      H  +     + Q P +   S R+ + Y  
+Sbjct: 58  KSTVAALLQNLYQPTGGKVLLDGEPLVQYDHHYLHTQVAAVGQEPLLFGRSFRENIAYGL 117
+
+Query: 567 SADDMREKGYTDQDLERILHSVHLYHIVQREGGWDA-VMDWKDVLSGGEKQRMGMARMFY 625
+           +     E+  T   +E   H      I     G+D  V +  + LSGG++Q + +AR   
+Sbjct: 118 TRTPTMEE-ITAVAMESGAHDF----ISGFPQGYDTEVGETGNQLSGGQRQAVALARALI 172
+
+Query: 626 HKPKYALLDECTSAVS----IDVEGKIFQAAIGAGISLLSITHRPSLWKYHTHLL 676
+            KP+  +LD+ TSA+     + V+  ++++   A  ++L ITH+ SL +   H+L
+Sbjct: 173 RKPRLLILDQATSALDAGNQLRVQRLLYESPEWASRTVLLITHQLSLAERAHHIL 227
+
+
+>pdb||2ixf_A mol:protein length:271  ANTIGEN PEPTIDE TRANSPORTER 1
+          Length = 271
+
+ Score = 58.2 bits (139), Expect = 2e-08,   Method: Compositional matrix adjust.
+ Identities = 66/235 (28%), Positives = 105/235 (44%), Gaps = 29/235 (12%)
+
+Query: 461 PLSDTLA---IKGTVIDVDHGIICENVPIITPAGEVVASRLNFKVEEGMHLLITGPNGCG 517
+           PLS +LA   +KG V   D      N P +      V   L F +  G    + GPNG G
+Sbjct: 3   PLSGSLAPLNMKGLVKFQDVSFAYPNHPNVQ-----VLQGLTFTLYPGKVTALVGPNGSG 57
+
+Query: 518 KSSLFRILSGLW-PVYEGVLYKPPP-----QHMFY-----IPQRPYMSLGSLRDQVIYPD 566
+           KS++  +L  L+ P    VL    P      H  +     + Q P +   S R+ + Y  
+Sbjct: 58  KSTVAALLQNLYQPTGGKVLLDGEPLVQYDHHYLHTQVAAVGQEPLLFGRSFRENIAYGL 117
+
+Query: 567 SADDMREKGYTDQDLERILHSVHLYHIVQREGGWDA-VMDWKDVLSGGEKQRMGMARMFY 625
+           +     E+  T   +E   H      I     G+D  V +  + LSGG++Q + +AR   
+Sbjct: 118 TRTPTMEE-ITAVAMESGAHDF----ISGFPQGYDTEVGETGNQLSGGQRQAVALARALI 172
+
+Query: 626 HKPKYALLDECTSAVS----IDVEGKIFQAAIGAGISLLSITHRPSLWKYHTHLL 676
+            KP+  +LD+ TSA+     + V+  ++++   A  ++L ITH+ SL +   H+L
+Sbjct: 173 RKPRLLILDQATSALDAGNQLRVQRLLYESPEWASRTVLLITHQLSLAERAHHIL 227
+
+
+>pdb||4fin_B mol:protein length:555  EttA (YjjK) ABCF family protein
+          Length = 555
+
+ Score = 58.5 bits (140), Expect = 5e-08,   Method: Compositional matrix adjust.
+ Identities = 48/160 (30%), Positives = 76/160 (47%), Gaps = 26/160 (16%)
+
+Query: 505 GMHLLITGPNGCGKSSLFRILSGLWPVYEGVLYKPPPQHMFYIPQRPYMS---------- 554
+           G  + + G NG GKS+L RI++G+    EG     P   + Y+PQ P ++          
+Sbjct: 32  GAKIGVLGLNGAGKSTLLRIMAGIDKDIEGEARPQPDIKIGYLPQEPQLNPEHTVRESIE 91
+
+Query: 555 ------LGSLR--DQV--IYPDSADDMREKGYTDQDLERILHSVHLYHI-VQREGGWDAV 603
+                 + +L+  D+V  +Y D   D  +       LE I+ +   +++ VQ E   DA+
+Sbjct: 92  EAVSEVVNALKRLDEVYALYADPDADFDKLAAEQGRLEEIIQAHDGHNLNVQLERAADAL 151
+
+Query: 604 M--DWKDV---LSGGEKQRMGMARMFYHKPKYALLDECTS 638
+              DW      LSGGE++R+ + R+   KP   LLDE T+
+Sbjct: 152 RLPDWDAKIANLSGGERRRVALCRLLLEKPDMLLLDEPTN 191
+
+
+>pdb||4fin_A mol:protein length:555  EttA (YjjK) ABCF family protein
+          Length = 555
+
+ Score = 58.5 bits (140), Expect = 5e-08,   Method: Compositional matrix adjust.
+ Identities = 48/160 (30%), Positives = 76/160 (47%), Gaps = 26/160 (16%)
+
+Query: 505 GMHLLITGPNGCGKSSLFRILSGLWPVYEGVLYKPPPQHMFYIPQRPYMS---------- 554
+           G  + + G NG GKS+L RI++G+    EG     P   + Y+PQ P ++          
+Sbjct: 32  GAKIGVLGLNGAGKSTLLRIMAGIDKDIEGEARPQPDIKIGYLPQEPQLNPEHTVRESIE 91
+
+Query: 555 ------LGSLR--DQV--IYPDSADDMREKGYTDQDLERILHSVHLYHI-VQREGGWDAV 603
+                 + +L+  D+V  +Y D   D  +       LE I+ +   +++ VQ E   DA+
+Sbjct: 92  EAVSEVVNALKRLDEVYALYADPDADFDKLAAEQGRLEEIIQAHDGHNLNVQLERAADAL 151
+
+Query: 604 M--DWKDV---LSGGEKQRMGMARMFYHKPKYALLDECTS 638
+              DW      LSGGE++R+ + R+   KP   LLDE T+
+Sbjct: 152 RLPDWDAKIANLSGGERRRVALCRLLLEKPDMLLLDEPTN 191
+
+
+>pdb||3j5s_D mol:protein length:561  Energy-dependent translational
+           throttle A (Et
+          Length = 561
+
+ Score = 58.5 bits (140), Expect = 5e-08,   Method: Compositional matrix adjust.
+ Identities = 48/160 (30%), Positives = 76/160 (47%), Gaps = 26/160 (16%)
+
+Query: 505 GMHLLITGPNGCGKSSLFRILSGLWPVYEGVLYKPPPQHMFYIPQRPYMS---------- 554
+           G  + + G NG GKS+L RI++G+    EG     P   + Y+PQ P ++          
+Sbjct: 38  GAKIGVLGLNGAGKSTLLRIMAGIDKDIEGEARPQPDIKIGYLPQEPQLNPEHTVRESIE 97
+
+Query: 555 ------LGSLR--DQV--IYPDSADDMREKGYTDQDLERILHSVHLYHI-VQREGGWDAV 603
+                 + +L+  D+V  +Y D   D  +       LE I+ +   +++ VQ E   DA+
+Sbjct: 98  EAVSEVVNALKRLDEVYALYADPDADFDKLAAEQGRLEEIIQAHDGHNLNVQLERAADAL 157
+
+Query: 604 M--DWKDV---LSGGEKQRMGMARMFYHKPKYALLDECTS 638
+              DW      LSGGE++R+ + R+   KP   LLDE T+
+Sbjct: 158 RLPDWDAKIANLSGGERRRVALCRLLLEKPDMLLLDEPTN 197
+
+
+>pdb||2ff7_A mol:protein length:247  Alpha-hemolysin translocation
+           ATP-binding pro
+          Length = 247
+
+ Score = 56.2 bits (134), Expect = 7e-08,   Method: Compositional matrix adjust.
+ Identities = 49/190 (25%), Positives = 85/190 (44%), Gaps = 8/190 (4%)
+
+Query: 489 PAGEVVASRLNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLYKPPPQHMFYIP 548
+           P   V+   +N  +++G  + I G +G GKS+L +++   +    G +           P
+Sbjct: 19  PDSPVILDNINLSIKQGEVIGIVGRSGSGKSTLTKLIQRFYIPENGQVLIDGHDLALADP 78
+
+Query: 549 QRPYMSLGS-LRDQVIYPDSADDMREKGYTDQDLERILHSV-----HLYHIVQREGGWDA 602
+                 +G  L+D V+   S  D          +E+++++      H +    REG    
+Sbjct: 79  NWLRRQVGVVLQDNVLLNRSIIDNISLANPGMSVEKVIYAAKLAGAHDFISELREGYNTI 138
+
+Query: 603 VMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQA--AIGAGISLL 660
+           V +    LSGG++QR+ +AR   + PK  + DE TSA+  + E  I +    I  G +++
+Sbjct: 139 VGEQGAGLSGGQRQRIAIARALVNNPKILIFDEATSALDYESEHVIMRNMHKICKGRTVI 198
+
+Query: 661 SITHRPSLWK 670
+            I HR S  K
+Sbjct: 199 IIAHRLSTVK 208
+
+
+>pdb||2pmk_A mol:protein length:243  Alpha-hemolysin translocation
+           ATP-binding pro
+          Length = 243
+
+ Score = 55.8 bits (133), Expect = 9e-08,   Method: Compositional matrix adjust.
+ Identities = 49/190 (25%), Positives = 85/190 (44%), Gaps = 8/190 (4%)
+
+Query: 489 PAGEVVASRLNFKVEEGMHLLITGPNGCGKSSLFRILSGLWPVYEGVLYKPPPQHMFYIP 548
+           P   V+   +N  +++G  + I G +G GKS+L +++   +    G +           P
+Sbjct: 15  PDSPVILDNINLSIKQGEVIGIVGRSGSGKSTLTKLIQRFYIPENGQVLIDGHDLALADP 74
+
+Query: 549 QRPYMSLGS-LRDQVIYPDSADDMREKGYTDQDLERILHSV-----HLYHIVQREGGWDA 602
+                 +G  L+D V+   S  D          +E+++++      H +    REG    
+Sbjct: 75  NWLRRQVGVVLQDNVLLNRSIIDNISLANPGMSVEKVIYAAKLAGAHDFISELREGYNTI 134
+
+Query: 603 VMDWKDVLSGGEKQRMGMARMFYHKPKYALLDECTSAVSIDVEGKIFQA--AIGAGISLL 660
+           V +    LSGG++QR+ +AR   + PK  + DE TSA+  + E  I +    I  G +++
+Sbjct: 135 VGEQGAGLSGGQRQRIAIARALVNNPKILIFDEATSALDYESEHVIMRNMHKICKGRTVI 194
+
+Query: 661 SITHRPSLWK 670
+            I HR S  K
+Sbjct: 195 IIAHRLSTVK 204
+
+
+  Database: pdb
+    Posted date:  Feb 4, 2014  3:11 PM
+  Number of letters in database: 65,588,230
+  Number of sequences in database:  270,389
+  
+Lambda     K      H
+   0.322    0.137    0.409 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 270389
+Number of Hits to DB: 93,561,147
+Number of extensions: 3834223
+Number of successful extensions: 10691
+Number of sequences better than 1.0e-07: 119
+Number of HSP's gapped: 10624
+Number of HSP's successfully gapped: 119
+Length of query: 741
+Length of database: 65,588,230
+Length adjustment: 116
+Effective length of query: 625
+Effective length of database: 34,223,106
+Effective search space: 21389441250
+Effective search space used: 21389441250
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.9 bits)
+S2: 125 (52.8 bits)
