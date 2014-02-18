@@ -169,8 +169,8 @@ class test(Command):
                 self.build_lib = self.build_purelib
             elif os.path.exists(self.build_platlib):
                 self.build_lib = self.build_platlib
-        link = os.path.join(self.build_scripts,  "blast2usa.py")
-        os.symlink("blast2usa", link)
+        link = os.path.join(self.build_scripts,  "blast2seqids.py")
+        os.symlink("blast2seqids", link)
 
         test_res = main.run(self.build_scripts, [], verbosity = self.verbosity)
         res_path = os.path.join("build", ".tests_results")
