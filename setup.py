@@ -240,7 +240,7 @@ require_packages = []
 fix_prefix = []
 
 setup(name        = 'blast2seqids',
-      version     =  time.strftime("%Y%m%d"),
+      version     =  '1.3',
       author      = "Néron Bertrand",
       author_email = "bneron@pasteur.fr" ,
       license      = "BSD3-clause" ,
