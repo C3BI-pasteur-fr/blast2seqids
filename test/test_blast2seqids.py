@@ -11,7 +11,7 @@ import unittest
 import os.path
 import sys
 
-from blast2usa import _searchBegining, parseSummary, format2usa, Entry
+from blast2seqids import _searchBegining, parseSummary, format2usa, Entry
 
 
 class Test(unittest.TestCase):
