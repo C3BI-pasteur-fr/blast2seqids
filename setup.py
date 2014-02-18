@@ -241,7 +241,7 @@ fix_prefix = []
 
 setup(name        = 'blast2seqids',
       version     =  time.strftime("%Y%m%d"),
-      author      = "Neron B",
+      author      = "Néron Bertrand",
       author_email = "bneron@pasteur.fr" ,
       license      = "BSD3-clause" ,
       description  = " parse a blast2 report ( text format -m 0 ) and return a list of hits identifier in usa format.",
