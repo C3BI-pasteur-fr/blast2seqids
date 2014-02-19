@@ -3,6 +3,7 @@
 from distutils import log
 from distutils.core import setup
 from distutils.core import Command
+from distutils.dist import Distribution
 #from distutils.command.install_egg_info import install_egg_info
 from distutils.command.build import build
 from distutils.command.install import install
@@ -16,8 +17,6 @@ from distutils.command.install_egg_info import install_egg_info
 import time
 import sys
 import os
-
-
 
 
 class nohup_egg_info(install_egg_info):
@@ -182,10 +181,6 @@ class test(Command):
 
 
 
-
-
-
-
 class install_check_tests(install):
 
     def run(self):
@@ -235,9 +230,30 @@ def subst_vars(src, dst, vars):
                 dest_file.write(new_line)
 
 
+
+class UsageDistribution(Distribution):
+
+    def __init__(self, attrs = None):
+        #It's important to define opotions before to call __init__
+        #otherwise AttributeError: UsageDistribution instance has no attribute 'conf_files'
+        self.conf_files = None
+        self.doc_files = None
+        self.fix_prefix = None
+        self.fix_conf = None
+        Distribution.__init__(self, attrs = attrs)
+        self.common_usage = """\
+Common commands: (see '--help-commands' for more)
+
+  setup.py build      will build the package underneath 'build/'
+  setup.py test       will run the tests on the newly build library
+  setup.py install    will install the package
+  """
+  
+
 require_python = [ 'python (>=2.7, <3.0)' ]
 require_packages = []
 fix_prefix = []
+
 
 setup(name        = 'blast2seqids',
       version     =  '1.3',
