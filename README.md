@@ -13,7 +13,7 @@ DESCRIPTION
 Download distribution
 ---------------------
 
- [ ![Download](https://api.bintray.com/packages/bneron/generic/blast2seqids/images/download.png) ](https://bintray.com/bneron/generic/blast2seqids/_latestVersion)
+ [ ![Download](https://api.bintray.com/packages/bneron/generic/blast2seqids/images/download.png) ](https://bintray.com/bneron/generic/blast2seqids/view)
 
 
 INSTALLATION from distribution
