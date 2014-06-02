@@ -16,7 +16,7 @@ Download distribution
  [ ![Download](https://api.bintray.com/packages/bneron/generic/blast2seqids/images/download.png) ](https://bintray.com/bneron/generic/blast2seqids/view)
 
  
-[ ![Download](https://api.bintray.com/packages/bneron/generic/blast2seqids/images/download.png) ](https://bintray.com/bneron/generic/blast2seqids/_latestVersion)
+[ ![Download](https://bintray.com/package/binaryButton?pkgPath=%2Fbneron%2Fgeneric%2Fblast2seqids) ](https://bintray.com/bneron/generic/blast2seqids/_latestVersion)
 
 
 INSTALLATION from distribution
