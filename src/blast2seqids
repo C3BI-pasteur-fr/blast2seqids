@@ -14,6 +14,9 @@ import sys
 from collections import namedtuple
 
 
+class PasreError(RuntimeError):
+    pass
+
 """handle a bank entry"""
 Entry = namedtuple('Entry', 'bank, id')
 
@@ -47,6 +50,7 @@ def parseSummary(fh, From = 0, To = 0):
     sequences = []
     hitNb = 0
     pattern = re.compile('^(\w*)\|')
+    errors = []
     for line in fh:
         if not line.strip():
             #it's the end of the summary
@@ -57,19 +61,26 @@ def parseSummary(fh, From = 0, To = 0):
         if hitNb < From:
             continue
         match = re.match(pattern, line)
-        try:
-            bank = match.group(1)
-        except:
-            if bank is None:
-                print >> sys.stderr , "WARNING the hit {0} have no data bank: skip this Hit".format(line)
-                continue
-        if bank == 'pdb':
-            entry = parse_pdb(line)
+        if match:
+            try:
+                bank = match.group(1)
+            except:
+                if bank is None:
+                    errors.append("WARNING the hit {0} have no data bank: skip this Hit".format(line.strip()))
+                    continue
         else:
-            entry = parse_generic(line)
+            errors.append("ERROR cannot parse hit {0} : skip this Hit".format(line.strip()))
+            continue
+        try:
+            if bank == 'pdb':
+                entry = parse_pdb(line)
+            else:
+                entry = parse_generic(line)
+        except ParseError, err:
+            errors.append(str(err))
         if entry:
             sequences.append(entry)
-    return sequences
+    return sequences, errors
 
 
 def parse_pdb_gen():
@@ -79,13 +90,11 @@ def parse_pdb_gen():
         try:
             bank = match.group(1)
         except:
-            print >> sys.stderr , "WARNING the hit {0} have no data bank: skip this Hit".format(line)
-            return None
+            raise ParseError("WARNING the hit {0} have no data bank: skip this Hit".format(line.strip()))
         try:
             id = match.group(2)
         except:
-            print >> sys.stderr , "WARNING the hit {0} have no Accession neither Name: skip this Hit".format(line)
-            return None
+            raise ParseError("WARNING the hit {0} have no Accession neither Name: skip this Hit".format(line.strip()))
         return Entry(bank, id)
     return parse_pdb
 
@@ -99,8 +108,7 @@ def parse_generic_gen():
         try:
             bank = match.group(1)
         except:
-            print >> sys.stderr, "WARNING the hit {0} have no data bank: skip this Hit".format(line)
-            return None
+            raise ParseError("WARNING the hit {0} have no data bank: skip this Hit".format(line.strip()))
         try:
             acc = match.group(2)
         except :
@@ -111,8 +119,7 @@ def parse_generic_gen():
             name = None
         if acc is None:
             if name is None:
-                print >> sys.stderr , "WARNING the hit {0} have no Accession neither Name: skip this Hit".format(line)
-                return None 
+                raise PasreError("WARNING the hit {0} have no Accession neither Name: skip this Hit".format(line.strip()))
             else:
                 id = name
         else:
@@ -178,6 +185,10 @@ and return a list of hits identifier in USA format""")
     reportFileName = args.reportFileName
     
     with open(reportFileName, 'r') as blastReport:
-        sequenceIDs = parseSummary(blastReport, From = args.From, To = args.To)
+        sequenceIDs, errors = parseSummary(blastReport, From = args.From, To = args.To)
 
     print format2usa(sequenceIDs)
+    if errors:
+        for err in errors:
+            print >> sys.stderr, err
+        sys.exit("blast2seqids encounter parsing problems")
