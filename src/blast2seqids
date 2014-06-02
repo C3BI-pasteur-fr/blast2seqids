@@ -1,0 +1,194 @@
+#! /usr/bin/env python
+
+########################################################################################
+#                                                                                      #
+#   Author: Bertrand Neron,                                                            #
+#   Organization:'Projects and Developments in Bioinformatic' Group,                   #
+#                 Institut Pasteur, Paris.                                             #  
+#   Distributed under BSD3 Clause. Please refer to the COPYING document.               #
+#                                                                                      #
+########################################################################################
+
+import re
+import sys
+from collections import namedtuple
+
+
+class PasreError(RuntimeError):
+    pass
+
+"""handle a bank entry"""
+Entry = namedtuple('Entry', 'bank, id')
+
+
+def _searchBegining(fh):
+    """
+    consume the file object fh until it find the beginning of the blast report
+    """
+    for line in fh:
+        if line.startswith( 'Sequences producing significant alignments:'):
+            fh.next()
+            return fh
+        
+
+
+def parseSummary(fh, From = 0, To = 0):
+    """
+    parse the summary of a blast report in -m 0 format
+    @param From: the rank of the first hsp to extract the sequence. to the first hsp is numbered 1
+    @type From: positive integer
+    @param To: the rank of last hsp to extract the sequence. 
+    @type To: positive integer
+    @return: the list of the sequence id of the hsp with their respective data banks, 
+             each tuple data bank, sequence ID are unique.
+    @rtype: a list of tuple [ (string bank , string sequence id) , ... ]
+    """
+    fh = _searchBegining(fh)
+    if fh is None:
+        #no hit in blast report
+        return []
+    sequences = []
+    hitNb = 0
+    pattern = re.compile('^(\w*)\|')
+    errors = []
+    for line in fh:
+        if not line.strip():
+            #it's the end of the summary
+            break
+        hitNb += 1
+        if To and hitNb > To:
+            break
+        if hitNb < From:
+            continue
+        match = re.match(pattern, line)
+        if match:
+            try:
+                bank = match.group(1)
+            except:
+                if bank is None:
+                    errors.append("WARNING the hit {0} have no data bank: skip this Hit".format(line.strip()))
+                    continue
+        else:
+            errors.append("ERROR cannot parse hit {0} : skip this Hit".format(line.strip()))
+            continue
+        try:
+            if bank == 'pdb':
+                entry = parse_pdb(line)
+            else:
+                entry = parse_generic(line)
+        except ParseError, err:
+            errors.append(str(err))
+        if entry:
+            sequences.append(entry)
+    return sequences, errors
+
+
+def parse_pdb_gen():
+    pattern = re.compile('^(\w*)\|\|(\w*)_')
+    def parse_pdb(line):
+        match = re.match(pattern, line)
+        try:
+            bank = match.group(1)
+        except:
+            raise ParseError("WARNING the hit {0} have no data bank: skip this Hit".format(line.strip()))
+        try:
+            id = match.group(2)
+        except:
+            raise ParseError("WARNING the hit {0} have no Accession neither Name: skip this Hit".format(line.strip()))
+        return Entry(bank, id)
+    return parse_pdb
+
+parse_pdb = parse_pdb_gen()
+
+
+def parse_generic_gen():
+    pattern = re.compile( '^(\w*)\|(\w*)\|(\w*) (.*)\.{3}')
+    def parse_generic(line):
+        match = re.match(pattern, line)
+        try:
+            bank = match.group(1)
+        except:
+            raise ParseError("WARNING the hit {0} have no data bank: skip this Hit".format(line.strip()))
+        try:
+            acc = match.group(2)
+        except :
+            acc = None
+        try:
+            name = match.group(3)
+        except:
+            name = None
+        if acc is None:
+            if name is None:
+                raise PasreError("WARNING the hit {0} have no Accession neither Name: skip this Hit".format(line.strip()))
+            else:
+                id = name
+        else:
+            id = acc
+        return Entry(bank, id)
+    return parse_generic
+
+parse_generic = parse_generic_gen()
+
+
+def format2usa(sequenceID):
+    """
+    format a list of sequence Id with there banks to a usa list format
+    @param sequenceID: list of sequences identifier and the bank
+    @type sequenceID: list of Entry namedtuple [ Entry , ... ]
+    @return:  list of sequence ID in USA format.
+    @rtype: string
+    """
+    s = ''
+    for en in sequenceID:
+        s = "{0}{1}:{2}\n".format(s, en.bank, en.id)
+    return s
+
+    
+if __name__ ==  '__main__':
+
+    import argparse 
+    
+    
+    parser = argparse.ArgumentParser(description="""the summary of a blast2 report (text format -m 0-6 ) 
+and return a list of hits identifier in USA format""")
+    
+    parser.add_argument( action = "store",
+                         dest = "reportFileName",
+                         help = "blast report file" )
+    
+    parser.add_argument( "-f" , "--from" ,
+                         action = "store",
+                         type = int ,
+                         dest = "From" ,
+                         default = 0,
+                         help = "specify the first hit to parse")
+    parser.add_argument( "-t" , "--to" ,
+                         action = "store",
+                         type = int ,
+                         dest = "To" ,
+                         default = 0,
+                         help = "specify the last hit to parse")
+    args = parser.parse_args()
+
+    if args.From and args.From < 0:
+        print >> sys.stderr , "'From' (-f --from) value must be positive" 
+        parser.print_help()
+        sys.exit(1)
+    if args.To and args.To < 0:
+        print >> sys.stderr , "'To' (-t --to) value must be positive" 
+        parser.print_help()
+        sys.exit(1)
+    if args.To and (args.From > args.To):
+        print >> sys.stderr , "'From' (-f --from) value must be less or equal than 'To' (-t --to) value" 
+        parser.print_help()
+        sys.exit(1)
+    reportFileName = args.reportFileName
+    
+    with open(reportFileName, 'r') as blastReport:
+        sequenceIDs, errors = parseSummary(blastReport, From = args.From, To = args.To)
+
+    print format2usa(sequenceIDs)
+    if errors:
+        for err in errors:
+            print >> sys.stderr, err
+        sys.exit("blast2seqids encounter parsing problems")
